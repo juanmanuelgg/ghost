@@ -36,7 +36,7 @@ services:
       MYSQL_ROOT_PASSWORD: X02kt6Nr014E74I24Sx8
     volumes:
       # - ./volumes/db:/var/lib/mysql
-      db:/var/lib/mysql
+      - db:/var/lib/mysql
 
 volumes:
   ghost:
