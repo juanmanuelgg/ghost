@@ -1,1 +1,17 @@
+# IDE
+.idea
+
+# Docker (Setup Ghost)
 docker/volumes
+docker/config.production.json
+
+# Helper (Nodemailer)
+node_modules
+.env
+
+# Despliegue en servidor
+terraform/secure
+terraform.tfvars
+.terraform
+terraform.tfstate
+.terraform.lock.hcl

@@ -1,0 +1,17 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "Ejemplo de uso de nodemailer para practicar la correcta configuración de un correo electronico en ghost.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "nodemailer"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.13"
+  }
+}
