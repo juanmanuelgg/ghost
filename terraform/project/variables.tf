@@ -17,5 +17,5 @@ variable "region" {
 
 # Este se toma del output de foundation
 variable "reserved_ip_address" {
-  default = "138.197.52.194"
+  default = "159.89.244.187"
 }

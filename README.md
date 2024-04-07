@@ -123,13 +123,13 @@ htpasswd -c /etc/nginx/.htpasswd monitores
 
 ### Credenciales para acceder por el navegador (Credenciales reales se les compartiran en los archivos de la entrega)
 
-- Usuario: appuser
-- Contraseña: quepasswordtansegura
+- Usuario: monitores
+- Contraseña: passwordqueluegosecambia
 
 ### Header que se debe poner en las HTTP Requests (Credenciales reales se les compartiran en los archivos de la entrega)
 
 - Header: Authorization
 - Value: Basic bW9uaXRvcmVzOnBhc3N3b3JkcXVlbHVlZ29zZWNhbWJpYQ==
 
-> Nota: bW9uaXRvcmVzOnBhc3N3b3JkcXVlbHVlZ29zZWNhbWJpYQ== es la codificación Base64 de appuser:quepasswordtansegura
+> Nota: bW9uaXRvcmVzOnBhc3N3b3JkcXVlbHVlZ29zZWNhbWJpYQ== es la codificación Base64 de monitores:passwordqueluegosecambia
 > node -e "console.log(btoa(process.argv[1]))" -- "monitores:passwordqueluegosecambia"
