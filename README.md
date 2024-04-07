@@ -16,12 +16,13 @@ docker compose down -v --rmi all
 
 ### Configurar Ghost
 
-Se requieren 2 pasos para configurar este despliegue de Ghost:
+Ghost requiere un usuario de correo para poder enviar los token de autenticación, por lo que se debe configurar el archivo `./docker/config.production.json` con las credenciales de un servidor SMTP. En nuestro despliegue asistido por docker-compose se va a:
 
-- 1. Descomentar la línea 7 en el archivo `./docker/docker-compose.yml`
+- 1. Descomentar un volumen dentro del servicio ghost en el arcvhivo `./docker/docker-compose.yml`
 
   ```yaml
-  # - ./config.production.json:/var/lib/ghost/config.production.json
+    # Linea 27
+    - ./config.production.json:/var/lib/ghost/config.production.json
   ```
 
 - 2. Configurar el archivo de configuración de Ghost
