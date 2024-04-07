@@ -1,6 +1,6 @@
 # Ghost
 
-## Prender/Apagar Ghost usando Docker
+## Prender/Apagar Ghost localmente usando Docker
 
 ```bash
 cd ./docker
@@ -18,7 +18,7 @@ docker compose down -v --rmi all
 
 Se requieren 2 pasos para configurar este despliegue de Ghost:
 
-- 1. Remover el comentario de la línea 7 en el archivo `./docker/docker-compose.yml`
+- 1. Descomentar la línea 7 en el archivo `./docker/docker-compose.yml`
 
   ```yaml
   # - ./config.production.json:/var/lib/ghost/config.production.json
@@ -57,3 +57,19 @@ Se requieren 2 pasos para configurar este despliegue de Ghost:
     }
   }
   ```
+
+## Desplegar Ghost en servidor
+
+### Preparar 2 pajejas de llaves para el usuario administrador y el usuario de ghost
+
+Dentro de la carpeta `./terraform/secure` se ejecuto los siguiente comandos:
+
+```bash
+# Crear llaves para el usuario administrador usando ecdsa
+ssh-keygen -t ecdsa -b 521 -C "Llave administrador" -f ./id_ecdsa_administrador
+
+# Crear llaves para el usuario de ghost usando ecdsa
+ssh-keygen -t ecdsa -b 521 -C "Llave ghost" -f ./id_ecdsa_ghost
+```
+
+Pegar estas llaves en el archivo `./terraform/cloud-init.yml` en las variables `ssh_authorized_keys`.
