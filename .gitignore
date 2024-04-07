@@ -11,3 +11,7 @@ node_modules
 
 # Despliegue en servidor
 terraform/secure
+terraform.tfvars
+.terraform
+terraform.tfstate
+.terraform.lock.hcl

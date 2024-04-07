@@ -39,21 +39,6 @@ timezone: America/Bogota
 keyboard:
   layout: latam
 
-# Distro maintainers provide unofficial distributions of Docker packages in APT.
-# No es perfecto, pero es una forma de instalar Docker en Ubuntu.
-packages:
-  - apt:
-    - ufw
-    - nginx
-    - docker.io
-    - docker-compose
-    - python3-certbot-nginx
-  - snap:
-    - certbot
-package_update: true
-package_upgrade: true
-package_reboot_if_required: true
-
 # Module frequency: once-per-instance (Perfecto pues certbot despues modificara el archivo)
 write_files:
   - path: /etc/nginx/sites-available/ghost.appbajopruebas.com
@@ -63,25 +48,43 @@ write_files:
         listen [::]:80 default_server;
         server_name ghost.appbajopruebas.com, www.ghost.appbajopruebas.com;
         location / {
+          auth_basic "Restricted Content";
+          auth_basic_user_file /etc/nginx/.htpasswd;
           proxy_pass http://localhost:8080;
+          proxy_set_header Host $host;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         }
       }
 
+# Unofficial distributions of Docker packages in APT; 
+# No es perfecto, pero es una forma de instalar Docker en Ubuntu.
+packages:
+  - ufw
+  - nginx
+  - docker
+  - docker.io
+  - docker-compose-v2
+  - python3-certbot-nginx
+  - certbot
+  - apache2-utils
+
 runcmd:
-  # Levantar el servicio de Docker y la aplicacion de Ghost
+  # 1. Levantar el servicio de Docker y la aplicacion de Ghost
   - [ systemctl, start, docker ]
   - [ sytemctl, enable, docker ]
   - [ wget, "https://raw.githubusercontent.com/aanieves/Ghost/main/docker/docker-compose.yml", -O, /home/ghost/docker-compose.yml ]
   - [ chown, ghost:docker, /home/ghost/docker-compose.yml ]
   - [ su, ghost, -c, "docker-compose -f /home/ghost/docker-compose.yml up -d --build" ]
-  # Configurar el servidor web
+  # 2. Configurar el servidor web
   - [ ln, -s, /etc/nginx/sites-available/ghost.appbajopruebas.com, /etc/nginx/sites-enabled/ghost.appbajopruebas.com ]
   - [ rm, /etc/nginx/sites-enabled/default ]
   - [ systemctl, start, nginx ]
   - [ systemctl, enable, nginx ]
   - [ certbot, --nginx, -d, ghost.appbajopruebas.com, -d, www.ghost.appbajopruebas.com, --non-interactive, --agree-tos, --email, automatizacion@appbajopruebas.com ]
+  # 2.a. Crear el auth_basic_user_file que se usa en el archivo de configuracion de Nginx
+  - [ htpasswd, -c, -b, /etc/nginx/.htpasswd, monitores, passwordqueluegosecambia ]
   - [ systemctl, restart, nginx ]
-  # Configurar el firewall
+  # 3. Configurar el firewall
   - [ ufw, default, deny, incoming ]
   - [ ufw, default, allow, outgoing ]
   - [ ufw, allow, in, on, lo ]

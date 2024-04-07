@@ -4,13 +4,10 @@
 variable "do_token" {}
 
 variable "do_ssh_pub_key_file" {
-  default = "../../secure/do_rsa.pub"
+  default = "../secure/id_ecdsa_administrador.pub"
 }
 
 variable "region" {
   default = "nyc3"
 }
 
-variable "domain" {
-  default = "museos.website"
-}

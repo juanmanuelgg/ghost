@@ -28,7 +28,7 @@ resource "digitalocean_tag" "default" {
 
 # Create a web server
 resource "digitalocean_droplet" "default" {
-  name              = "puppet"
+  name              = "server-apb"
   size              = "s-1vcpu-1gb" # $6 [USD/month]
   image             = "ubuntu-22-04-x64"
   region            = var.region

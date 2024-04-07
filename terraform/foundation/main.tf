@@ -30,7 +30,7 @@ resource "digitalocean_reserved_ip" "default" {
 
 resource "digitalocean_project" "default" {
   name        = "proyecto-pruebas"
-  description = "Un proyecto web del curso: Pruebas utomatizadas de software."
+  description = "Un proyecto web del curso: Pruebas Automatizadas de Software."
   purpose     = "App bajo pruebas"
   environment = "Development"
 }

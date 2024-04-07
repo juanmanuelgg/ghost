@@ -73,3 +73,60 @@ ssh-keygen -t ecdsa -b 521 -C "Llave ghost" -f ./id_ecdsa_ghost
 ```
 
 Pegar estas llaves en el archivo `./terraform/cloud-init.yml` en las variables `ssh_authorized_keys`.
+
+### Levantar infraestructura en Digital Ocean
+
+```bash
+cd ./terraform/foundation
+terraform init
+terraform apply
+cd ../..
+```
+
+```bash
+cd ./terraform/project
+terraform init
+terraform apply
+cd ../..
+```
+
+### Configurar Ghost
+
+Enviar el archivo de configuración de Ghost al servidor
+
+```bash
+scp -i terraform/secure/id_ecdsa_ghost ./docker/config.production.json ghost@ghost.appbajopruebas.com:~/config.production.json
+```
+
+modificar el campo `url` en el archivo `config.production.json` con la dirección del servidor
+
+```json
+{
+  "url": "http://ghost.appbajopruebas.com",
+  "server": {
+    "port": 2368,
+    "host": "::"
+  },
+```
+
+### Cambiar las credenciales auth_basic a nginx para proteger ghost (Las credenciales reales se les compartiran en los archivos de la entrega)
+
+```bash
+# desde el servidor (como root) se cambia la contraseña de auth_basic_user_file que protege ghost
+htpasswd -c /etc/nginx/.htpasswd monitores
+```
+
+## Acceder al despliegue del proyecto
+
+[https://ghost.appbajopruebas.com/](https://ghost.appbajopruebas.com/)
+
+### Credenciales para acceder por el navegador (Credenciales reales se les compartiran en los archivos de la entrega)
+- Usuario: appuser
+- Contraseña: quepasswordtansegura
+
+### Header que se debe poner en las HTTP Requests (Credenciales reales se les compartiran en los archivos de la entrega)
+- Header: Authorization
+- Value: Basic bW9uaXRvcmVzOnBhc3N3b3JkcXVlbHVlZ29zZWNhbWJpYQ==
+
+> Nota: bW9uaXRvcmVzOnBhc3N3b3JkcXVlbHVlZ29zZWNhbWJpYQ== es la codificación Base64 de appuser:quepasswordtansegura
+node -e "console.log(btoa(process.argv[1]))" -- "monitores:passwordqueluegosecambia"
