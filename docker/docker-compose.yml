@@ -1,4 +1,4 @@
-# Tomado de: https://hub.docker.com/_/ghost/
+# Construido sobre: https://hub.docker.com/_/ghost/
 # Sección: Production mode ... via docker stack deploy or docker-compose
 version: "3.1"
 
@@ -24,6 +24,7 @@ services:
       #NODE_ENV: development
     volumes:
       # - ./volumes/ghost:/var/lib/ghost/content
+      # - ./config.production.json:/var/lib/ghost/config.production.json
       - ghost:/var/lib/ghost/content
 
   db:
