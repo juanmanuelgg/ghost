@@ -21,8 +21,8 @@ Ghost requiere un usuario de correo para poder enviar los token de autenticació
 - 1. Descomentar un volumen dentro del servicio ghost en el arcvhivo `./docker/docker-compose.yml`
 
   ```yaml
-    # Linea 27
-    - ./config.production.json:/var/lib/ghost/config.production.json
+  # Linea 27
+  - ./config.production.json:/var/lib/ghost/config.production.json
   ```
 
 - 2. Configurar el archivo de configuración de Ghost
@@ -107,7 +107,7 @@ modificar el campo `url` en el archivo `config.production.json` con la direcció
   "server": {
     "port": 2368,
     "host": "::"
-  },
+  }
 ```
 
 ### Cambiar las credenciales auth_basic a nginx para proteger ghost (Las credenciales reales se les compartiran en los archivos de la entrega)
@@ -122,12 +122,14 @@ htpasswd -c /etc/nginx/.htpasswd monitores
 [https://ghost.appbajopruebas.com/](https://ghost.appbajopruebas.com/)
 
 ### Credenciales para acceder por el navegador (Credenciales reales se les compartiran en los archivos de la entrega)
+
 - Usuario: appuser
 - Contraseña: quepasswordtansegura
 
 ### Header que se debe poner en las HTTP Requests (Credenciales reales se les compartiran en los archivos de la entrega)
+
 - Header: Authorization
 - Value: Basic bW9uaXRvcmVzOnBhc3N3b3JkcXVlbHVlZ29zZWNhbWJpYQ==
 
 > Nota: bW9uaXRvcmVzOnBhc3N3b3JkcXVlbHVlZ29zZWNhbWJpYQ== es la codificación Base64 de appuser:quepasswordtansegura
-node -e "console.log(btoa(process.argv[1]))" -- "monitores:passwordqueluegosecambia"
+> node -e "console.log(btoa(process.argv[1]))" -- "monitores:passwordqueluegosecambia"
