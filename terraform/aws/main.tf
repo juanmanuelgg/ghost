@@ -97,7 +97,7 @@ resource "aws_security_group" "sg_22_80_443" {
 }
 
 data "template_file" "user_data" {
-  template = file("../cloud-init.yml")
+  template = file(var.cloud_init_file)
 }
 
 resource "aws_instance" "web" {

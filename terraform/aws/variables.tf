@@ -15,6 +15,10 @@ variable "ec2_ssh_pub_key_file" {
   default = "../secure/id_ecdsa_administrador.pub"
 }
 
+variable "cloud_init_file" {
+  default = "../cloud-init.yml"
+}
+
 variable "cidr_vpc" {
   description = "CIDR block for the VPC"
   default     = "10.1.0.0/16"
