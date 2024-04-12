@@ -6,19 +6,20 @@ variable "access_key" {}
 
 variable "secret_key" {}
 
-variable "ec2_ssh_pub_key_file" {
-  default = "../secure/id_ecdsa_administrador.pub"
-}
-
 variable "region" {
   description = "The region Terraform deploys your instance"
-  default = "us-east-1"
+  default     = "us-east-1"
+}
+
+variable "ec2_ssh_pub_key_file" {
+  default = "../secure/id_ecdsa_administrador.pub"
 }
 
 variable "cidr_vpc" {
   description = "CIDR block for the VPC"
   default     = "10.1.0.0/16"
 }
+
 variable "cidr_subnet" {
   description = "CIDR block for the subnet"
   default     = "10.1.0.0/24"

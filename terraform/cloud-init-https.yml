@@ -35,13 +35,14 @@ timezone: America/Bogota
 keyboard:
   layout: latam
 
+# Module frequency: once-per-instance (Perfecto pues certbot despues modificara el archivo)
 write_files:
-  - path: /etc/nginx/sites-available/default
+  - path: /etc/nginx/sites-available/ghost.appbajopruebas.com
     content: |
       server {
         listen 80 default_server;
         listen [::]:80 default_server;
-        server_name _;
+        server_name ghost.appbajopruebas.com, www.ghost.appbajopruebas.com;
         location / {
           # auth_basic "Restricted Content"; # Mejor no usarlo, parece interferir con el comportamiento normal de ghost
           # auth_basic_user_file /etc/nginx/.htpasswd;
@@ -74,8 +75,11 @@ runcmd:
   - [ chown, ghost:docker, /home/ghost/docker-compose.yml ]
   - [ su, ghost, -c, "cd /home/ghost/ && docker compose up -d --build" ]
   # 2. Configurar el servidor web
+  - [ ln, -s, /etc/nginx/sites-available/ghost.appbajopruebas.com, /etc/nginx/sites-enabled/ghost.appbajopruebas.com ]
+  - [ rm, /etc/nginx/sites-enabled/default ]
   - [ systemctl, start, nginx ]
   - [ systemctl, enable, nginx ]
+  - [ certbot, --nginx, -d, ghost.appbajopruebas.com, -d, www.ghost.appbajopruebas.com, --non-interactive, --agree-tos, --email, automatizacion@appbajopruebas.com ]
   # 2.a. Crear el auth_basic_user_file que se usa en el archivo de configuracion de Nginx
   - [ htpasswd, -c, -b, /etc/nginx/.htpasswd, monitores, passwordqueluegosecambia ]
   - [ systemctl, restart, nginx ]

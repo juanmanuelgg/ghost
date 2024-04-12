@@ -6,7 +6,7 @@ variable "do_token" {}
 variable "reserved_ip_address" {} # Este se toma del output de foundation
 
 variable "do_user_data_file" {
-  default = "../../cloud-init.yml"
+  default = "../../cloud-init-https.yml"
 }
 
 variable "region" {
