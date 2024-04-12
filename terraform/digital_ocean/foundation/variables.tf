@@ -4,7 +4,7 @@
 variable "do_token" {}
 
 variable "do_ssh_pub_key_file" {
-  default = "../secure/id_ecdsa_administrador.pub"
+  default = "../../secure/id_ecdsa_administrador.pub"
 }
 
 variable "region" {
