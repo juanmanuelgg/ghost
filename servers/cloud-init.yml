@@ -39,18 +39,23 @@ write_files:
   - path: /etc/nginx/sites-available/default
     content: |
       server {
+        server_name _;
         listen 80 default_server;
         listen [::]:80 default_server;
-        server_name _;
         location / {
           # auth_basic "Restricted Content"; # Mejor no usarlo, parece interferir con el comportamiento normal de ghost
           # auth_basic_user_file /etc/nginx/.htpasswd;
           proxy_pass http://localhost:8080;
+          proxy_redirect off;
           proxy_set_header Host $host;
           proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header X-Real-IP $remote_addr;
+          proxy_set_header X-Forwarded-Proto $scheme;
+          proxy_set_header Upgrade $http_upgrade;
+          proxy_set_header Connection "upgrade";
         }
       }
-    owner: 'nginx:nginx'
+    owner: 'root:root'
     permissions: '0640'
     defer: false
 
@@ -62,9 +67,6 @@ packages:
   - docker
   - docker.io
   - docker-compose-v2
-  - python3-certbot-nginx
-  - certbot
-  - apache2-utils
 
 runcmd:
   # 1. Levantar el servicio de Docker y la aplicacion de Ghost
@@ -74,12 +76,9 @@ runcmd:
   - [ chown, ghost:docker, /home/ghost/docker-compose.yml ]
   - [ su, ghost, -c, "cd /home/ghost/ && docker compose up -d --build" ]
   # 2. Configurar el servidor web
-  - [ systemctl, start, nginx ]
   - [ systemctl, enable, nginx ]
-  # 2.a. Crear el auth_basic_user_file que se usa en el archivo de configuracion de Nginx
-  - [ htpasswd, -c, -b, /etc/nginx/.htpasswd, monitores, passwordqueluegosecambia ]
   - [ systemctl, restart, nginx ]
-  # 3. Configurar el firewall de máquina
+  # 3. Configurar el firewall de maquina
   - ufw reset 
   - ufw default deny incoming
   - ufw default allow outgoing

@@ -9,8 +9,8 @@ docker/config.production.json
 node_modules
 .env
 
-# Terraform.gitignore y secretos (https://github.com/github/gitignore/blob/main/Terraform.gitignore)
-terraform/secure
+# ===== Terraform =====
+**/secure/
 # Local .terraform directories
 **/.terraform/*
 
@@ -45,3 +45,6 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# ===== Vagrant =====
+.vagrant/
