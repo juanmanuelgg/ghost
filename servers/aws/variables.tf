@@ -8,7 +8,7 @@ variable "secret_key" {}
 
 variable "region" {
   description = "The region Terraform deploys your instance"
-  default     = "us-east-2"
+  default     = "us-east-1"
 }
 
 variable "ec2_ssh_pub_key_file" {
@@ -21,6 +21,14 @@ variable "cloud_init_abp_ghost" {
 
 variable "cloud_init_testing_suite" {
   default = "../cloud-init-testing-suite.yml"
+}
+
+variable "cloud_init_monkey" {
+  default = "../cloud-init-monkey.yml"
+}
+
+variable "cloud_init_ripper" {
+  default = "../cloud-init-ripper.yml"
 }
 
 variable "cidr_vpc" {

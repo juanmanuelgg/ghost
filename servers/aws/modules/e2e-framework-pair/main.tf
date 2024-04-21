@@ -18,8 +18,22 @@ data "template_file" "user_data_abp_ghost" {
   template = file(var.cloud_init_abp_ghost)
 }
 
-data "template_file" "user_data_testing_suite" {
-  template = file(var.cloud_init_testing_suite)
+locals {
+  map_configs = {
+    "🔬" = {
+      "config" = var.cloud_init_testing_suite
+    },
+    "🐒" = {
+      "config" = var.cloud_init_monkey
+    },
+    "🎩" = {
+      "config" = var.cloud_init_ripper
+    }
+  }
+}
+
+data "template_file" "user_data_for_testing" {
+  template = file(local.map_configs["${substr(var.name, 0, 1)}"].config)
 }
 
 resource "aws_instance" "abp_ghost" {
@@ -42,7 +56,7 @@ resource "aws_instance" "testing_suite" {
   subnet_id                   = var.subnet_public_id
   vpc_security_group_ids      = [var.security_group_id]
   associate_public_ip_address = true
-  user_data                   = data.template_file.user_data_testing_suite.rendered
+  user_data                   = data.template_file.user_data_for_testing.rendered
 
   tags = {
     env  = "lab"
