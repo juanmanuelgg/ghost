@@ -39,12 +39,13 @@ write_files:
   - path: /etc/nginx/sites-available/default
     content: |
       server {
-        server_name _;
         listen 80 default_server;
         listen [::]:80 default_server;
+        server_name _;
+        root /var/www/html;
+        index index.html;
         location / {
-          root /home/tests/reports/playwright;
-          index index.html
+          try_files $uri $uri/ =404;
         }
       }
     owner: 'root:root'
@@ -66,12 +67,13 @@ runcmd:
   - [ sytemctl, enable, docker ]
   - [ wget, --header, "Authorization: token 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", "https://raw.githubusercontent.com/juanmanuelgg/Ghost/main/javascript/project/docker-compose-prod.yml", -O, /home/tests/docker-compose.yml ]
   - [ chown, tests:docker, /home/tests/docker-compose.yml ]
-  - [ su, tests, -c, "cd /home/tests/ && docker compose up -d --build e2e-playwright" ]
+  - [ su, tests, -c, "cd /home/tests/ && docker compose up --build" ]
+  - [ cp, /home/tests/reports/playwright/index.html, /var/www/html/index.html ]
   # 2. Configurar el servidor web
   - [ systemctl, enable, nginx ]
   - [ systemctl, restart, nginx ]
   # 3. Configurar el firewall de maquina
-  - ufw reset 
+  - ufw reset
   - ufw default deny incoming
   - ufw default allow outgoing
   - ufw allow in on lo

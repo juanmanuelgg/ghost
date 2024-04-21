@@ -77,7 +77,7 @@ runcmd:
   - [ systemctl, enable, nginx ]
   - [ systemctl, restart, nginx ]
   # 3. Configurar el firewall de maquina
-  - ufw reset 
+  - ufw reset
   - ufw default deny incoming
   - ufw default allow outgoing
   - ufw allow in on lo
