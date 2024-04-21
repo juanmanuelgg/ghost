@@ -61,7 +61,7 @@ resource "aws_route_table_association" "rta_subnet_public" {
   route_table_id = aws_route_table.rtb_public.id
 }
 
-resource "aws_security_group" "sg_22_80_443" {
+resource "aws_security_group" "sg_22_80" {
   name   = "sg_22"
   vpc_id = aws_vpc.vpc.id
 
@@ -77,15 +77,7 @@ resource "aws_security_group" "sg_22_80_443" {
     from_port   = 80
     to_port     = 80
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
-
-  ingress {
-    from_port   = 443
-    to_port     = 443
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = [aws_vpc.vpc.cidr_block]
   }
 
   egress {
@@ -96,17 +88,17 @@ resource "aws_security_group" "sg_22_80_443" {
   }
 }
 
-data "template_file" "user_data" {
-  template = file(var.cloud_init_file)
+data "template_file" "user_data_abp_ghost" {
+  template = file(var.cloud_init_abp_ghost)
 }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "abp_ghost" {
   ami                         = data.aws_ami.ubuntu.id
   instance_type               = "t2.micro"
   subnet_id                   = aws_subnet.subnet_public.id
-  vpc_security_group_ids      = [aws_security_group.sg_22_80_443.id]
+  vpc_security_group_ids      = [aws_security_group.sg_22_80.id]
   associate_public_ip_address = true
-  user_data                   = data.template_file.user_data.rendered
+  user_data                   = data.template_file.user_data_abp_ghost.rendered
 
   tags = {
     env = "lab"
@@ -114,5 +106,26 @@ resource "aws_instance" "web" {
 }
 
 output "public_ip" {
-  value = aws_instance.web.public_ip
+  value = aws_instance.abp_ghost.public_ip
+}
+
+data "template_file" "user_data_testing_suite" {
+  template = file(var.cloud_init_testing_suite)
+}
+
+resource "aws_instance" "testing_suite" {
+  ami                         = data.aws_ami.ubuntu.id
+  instance_type               = "t2.micro"
+  subnet_id                   = aws_subnet.subnet_public.id
+  vpc_security_group_ids      = [aws_security_group.sg_22_80.id]
+  associate_public_ip_address = true
+  user_data                   = data.template_file.user_data_testing_suite.rendered
+
+  tags = {
+    env = "lab"
+  }
+}
+
+output "public_ip" {
+  value = aws_instance.testing_suite.public_ip
 }

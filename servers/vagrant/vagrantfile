@@ -6,7 +6,6 @@ Vagrant.configure("2") do |config|
         abp.vm.hostname = "ghost"
         abp.vm.network "private_network", ip: "192.168.56.2"
         abp.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
-        abp.vm.network "forwarded_port", guest: 443, host: 4443, host_ip: "127.0.0.1"
 
         abp.vm.provider "virtualbox" do |vb|
             vb.gui = false # Display the VirtualBox GUI when booting the machine
@@ -17,16 +16,15 @@ Vagrant.configure("2") do |config|
 
         abp.vm.cloud_init :user_data do |cloud_init|
             cloud_init.content_type = "text/cloud-config"
-            cloud_init.path = "../cloud-init.yml"
+            cloud_init.path = "../cloud-init-abp-ghost.yml"
         end
     end
 
     config.vm.define "tests", autostart: false do |tests|
         tests.vm.box = "ubuntu/jammy64"
         tests.vm.hostname = "tests"
-        tests.vm.network "private_network", ip: "192.168.56.2"
+        tests.vm.network "private_network", ip: "192.168.56.3"
         tests.vm.network "forwarded_port", guest: 80, host: 8081, host_ip: "127.0.0.1"
-        tests.vm.network "forwarded_port", guest: 443, host: 4444, host_ip: "127.0.0.1"
 
         tests.vm.provider "virtualbox" do |vb|
             vb.gui = false # Display the VirtualBox GUI when booting the machine
@@ -37,7 +35,7 @@ Vagrant.configure("2") do |config|
 
         tests.vm.cloud_init :user_data do |cloud_init|
             cloud_init.content_type = "text/cloud-config"
-            cloud_init.path = "../cloud-init.yml"
+            cloud_init.path = "../cloud-init-testing-suite.yml"
         end
     end
 end

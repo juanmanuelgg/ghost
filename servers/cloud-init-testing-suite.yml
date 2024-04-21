@@ -22,13 +22,13 @@ users:
     sudo: ALL=(ALL) NOPASSWD:ALL
     ssh_authorized_keys:
       - ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAC7gHmnuL9wZC5ppTx0T0nkb1arlx+l1ff7MiV+2X2jJ0CidgDPk36FF/rYlDAoXC864hk4cN/fjz8S7AJ8m5RT1ACBGkEPGzhvH+9gTYsZQdBWxLtQ4IxDm5LxhjD9wNGlwCRRvnAfRovcqHS6gD8d0IZMyZJUHjOjaptJ+yv8TjPuGQ== Llave administrador
-  - name: ghost
+  - name: tests
     gecos: Ghost
     groups: docker
     lock_passwd: true # Deny user to log in with a password.
     shell: /bin/bash
     ssh_authorized_keys:
-      - ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBADLtmppm3HoMqvM1paxvY1uJaDXeaLD1UWcZuhpaKENSxunuBS6RZnv1GrckwEC1GojxziDtrfLksF6jDC9kPdGCgFq5SrZtMzoFudwYtUgrE0VqCq2ozFOBXvXB8ryi9gLbVGKVH0iSSvhSmLxUAGEw9nTIpbxd+/sYLq3yc4JPdgYTQ== Llave ghost
+      - ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBADLtmppm3HoMqvM1paxvY1uJaDXeaLD1UWcZuhpaKENSxunuBS6RZnv1GrckwEC1GojxziDtrfLksF6jDC9kPdGCgFq5SrZtMzoFudwYtUgrE0VqCq2ozFOBXvXB8ryi9gLbVGKVH0iSSvhSmLxUAGEw9nTIpbxd+/sYLq3yc4JPdgYTQ== Llave tests
 
 timezone: America/Bogota
 
@@ -43,16 +43,8 @@ write_files:
         listen 80 default_server;
         listen [::]:80 default_server;
         location / {
-          # auth_basic "Restricted Content"; # Mejor no usarlo, parece interferir con el comportamiento normal de ghost
-          # auth_basic_user_file /etc/nginx/.htpasswd;
-          proxy_pass http://localhost:8080;
-          proxy_redirect off;
-          proxy_set_header Host $host;
-          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-          proxy_set_header X-Real-IP $remote_addr;
-          proxy_set_header X-Forwarded-Proto $scheme;
-          proxy_set_header Upgrade $http_upgrade;
-          proxy_set_header Connection "upgrade";
+          root /home/tests/reports/playwright;
+          index index.html
         }
       }
     owner: 'root:root'
@@ -69,12 +61,12 @@ packages:
   - docker-compose-v2
 
 runcmd:
-  # 1. Levantar el servicio de Docker y la aplicacion de Ghost
+  # 1. Levantar el servicio de Docker y la coleccion de pruebas
   - [ systemctl, start, docker ]
   - [ sytemctl, enable, docker ]
-  - [ wget, --header, "Authorization: token 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", "https://raw.githubusercontent.com/juanmanuelgg/Ghost/main/docker/docker-compose.yml", -O, /home/ghost/docker-compose.yml ]
-  - [ chown, ghost:docker, /home/ghost/docker-compose.yml ]
-  - [ su, ghost, -c, "cd /home/ghost/ && docker compose up -d --build" ]
+  - [ wget, --header, "Authorization: token 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", "https://raw.githubusercontent.com/juanmanuelgg/Ghost/main/javascript/project/docker-compose-prod.yml", -O, /home/tests/docker-compose.yml ]
+  - [ chown, tests:docker, /home/tests/docker-compose.yml ]
+  - [ su, tests, -c, "cd /home/tests/ && docker compose up -d --build e2e-playwright" ]
   # 2. Configurar el servidor web
   - [ systemctl, enable, nginx ]
   - [ systemctl, restart, nginx ]

@@ -1,0 +1,39 @@
+name: testing-suite
+
+services:
+  e2e-cypress:
+    container_name: e2e-cypress
+    build:
+      context: ./modules/e2e-cypress
+      dockerfile: Dockerfile
+    deploy:
+      resources: # https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
+        limits:
+          cpus: '3' # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
+          memory: 8G # 4GB minimum, 8GB+ for longer test runs
+        reservations:
+          cpus: '2'
+          memory: 4G
+    entrypoint: ["cypress", "run", "--headless", "--browser", "chrome", "--spec", "cypress/e2e/ghost/"] # Override the default entrypoint.
+    volumes:
+      - ./images/cypress:/tests/cypress/screenshots
+      - ./videos/cypress:/tests/cypress/videos
+      - ./reports/cypress:/tests/cypress/reports
+
+  e2e-playwright:
+    container_name: e2e-playwright
+    build:
+      context: ./modules/e2e-playwright
+      dockerfile: Dockerfile
+    ports:
+      - "9323:9323"
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+    ipc: host
+    entrypoint: ["npx", "playwright", "test", "e2e/ghost", "--project", "firefox", "--timeout", "60000"]
+    volumes:
+      - ./images/playwright:/tests/screenshots
+      - ./reports/playwright:/tests/playwright-report

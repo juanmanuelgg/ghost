@@ -15,8 +15,12 @@ variable "ec2_ssh_pub_key_file" {
   default = "../secure/id_ecdsa_administrador.pub"
 }
 
-variable "cloud_init_file" {
-  default = "../cloud-init.yml"
+variable "cloud_init_abp_ghost" {
+  default = "../cloud-init-abp-ghost.yml"
+}
+
+variable "cloud_init_testing_suite" {
+  default = "../cloud-init-testing-suite.yml"
 }
 
 variable "cidr_vpc" {
