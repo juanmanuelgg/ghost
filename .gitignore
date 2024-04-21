@@ -21,6 +21,9 @@ javascript/project/modules/e2e-playwright/blob-report/
 javascript/project/modules/e2e-playwright/playwright/.cache/
 javascript/project/modules/e2e-playwright/screenshots/
 
+# E2E (Puppeteer)
+javascript/project/modules/e2e-puppeteer/screenshots
+
 # Helper (Nodemailer)
 node_modules
 .env

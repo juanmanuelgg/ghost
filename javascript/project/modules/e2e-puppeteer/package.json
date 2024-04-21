@@ -1,0 +1,22 @@
+{
+  "name": "e2e-puppeteer",
+  "version": "1.0.0",
+  "description": "Pruebas e2e automatizadas apoyadas con Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/index.mjs",
+    "format": "prettier --write src"
+  },
+  "keywords": [
+    "puppeteer",
+    "e2e"
+  ],
+  "author": "Juan Manuel González Garzón",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.6.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

@@ -16,7 +16,7 @@ services:
           memory: 4G
     entrypoint: ["cypress", "run", "--headless", "--browser", "chrome", "--spec", "cypress/e2e/ghost/"] # Override the default entrypoint.
     volumes:
-      - ./images/cypress:/tests/cypress/screenshots
+      - ./screenshots/cypress:/tests/cypress/screenshots
       - ./videos/cypress:/tests/cypress/videos
       - ./reports/cypress:/tests/cypress/reports
 
@@ -35,5 +35,21 @@ services:
     ipc: host
     entrypoint: ["npx", "playwright", "test", "e2e/ghost", "--project", "firefox", "--timeout", "60000"]
     volumes:
-      - ./images/playwright:/tests/screenshots
+      - ./screenshots/playwright:/tests/screenshots
       - ./reports/playwright:/tests/playwright-report
+  
+  e2e-puppeteer:
+    container_name: e2e-puppeteer
+    build:
+      context: ./modules/e2e-puppeteer
+      dockerfile: Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+    cap_add:
+      - SYS_ADMIN
+    entrypoint: ["node", "src/index.mjs"]
+    volumes:
+      - ./screenshots/puppeteer:/tests/screenshots

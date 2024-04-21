@@ -1,6 +1,6 @@
 // # Construido sobre: https://nodemailer.com/#example
 import { createTransport } from "nodemailer";
-import 'dotenv/config'
+import "dotenv/config";
 
 const transporter = createTransport({
   host: "smtpout.secureserver.net", // Este valor se asigna porque nuestro servidor de correo es de GoDaddy

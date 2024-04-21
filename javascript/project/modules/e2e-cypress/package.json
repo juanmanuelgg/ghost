@@ -1,7 +1,7 @@
 {
-  "name": "cypress",
+  "name": "e2e-cypress",
   "version": "1.0.0",
-  "description": "Pruebas automatizadas apoyadas con cypress.",
+  "description": "Pruebas e2e automatizadas apoyadas con cypress.",
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open --e2e --browser chrome",
