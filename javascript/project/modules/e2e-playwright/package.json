@@ -5,7 +5,7 @@
   "scripts": {
     "test": "playwright test",
     "report": "playwright show-report",
-    "format": "prettier --write tests"
+    "format": "prettier --write e2e"
   },
   "keywords": [
     "Playwright",
