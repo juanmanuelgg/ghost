@@ -10,13 +10,13 @@ describe("Testing basic Angular registration", () => {
   });
 
   it("Test links between registration and login page", () => {
-    // cy.screenshot(`pagina1`);
+    cy.screenshot(`pagina1`);
     cy.get("a.btn.btn-link").click();
     cy.url().should(
       "eq",
       "https://angular-6-registration-login-example.stackblitz.io/login",
     );
-    // cy.screenshot(`/pagina2`);
+    cy.screenshot(`/pagina2`);
     cy.get("a.btn.btn-link").click();
     cy.url().should(
       "eq",
@@ -29,7 +29,7 @@ describe("Testing basic Angular registration", () => {
     cy.get("div.invalid-feedback").then(($divs) => {
       expect($divs.length).to.equal(4);
     });
-    // cy.screenshot(`form-feedback`);
+    cy.screenshot(`form-feedback`);
   });
   it("Create an user and login", () => {
     cy.get("form").within(() => {
@@ -40,7 +40,7 @@ describe("Testing basic Angular registration", () => {
       cy.get("button.btn.btn-primary").click();
     });
     cy.wait(1000);
-    // cy.screenshot(`/success-feedback`);
+    cy.screenshot(`/success-feedback`);
     //Redirected to login
     cy.get("div.alert.alert-success").should("be.visible");
     cy.get("form").within(() => {
@@ -53,6 +53,6 @@ describe("Testing basic Angular registration", () => {
     cy.get("h1").then(($header) => {
       expect($header[0].innerText).to.equal("Hi Monitor!");
     });
-    // cy.screenshot(`after-login`);
+    cy.screenshot(`after-login`);
   });
 });

@@ -8,9 +8,18 @@ docker/config.production.json
 javascript/project/images
 javascript/project/reports
 javascript/project/videos
+
+# E2E (Cypress)
 javascript/project/modules/e2e-cypress/cypress/screenshots
 javascript/project/modules/e2e-cypress/cypress/reports
 javascript/project/modules/e2e-cypress/cypress/videos
+
+# E2E (Playwright)
+javascript/project/modules/e2e-playwright/test-results/
+javascript/project/modules/e2e-playwright/playwright-report/
+javascript/project/modules/e2e-playwright/blob-report/
+javascript/project/modules/e2e-playwright/playwright/.cache/
+javascript/project/modules/e2e-playwright/screenshots/
 
 # Helper (Nodemailer)
 node_modules

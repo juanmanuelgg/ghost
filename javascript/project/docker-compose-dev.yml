@@ -1,5 +1,3 @@
-version: '3.8'
-
 name: testing-suite
 
 services:
@@ -16,7 +14,7 @@ services:
         reservations:
           cpus: '2'
           memory: 4G
-    entrypoint: ["cypress", "run", "--headless", "--browser", "chrome", "--spec", "cypress/e2e/ghost/*.cy.js"] # Override the default entrypoint.
+    entrypoint: ["cypress", "run", "--headless", "--browser", "chrome", "--spec", "cypress/e2e/ghost/"] # Override the default entrypoint.
     volumes:
       - ./images/cypress:/tests/cypress/screenshots
       - ./videos/cypress:/tests/cypress/videos
@@ -27,18 +25,15 @@ services:
     build:
       context: ./modules/e2e-playwright
       dockerfile: Dockerfile
+    ports:
+      - "9323:9323"
     deploy:
       resources:
         limits:
-          cpus: '3'
-          memory: 8G
-        reservations:
           cpus: '1'
           memory: 1G
-    security_opt:
-      - seccomp:./modules/e2e-playwright/seccomp_profile.json
     ipc: host
-    # volumes:
-    #   - ./images/playwright:/tests/playwright/screenshots
-    #   - ./videos/playwright:/tests/playwright/videos
-    #   - ./reports/playwright:/tests/playwright/reports
+    entrypoint: ["npx", "playwright", "test", "e2e/ghost", "--project", "firefox", "--timeout", "60000"]
+    volumes:
+      - ./images/playwright:/tests/screenshots
+      - ./reports/playwright:/tests/playwright-report
