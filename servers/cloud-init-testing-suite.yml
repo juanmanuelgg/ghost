@@ -48,11 +48,11 @@ write_files:
           try_files $uri $uri/ =404;
         }
       }
-    owner: 'root:root'
-    permissions: '0640'
+    owner: "root:root"
+    permissions: "0640"
     defer: false
 
-# Unofficial distributions of Docker packages in APT; 
+# Unofficial distributions of Docker packages in APT;
 # No es perfecto, pero es una forma de instalar Docker en Ubuntu.
 packages:
   - ufw
@@ -63,15 +63,23 @@ packages:
 
 runcmd:
   # 1. Levantar el servicio de Docker y ejecutar la coleccion de pruebas e2e-playwright
-  - [ systemctl, start, docker ]
-  - [ sytemctl, enable, docker ]
-  - [ wget, --header, "Authorization: token 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", "https://raw.githubusercontent.com/juanmanuelgg/Ghost/main/javascript/project/docker-compose-prod.yml", -O, /home/tests/docker-compose.yml ]
-  - [ chown, tests:docker, /home/tests/docker-compose.yml ]
-  - [ su, tests, -c, "cd /home/tests/ && docker compose up --build" ]
-  - [ cp, /home/tests/reports/playwright/index.html, /var/www/html/index.html ]
+  - [systemctl, start, docker]
+  - [sytemctl, enable, docker]
+  - [
+      wget,
+      --header,
+      "Authorization: token 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",
+      "https://raw.githubusercontent.com/juanmanuelgg/Ghost/main/javascript/project/docker-compose-prod.yml",
+      -O,
+      /home/tests/docker-compose.yml,
+    ]
+  - [chown, tests:docker, /home/tests/docker-compose.yml]
+  - [sleep, 90]
+  - [su, tests, -c, "cd /home/tests/ && docker compose up --build"]
+  - [cp, /home/tests/reports/playwright/index.html, /var/www/html/index.html]
   # 2. Configurar el servidor web
-  - [ systemctl, enable, nginx ]
-  - [ systemctl, restart, nginx ]
+  - [systemctl, enable, nginx]
+  - [systemctl, restart, nginx]
   # 3. Configurar el firewall de maquina
   - ufw reset
   - ufw default deny incoming

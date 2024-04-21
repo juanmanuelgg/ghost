@@ -7,7 +7,7 @@ class UniandesExample extends GhostTest {
   }
 
   async testedFunctionality() {
-    const browser = await launch({headless: 'shell'});
+    const browser = await launch({headless: 'true'});
 
     const page = await browser.newPage();
     await page.goto(

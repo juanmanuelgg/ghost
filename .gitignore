@@ -5,7 +5,7 @@
 docker/volumes
 docker/config.production.json
 # Docker (Testing suite local execution)
-javascript/project/images
+javascript/project/screenshots
 javascript/project/reports
 javascript/project/videos
 
