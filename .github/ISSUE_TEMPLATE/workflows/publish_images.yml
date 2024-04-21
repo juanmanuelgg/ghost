@@ -32,4 +32,3 @@ jobs:
           tags: |
             docker.io/${{ secrets.DOCKERHUB_USERNAME }}/${{ env.GITHUB_REPOSITORY_LOWERCASE }}-playwright:latest
             docker.io/${{ secrets.DOCKERHUB_USERNAME }}/${{ env.GITHUB_REPOSITORY_LOWERCASE }}-playwright:0.0.1
-  
