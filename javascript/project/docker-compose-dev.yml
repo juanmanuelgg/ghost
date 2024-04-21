@@ -1,0 +1,23 @@
+version: '3.8'
+
+name: testing-suite
+
+services:
+  e2e-cypress:
+    container_name: e2e-cypress
+    build:
+      context: ./modules/e2e-cypress
+      dockerfile: Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: '3' # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
+          memory: 8G # 4GB minimum, 8GB+ for longer test runs
+        reservations:
+          cpus: '2'
+          memory: 4G
+    entrypoint: ["cypress", "run", "--headless", "--browser", "chrome", "--spec", "cypress/e2e/ghost/*.cy.js"] # Override the default entrypoint.
+    volumes:
+      - ./images/cypress:/tests/cypress/screenshots
+      - ./videos/cypress:/tests/cypress/videos
+      - ./reports/cypress:/tests/cypress/reports

@@ -4,6 +4,13 @@
 # Docker (Setup Ghost)
 docker/volumes
 docker/config.production.json
+# Docker (Testing suite local execution)
+javascript/project/images
+javascript/project/reports
+javascript/project/videos
+javascript/project/modules/e2e-cypress/cypress/screenshots
+javascript/project/modules/e2e-cypress/cypress/reports
+javascript/project/modules/e2e-cypress/cypress/videos
 
 # Helper (Nodemailer)
 node_modules

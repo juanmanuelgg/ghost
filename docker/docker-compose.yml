@@ -2,7 +2,7 @@
 # Sección: Production mode ... via docker stack deploy or docker-compose
 version: "3.1"
 
-name: pruebas-ghost
+name: abp-ghost
 
 services:
   ghost:
