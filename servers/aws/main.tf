@@ -1,11 +1,13 @@
 # Construido sobre: https://github.com/hashicorp/learn-terraform-provisioning/blob/cloudinit/instances/main.tf
 
+# (1)aws_vpc, (1)aws_internet_gateway, (1)aws_subnet, (1)aws_route_table, (1)aws_route_table_association, (1)aws_security_group
 module "foundation" {
   source      = "./modules/foundation"
   cidr_vpc    = var.cidr_vpc
   cidr_subnet = var.cidr_subnet
 }
 
+# (1)aws_ami, (2)template_file, (2)aws_instance
 module "e2e_framework_pair" {
   for_each                 = toset(["🔬-1", "🐒-1", "🐒-2", "🎩-1"])
   source                   = "./modules/e2e-framework-pair"
