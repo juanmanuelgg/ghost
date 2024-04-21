@@ -1,0 +1,24 @@
+{
+  "name": "ghost-playwright",
+  "version": "1.0.0",
+  "description": "Pruebas E2E a la plataforma GHOST con el framework playwright.",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "format": "prettier --write tests"
+  },
+  "keywords": [
+    "Playwright",
+    "e2e"
+  ],
+  "author": "Juan Manuel González Garzón",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prettier": "^3.2.5"
+  }
+}

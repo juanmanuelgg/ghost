@@ -15,9 +15,11 @@
   ],
   "author": "Juan Manuel González Garzón",
   "license": "ISC",
+  "dependencies": {
+    "mochawesome": "^7.1.3"
+  },
   "devDependencies": {
     "cypress": "^13.8.0",
-    "mochawesome": "^7.1.3",
     "prettier": "^3.2.5"
   }
 }

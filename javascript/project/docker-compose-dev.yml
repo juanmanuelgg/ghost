@@ -9,7 +9,7 @@ services:
       context: ./modules/e2e-cypress
       dockerfile: Dockerfile
     deploy:
-      resources:
+      resources: # https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
         limits:
           cpus: '3' # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
           memory: 8G # 4GB minimum, 8GB+ for longer test runs
@@ -21,3 +21,24 @@ services:
       - ./images/cypress:/tests/cypress/screenshots
       - ./videos/cypress:/tests/cypress/videos
       - ./reports/cypress:/tests/cypress/reports
+
+  e2e-playwright:
+    container_name: e2e-playwright
+    build:
+      context: ./modules/e2e-playwright
+      dockerfile: Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: '3'
+          memory: 8G
+        reservations:
+          cpus: '1'
+          memory: 1G
+    security_opt:
+      - seccomp:./modules/e2e-playwright/seccomp_profile.json
+    ipc: host
+    # volumes:
+    #   - ./images/playwright:/tests/playwright/screenshots
+    #   - ./videos/playwright:/tests/playwright/videos
+    #   - ./reports/playwright:/tests/playwright/reports
