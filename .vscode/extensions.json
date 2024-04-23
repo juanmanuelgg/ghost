@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "pkief.material-icon-theme",
-        "hashicorp.terraform"
+        "hashicorp.terraform",
+        "ms-playwright.playwright"
     ]
 }

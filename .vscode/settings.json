@@ -2,11 +2,14 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "files.eol": "\n",
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform"
   },
   "[terraform-vars]": {
     "editor.defaultFormatter": "hashicorp.terraform"
-  },
-  "workbench.iconTheme": "material-icon-theme"
+  }
 }
