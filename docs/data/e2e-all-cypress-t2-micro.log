@@ -1,0 +1,1020 @@
+2024-04-23 22:20:19 [STARTED] Task without title.
+2024-04-23 22:20:21 [SUCCESS] Task without title.
+2024-04-23 22:20:25 
+2024-04-23 22:20:25 ====================================================================================================
+2024-04-23 22:20:25 
+2024-04-23 22:20:25   (Run Starting)
+2024-04-23 22:20:25 
+2024-04-23 22:20:25   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:20:25   │ Cypress:        13.8.1                                                                         │
+2024-04-23 22:20:25   │ Browser:        Chrome 124 (headless)                                                          │
+2024-04-23 22:20:25   │ Node Version:   v20.12.2 (/usr/local/bin/node)                                                 │
+2024-04-23 22:20:25   │ Specs:          22 found (0-uniandes-example/registration.cy.js, 1-getting-started/todo.cy.js, │
+2024-04-23 22:20:25   │                  2-advanced-examples/actions.cy.js, 2-advanced-examples/aliasing.cy.js, 2-adva │
+2024-04-23 22:20:25   │                 nced-examples/assertions.cy.js, 2-advanced-examples/connectors.cy.js, 2-advanc │
+2024-04-23 22:20:25   │                 ed-examples/cookies.cy....)                                                    │
+2024-04-23 22:20:25   │ Searched:       cypress/e2e/**                                                                 │
+2024-04-23 22:20:25   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:20:25 
+2024-04-23 22:20:25 
+2024-04-23 22:20:25 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:20:25                                                                                                     
+2024-04-23 22:20:25   Running:  0-uniandes-example/registration.cy.js                                          (1 of 22)
+2024-04-23 22:20:22 
+2024-04-23 22:20:22 DevTools listening on ws://127.0.0.1:34005/devtools/browser/093c3f6e-e911-4714-ae88-8e19cfcfbb78
+2024-04-23 22:20:40 
+2024-04-23 22:20:40 
+2024-04-23 22:20:41   Testing basic Angular registration
+2024-04-23 22:21:24     ✓ Test links between registration and login page (29197ms)
+2024-04-23 22:22:20     ✓ Test form feedback (54695ms)
+2024-04-23 22:23:12     ✓ Create an user and login (49187ms)
+2024-04-23 22:23:12 
+2024-04-23 22:23:12 
+2024-04-23 22:23:12   3 passing (3m)
+2024-04-23 22:23:12 
+2024-04-23 22:23:13 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_095.json
+2024-04-23 22:23:13 
+2024-04-23 22:23:13 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_095.html
+2024-04-23 22:23:13 
+2024-04-23 22:23:19 
+2024-04-23 22:23:19   (Results)
+2024-04-23 22:23:19 
+2024-04-23 22:23:19   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:23:19   │ Tests:        3                                                                                │
+2024-04-23 22:23:19   │ Passing:      3                                                                                │
+2024-04-23 22:23:19   │ Failing:      0                                                                                │
+2024-04-23 22:23:19   │ Pending:      0                                                                                │
+2024-04-23 22:23:19   │ Skipped:      0                                                                                │
+2024-04-23 22:23:19   │ Screenshots:  5                                                                                │
+2024-04-23 22:23:19   │ Video:        true                                                                             │
+2024-04-23 22:23:19   │ Duration:     2 minutes, 31 seconds                                                            │
+2024-04-23 22:23:19   │ Spec Ran:     0-uniandes-example/registration.cy.js                                            │
+2024-04-23 22:23:19   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:23:19 
+2024-04-23 22:23:19 
+2024-04-23 22:23:19   (Screenshots)
+2024-04-23 22:23:19 
+2024-04-23 22:23:19   -  /tests/cypress/screenshots/0-uniandes-example/registration.cy.js/pagina1.png         (1000x633)
+2024-04-23 22:23:19   -  /tests/cypress/screenshots/0-uniandes-example/registration.cy.js/pagina2.png         (1000x633)
+2024-04-23 22:23:19   -  /tests/cypress/screenshots/0-uniandes-example/registration.cy.js/form-feedback.p     (1000x777)
+2024-04-23 22:23:19      ng                                                                                             
+2024-04-23 22:23:19   -  /tests/cypress/screenshots/0-uniandes-example/registration.cy.js/success-feedbac     (1000x633)
+2024-04-23 22:23:19      k.png                                                                                          
+2024-04-23 22:23:19   -  /tests/cypress/screenshots/0-uniandes-example/registration.cy.js/after-login.png     (1000x633)
+2024-04-23 22:23:19 
+2024-04-23 22:23:19 
+2024-04-23 22:23:19   (Video)
+2024-04-23 22:23:19 
+2024-04-23 22:23:19   -  Video output: /tests/cypress/videos/0-uniandes-example/registration.cy.js.mp4
+2024-04-23 22:23:19 
+2024-04-23 22:23:19 
+2024-04-23 22:23:19 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:23:19                                                                                                     
+2024-04-23 22:23:19   Running:  1-getting-started/todo.cy.js                                                   (2 of 22)
+2024-04-23 22:23:26 
+2024-04-23 22:23:26 
+2024-04-23 22:23:26   example to-do app
+2024-04-23 22:23:36     ✓ displays two todo items by default
+2024-04-23 22:23:38     ✓ can add new todo items
+2024-04-23 22:23:39     ✓ can check off an item as completed
+2024-04-23 22:23:39     with a checked task
+2024-04-23 22:23:40       ✓ can filter for uncompleted tasks
+2024-04-23 22:23:41       ✓ can filter for completed tasks
+2024-04-23 22:23:42       ✓ can delete all completed tasks
+2024-04-23 22:23:42 
+2024-04-23 22:23:42 
+2024-04-23 22:23:42   6 passing (16s)
+2024-04-23 22:23:42 
+2024-04-23 22:23:42 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_096.json
+2024-04-23 22:23:42 
+2024-04-23 22:23:42 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_096.html
+2024-04-23 22:23:42 
+2024-04-23 22:23:48 
+2024-04-23 22:23:48   (Results)
+2024-04-23 22:23:48 
+2024-04-23 22:23:48   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:23:48   │ Tests:        6                                                                                │
+2024-04-23 22:23:48   │ Passing:      6                                                                                │
+2024-04-23 22:23:48   │ Failing:      0                                                                                │
+2024-04-23 22:23:48   │ Pending:      0                                                                                │
+2024-04-23 22:23:48   │ Skipped:      0                                                                                │
+2024-04-23 22:23:48   │ Screenshots:  0                                                                                │
+2024-04-23 22:23:48   │ Video:        true                                                                             │
+2024-04-23 22:23:48   │ Duration:     15 seconds                                                                       │
+2024-04-23 22:23:48   │ Spec Ran:     1-getting-started/todo.cy.js                                                     │
+2024-04-23 22:23:48   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:23:48 
+2024-04-23 22:23:48 
+2024-04-23 22:23:48   (Video)
+2024-04-23 22:23:48 
+2024-04-23 22:23:48   -  Video output: /tests/cypress/videos/1-getting-started/todo.cy.js.mp4
+2024-04-23 22:23:48 
+2024-04-23 22:23:48 
+2024-04-23 22:23:48 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:23:48                                                                                                     
+2024-04-23 22:23:48   Running:  2-advanced-examples/actions.cy.js                                              (3 of 22)
+2024-04-23 22:23:58 
+2024-04-23 22:23:58 
+2024-04-23 22:23:58   Actions
+2024-04-23 22:24:14     ✓ .type() - type into a DOM element (6830ms)
+2024-04-23 22:24:16     ✓ .focus() - focus on a DOM element
+2024-04-23 22:24:18     ✓ .blur() - blur off a DOM element
+2024-04-23 22:24:22     ✓ .clear() - clears an input or textarea element
+2024-04-23 22:24:26     ✓ .submit() - submit a form
+2024-04-23 22:24:36     ✓ .click() - click on a DOM element (9297ms)
+2024-04-23 22:24:39     ✓ .dblclick() - double click on a DOM element
+2024-04-23 22:24:43     ✓ .rightclick() - right click on a DOM element
+2024-04-23 22:24:56     ✓ .check() - check a checkbox or radio element (11089ms)
+2024-04-23 22:25:07     ✓ .uncheck() - uncheck a checkbox element (9503ms)
+2024-04-23 22:25:16     ✓ .select() - select an option in a <select> element (8391ms)
+2024-04-23 22:25:22     ✓ .scrollIntoView() - scroll an element into view
+2024-04-23 22:25:27     ✓ .trigger() - trigger an event on a DOM element
+2024-04-23 22:25:32     ✓ cy.scrollTo() - scroll the window or element to a position
+2024-04-23 22:25:32 
+2024-04-23 22:25:33 
+2024-04-23 22:25:33   14 passing (2m)
+2024-04-23 22:25:33 
+2024-04-23 22:25:34 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_097.json
+2024-04-23 22:25:34 
+2024-04-23 22:25:34 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_097.html
+2024-04-23 22:25:34 
+2024-04-23 22:25:38 
+2024-04-23 22:25:38   (Results)
+2024-04-23 22:25:38 
+2024-04-23 22:25:38   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:25:38   │ Tests:        14                                                                               │
+2024-04-23 22:25:38   │ Passing:      14                                                                               │
+2024-04-23 22:25:38   │ Failing:      0                                                                                │
+2024-04-23 22:25:38   │ Pending:      0                                                                                │
+2024-04-23 22:25:38   │ Skipped:      0                                                                                │
+2024-04-23 22:25:38   │ Screenshots:  0                                                                                │
+2024-04-23 22:25:38   │ Video:        true                                                                             │
+2024-04-23 22:25:38   │ Duration:     1 minute, 34 seconds                                                             │
+2024-04-23 22:25:38   │ Spec Ran:     2-advanced-examples/actions.cy.js                                                │
+2024-04-23 22:25:38   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:25:38 
+2024-04-23 22:25:38 
+2024-04-23 22:25:38   (Video)
+2024-04-23 22:25:38 
+2024-04-23 22:25:38   -  Video output: /tests/cypress/videos/2-advanced-examples/actions.cy.js.mp4
+2024-04-23 22:25:38 
+2024-04-23 22:25:38 
+2024-04-23 22:25:38 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:25:38                                                                                                     
+2024-04-23 22:25:38   Running:  2-advanced-examples/aliasing.cy.js                                             (4 of 22)
+2024-04-23 22:25:45 
+2024-04-23 22:25:45 
+2024-04-23 22:25:45   Aliasing
+2024-04-23 22:25:55     ✓ .as() - alias a DOM element for later use
+2024-04-23 22:25:58     ✓ .as() - alias a route for later use
+2024-04-23 22:25:58 
+2024-04-23 22:25:58 
+2024-04-23 22:25:58   2 passing (13s)
+2024-04-23 22:25:58 
+2024-04-23 22:25:58 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_098.json
+2024-04-23 22:25:58 
+2024-04-23 22:25:58 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_098.html
+2024-04-23 22:25:58 
+2024-04-23 22:26:03 
+2024-04-23 22:26:03   (Results)
+2024-04-23 22:26:03 
+2024-04-23 22:26:03   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:26:03   │ Tests:        2                                                                                │
+2024-04-23 22:26:03   │ Passing:      2                                                                                │
+2024-04-23 22:26:03   │ Failing:      0                                                                                │
+2024-04-23 22:26:03   │ Pending:      0                                                                                │
+2024-04-23 22:26:03   │ Skipped:      0                                                                                │
+2024-04-23 22:26:03   │ Screenshots:  0                                                                                │
+2024-04-23 22:26:03   │ Video:        true                                                                             │
+2024-04-23 22:26:03   │ Duration:     12 seconds                                                                       │
+2024-04-23 22:26:03   │ Spec Ran:     2-advanced-examples/aliasing.cy.js                                               │
+2024-04-23 22:26:03   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:26:03 
+2024-04-23 22:26:03 
+2024-04-23 22:26:03   (Video)
+2024-04-23 22:26:03 
+2024-04-23 22:26:03   -  Video output: /tests/cypress/videos/2-advanced-examples/aliasing.cy.js.mp4
+2024-04-23 22:26:03 
+2024-04-23 22:26:03 
+2024-04-23 22:26:03 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:26:03                                                                                                     
+2024-04-23 22:26:03   Running:  2-advanced-examples/assertions.cy.js                                           (5 of 22)
+2024-04-23 22:26:12 
+2024-04-23 22:26:12 
+2024-04-23 22:26:12   Assertions
+2024-04-23 22:26:12     Implicit Assertions
+2024-04-23 22:26:22       ✓ .should() - make an assertion about the current subject
+2024-04-23 22:26:24       ✓ .and() - chain multiple assertions together
+2024-04-23 22:26:24     Explicit Assertions
+2024-04-23 22:26:24       ✓ expect - make an assertion about a specified subject
+2024-04-23 22:26:25       ✓ pass your own callback function to should()
+2024-04-23 22:26:27       ✓ finds element by class name regex
+2024-04-23 22:26:28       ✓ can throw any error
+2024-04-23 22:26:28       ✓ matches unknown text between two elements
+2024-04-23 22:26:29       ✓ assert - assert shape of an object
+2024-04-23 22:26:31       ✓ retries the should callback until assertions pass
+2024-04-23 22:26:31 
+2024-04-23 22:26:31 
+2024-04-23 22:26:31   9 passing (19s)
+2024-04-23 22:26:31 
+2024-04-23 22:26:31 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_099.json
+2024-04-23 22:26:31 
+2024-04-23 22:26:31 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_099.html
+2024-04-23 22:26:31 
+2024-04-23 22:26:39 
+2024-04-23 22:26:39   (Results)
+2024-04-23 22:26:39 
+2024-04-23 22:26:39   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:26:39   │ Tests:        9                                                                                │
+2024-04-23 22:26:39   │ Passing:      9                                                                                │
+2024-04-23 22:26:39   │ Failing:      0                                                                                │
+2024-04-23 22:26:39   │ Pending:      0                                                                                │
+2024-04-23 22:26:39   │ Skipped:      0                                                                                │
+2024-04-23 22:26:39   │ Screenshots:  0                                                                                │
+2024-04-23 22:26:39   │ Video:        true                                                                             │
+2024-04-23 22:26:39   │ Duration:     18 seconds                                                                       │
+2024-04-23 22:26:39   │ Spec Ran:     2-advanced-examples/assertions.cy.js                                             │
+2024-04-23 22:26:39   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:26:39 
+2024-04-23 22:26:39 
+2024-04-23 22:26:39   (Video)
+2024-04-23 22:26:39 
+2024-04-23 22:26:39   -  Video output: /tests/cypress/videos/2-advanced-examples/assertions.cy.js.mp4
+2024-04-23 22:26:39 
+2024-04-23 22:26:39 
+2024-04-23 22:26:39 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:26:39                                                                                                     
+2024-04-23 22:26:39   Running:  2-advanced-examples/connectors.cy.js                                           (6 of 22)
+2024-04-23 22:26:47 
+2024-04-23 22:26:47 
+2024-04-23 22:26:47   Connectors
+2024-04-23 22:26:56     ✓ .each() - iterate over an array of elements
+2024-04-23 22:26:58     ✓ .its() - get properties on the current subject
+2024-04-23 22:26:59     ✓ .invoke() - invoke a function on the current subject
+2024-04-23 22:27:01     ✓ .spread() - spread an array as individual args to callback function
+2024-04-23 22:27:01     .then()
+2024-04-23 22:27:02       ✓ invokes a callback function with the current subject
+2024-04-23 22:27:02       ✓ yields the returned value to the next command
+2024-04-23 22:27:03       ✓ yields the original subject without return
+2024-04-23 22:27:04       ✓ yields the value yielded by the last Cypress command inside
+2024-04-23 22:27:04 
+2024-04-23 22:27:04 
+2024-04-23 22:27:04   8 passing (18s)
+2024-04-23 22:27:04 
+2024-04-23 22:27:05 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_100.json
+2024-04-23 22:27:05 
+2024-04-23 22:27:05 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_100.html
+2024-04-23 22:27:05 
+2024-04-23 22:27:10 
+2024-04-23 22:27:10   (Results)
+2024-04-23 22:27:10 
+2024-04-23 22:27:10   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:27:10   │ Tests:        8                                                                                │
+2024-04-23 22:27:10   │ Passing:      8                                                                                │
+2024-04-23 22:27:10   │ Failing:      0                                                                                │
+2024-04-23 22:27:10   │ Pending:      0                                                                                │
+2024-04-23 22:27:10   │ Skipped:      0                                                                                │
+2024-04-23 22:27:10   │ Screenshots:  0                                                                                │
+2024-04-23 22:27:10   │ Video:        true                                                                             │
+2024-04-23 22:27:10   │ Duration:     17 seconds                                                                       │
+2024-04-23 22:27:10   │ Spec Ran:     2-advanced-examples/connectors.cy.js                                             │
+2024-04-23 22:27:10   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:27:10 
+2024-04-23 22:27:10 
+2024-04-23 22:27:10   (Video)
+2024-04-23 22:27:10 
+2024-04-23 22:27:10   -  Video output: /tests/cypress/videos/2-advanced-examples/connectors.cy.js.mp4
+2024-04-23 22:27:10 
+2024-04-23 22:27:10 
+2024-04-23 22:27:10 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:27:10                                                                                                     
+2024-04-23 22:27:10   Running:  2-advanced-examples/cookies.cy.js                                              (7 of 22)
+2024-04-23 22:27:19 
+2024-04-23 22:27:19 
+2024-04-23 22:27:19   Cookies
+2024-04-23 22:27:29     ✓ cy.getCookie() - get a browser cookie
+2024-04-23 22:27:30     ✓ cy.getCookies() - get browser cookies for the current domain
+2024-04-23 22:27:31     ✓ cy.getAllCookies() - get all browser cookies
+2024-04-23 22:27:32     ✓ cy.setCookie() - set a browser cookie
+2024-04-23 22:27:34     ✓ cy.clearCookie() - clear a browser cookie
+2024-04-23 22:27:35     ✓ cy.clearCookies() - clear browser cookies for the current domain
+2024-04-23 22:27:36     ✓ cy.clearAllCookies() - clear all browser cookies
+2024-04-23 22:27:36 
+2024-04-23 22:27:36 
+2024-04-23 22:27:36   7 passing (17s)
+2024-04-23 22:27:36 
+2024-04-23 22:27:36 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_101.json
+2024-04-23 22:27:36 
+2024-04-23 22:27:36 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_101.html
+2024-04-23 22:27:36 
+2024-04-23 22:27:43 
+2024-04-23 22:27:43   (Results)
+2024-04-23 22:27:43 
+2024-04-23 22:27:43   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:27:43   │ Tests:        7                                                                                │
+2024-04-23 22:27:43   │ Passing:      7                                                                                │
+2024-04-23 22:27:43   │ Failing:      0                                                                                │
+2024-04-23 22:27:43   │ Pending:      0                                                                                │
+2024-04-23 22:27:43   │ Skipped:      0                                                                                │
+2024-04-23 22:27:43   │ Screenshots:  0                                                                                │
+2024-04-23 22:27:43   │ Video:        true                                                                             │
+2024-04-23 22:27:43   │ Duration:     16 seconds                                                                       │
+2024-04-23 22:27:43   │ Spec Ran:     2-advanced-examples/cookies.cy.js                                                │
+2024-04-23 22:27:43   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:27:43 
+2024-04-23 22:27:43 
+2024-04-23 22:27:43   (Video)
+2024-04-23 22:27:43 
+2024-04-23 22:27:43   -  Video output: /tests/cypress/videos/2-advanced-examples/cookies.cy.js.mp4
+2024-04-23 22:27:43 
+2024-04-23 22:27:43 
+2024-04-23 22:27:43 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:27:43                                                                                                     
+2024-04-23 22:27:43   Running:  2-advanced-examples/cypress_api.cy.js                                          (8 of 22)
+2024-04-23 22:27:52 
+2024-04-23 22:27:52 
+2024-04-23 22:27:52   Cypress APIs
+2024-04-23 22:27:52     Cypress.Commands
+2024-04-23 22:28:04       ✓ .add() - create a custom command
+2024-04-23 22:28:04     Cypress.Cookies
+2024-04-23 22:28:04       ✓ .debug() - enable or disable debugging
+2024-04-23 22:28:04     Cypress.arch
+2024-04-23 22:28:06       ✓ Get CPU architecture name of underlying OS
+2024-04-23 22:28:06     Cypress.config()
+2024-04-23 22:28:07       ✓ Get and set configuration options
+2024-04-23 22:28:07     Cypress.dom
+2024-04-23 22:28:08       ✓ .isHidden() - determine if a DOM element is hidden
+2024-04-23 22:28:08     Cypress.env()
+2024-04-23 22:28:09       ✓ Get environment variables
+2024-04-23 22:28:09     Cypress.log
+2024-04-23 22:28:10       ✓ Control what is printed to the Command Log
+2024-04-23 22:28:10     Cypress.platform
+2024-04-23 22:28:11       ✓ Get underlying OS name
+2024-04-23 22:28:11     Cypress.version
+2024-04-23 22:28:12       ✓ Get current version of Cypress being run
+2024-04-23 22:28:12     Cypress.spec
+2024-04-23 22:28:13       ✓ Get current spec information
+2024-04-23 22:28:13 
+2024-04-23 22:28:13 
+2024-04-23 22:28:13   10 passing (21s)
+2024-04-23 22:28:13 
+2024-04-23 22:28:14 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_102.json
+2024-04-23 22:28:14 
+2024-04-23 22:28:14 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_102.html
+2024-04-23 22:28:14 
+2024-04-23 22:28:22 
+2024-04-23 22:28:22   (Results)
+2024-04-23 22:28:22 
+2024-04-23 22:28:22   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:28:22   │ Tests:        10                                                                               │
+2024-04-23 22:28:22   │ Passing:      10                                                                               │
+2024-04-23 22:28:22   │ Failing:      0                                                                                │
+2024-04-23 22:28:22   │ Pending:      0                                                                                │
+2024-04-23 22:28:22   │ Skipped:      0                                                                                │
+2024-04-23 22:28:22   │ Screenshots:  0                                                                                │
+2024-04-23 22:28:22   │ Video:        true                                                                             │
+2024-04-23 22:28:22   │ Duration:     21 seconds                                                                       │
+2024-04-23 22:28:22   │ Spec Ran:     2-advanced-examples/cypress_api.cy.js                                            │
+2024-04-23 22:28:22   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:28:22 
+2024-04-23 22:28:22 
+2024-04-23 22:28:22   (Video)
+2024-04-23 22:28:22 
+2024-04-23 22:28:22   -  Video output: /tests/cypress/videos/2-advanced-examples/cypress_api.cy.js.mp4
+2024-04-23 22:28:22 
+2024-04-23 22:28:22 
+2024-04-23 22:28:22 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:28:22                                                                                                     
+2024-04-23 22:28:22   Running:  2-advanced-examples/files.cy.js                                                (9 of 22)
+2024-04-23 22:28:30 
+2024-04-23 22:28:30 
+2024-04-23 22:28:30   Files
+2024-04-23 22:28:42     ✓ cy.fixture() - load a fixture
+2024-04-23 22:28:43     ✓ cy.fixture() or require - load a fixture
+2024-04-23 22:28:44     ✓ cy.readFile() - read file contents
+2024-04-23 22:28:45     ✓ cy.writeFile() - write to a file
+2024-04-23 22:28:45 
+2024-04-23 22:28:45 
+2024-04-23 22:28:45   4 passing (15s)
+2024-04-23 22:28:45 
+2024-04-23 22:28:45 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_103.json
+2024-04-23 22:28:45 
+2024-04-23 22:28:45 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_103.html
+2024-04-23 22:28:45 
+2024-04-23 22:28:51 
+2024-04-23 22:28:51   (Results)
+2024-04-23 22:28:51 
+2024-04-23 22:28:51   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:28:51   │ Tests:        4                                                                                │
+2024-04-23 22:28:51   │ Passing:      4                                                                                │
+2024-04-23 22:28:51   │ Failing:      0                                                                                │
+2024-04-23 22:28:51   │ Pending:      0                                                                                │
+2024-04-23 22:28:51   │ Skipped:      0                                                                                │
+2024-04-23 22:28:51   │ Screenshots:  0                                                                                │
+2024-04-23 22:28:51   │ Video:        true                                                                             │
+2024-04-23 22:28:51   │ Duration:     15 seconds                                                                       │
+2024-04-23 22:28:51   │ Spec Ran:     2-advanced-examples/files.cy.js                                                  │
+2024-04-23 22:28:51   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:28:51 
+2024-04-23 22:28:52 
+2024-04-23 22:28:52   (Video)
+2024-04-23 22:28:52 
+2024-04-23 22:28:52   -  Video output: /tests/cypress/videos/2-advanced-examples/files.cy.js.mp4
+2024-04-23 22:28:52 
+2024-04-23 22:28:52 
+2024-04-23 22:28:52 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:28:52                                                                                                     
+2024-04-23 22:28:52   Running:  2-advanced-examples/location.cy.js                                            (10 of 22)
+2024-04-23 22:28:58 
+2024-04-23 22:28:58 
+2024-04-23 22:28:58   Location
+2024-04-23 22:29:08     ✓ cy.hash() - get the current URL hash
+2024-04-23 22:29:09     ✓ cy.location() - get window.location
+2024-04-23 22:29:10     ✓ cy.url() - get the current URL
+2024-04-23 22:29:10 
+2024-04-23 22:29:10 
+2024-04-23 22:29:10   3 passing (11s)
+2024-04-23 22:29:10 
+2024-04-23 22:29:10 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_104.json
+2024-04-23 22:29:10 
+2024-04-23 22:29:10 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_104.html
+2024-04-23 22:29:10 
+2024-04-23 22:29:15 
+2024-04-23 22:29:15   (Results)
+2024-04-23 22:29:15 
+2024-04-23 22:29:15   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:29:15   │ Tests:        3                                                                                │
+2024-04-23 22:29:15   │ Passing:      3                                                                                │
+2024-04-23 22:29:15   │ Failing:      0                                                                                │
+2024-04-23 22:29:15   │ Pending:      0                                                                                │
+2024-04-23 22:29:15   │ Skipped:      0                                                                                │
+2024-04-23 22:29:15   │ Screenshots:  0                                                                                │
+2024-04-23 22:29:15   │ Video:        true                                                                             │
+2024-04-23 22:29:15   │ Duration:     11 seconds                                                                       │
+2024-04-23 22:29:15   │ Spec Ran:     2-advanced-examples/location.cy.js                                               │
+2024-04-23 22:29:15   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:29:15 
+2024-04-23 22:29:16 
+2024-04-23 22:29:16   (Video)
+2024-04-23 22:29:16 
+2024-04-23 22:29:16   -  Video output: /tests/cypress/videos/2-advanced-examples/location.cy.js.mp4
+2024-04-23 22:29:16 
+2024-04-23 22:29:16 
+2024-04-23 22:29:16 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:29:16                                                                                                     
+2024-04-23 22:29:16   Running:  2-advanced-examples/misc.cy.js                                                (11 of 22)
+2024-04-23 22:29:19 
+2024-04-23 22:29:19 
+2024-04-23 22:29:19   Misc
+2024-04-23 22:29:29     ✓ cy.exec() - execute a system command
+2024-04-23 22:29:31     ✓ cy.focused() - get the DOM element that has focus
+2024-04-23 22:29:31     ✓ cy.wrap() - wrap an object
+2024-04-23 22:29:31     Cypress.Screenshot
+2024-04-23 22:29:33       ✓ cy.screenshot() - take a screenshot
+2024-04-23 22:29:33       ✓ Cypress.Screenshot.defaults() - change default config of screenshots
+2024-04-23 22:29:33 
+2024-04-23 22:29:33 
+2024-04-23 22:29:33   5 passing (14s)
+2024-04-23 22:29:33 
+2024-04-23 22:29:33 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_105.json
+2024-04-23 22:29:33 
+2024-04-23 22:29:33 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_105.html
+2024-04-23 22:29:33 
+2024-04-23 22:29:37 
+2024-04-23 22:29:37   (Results)
+2024-04-23 22:29:37 
+2024-04-23 22:29:37   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:29:37   │ Tests:        5                                                                                │
+2024-04-23 22:29:37   │ Passing:      5                                                                                │
+2024-04-23 22:29:37   │ Failing:      0                                                                                │
+2024-04-23 22:29:37   │ Pending:      0                                                                                │
+2024-04-23 22:29:37   │ Skipped:      0                                                                                │
+2024-04-23 22:29:37   │ Screenshots:  1                                                                                │
+2024-04-23 22:29:37   │ Video:        true                                                                             │
+2024-04-23 22:29:37   │ Duration:     13 seconds                                                                       │
+2024-04-23 22:29:37   │ Spec Ran:     2-advanced-examples/misc.cy.js                                                   │
+2024-04-23 22:29:37   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:29:37 
+2024-04-23 22:29:37 
+2024-04-23 22:29:37   (Screenshots)
+2024-04-23 22:29:37 
+2024-04-23 22:29:37   -  /tests/cypress/screenshots/2-advanced-examples/misc.cy.js/my-image.png              (1000x1820)
+2024-04-23 22:29:37 
+2024-04-23 22:29:37 
+2024-04-23 22:29:37   (Video)
+2024-04-23 22:29:37 
+2024-04-23 22:29:37   -  Video output: /tests/cypress/videos/2-advanced-examples/misc.cy.js.mp4
+2024-04-23 22:29:37 
+2024-04-23 22:29:37 
+2024-04-23 22:29:37 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:29:37                                                                                                     
+2024-04-23 22:29:37   Running:  2-advanced-examples/navigation.cy.js                                          (12 of 22)
+2024-04-23 22:29:42 
+2024-04-23 22:29:42 
+2024-04-23 22:29:42   Navigation
+2024-04-23 22:29:52     ✓ cy.go() - go back or forward in the browser's history
+2024-04-23 22:29:53     ✓ cy.reload() - reload the page
+2024-04-23 22:29:55     ✓ cy.visit() - visit a remote url
+2024-04-23 22:29:55 
+2024-04-23 22:29:55 
+2024-04-23 22:29:55   3 passing (13s)
+2024-04-23 22:29:55 
+2024-04-23 22:29:55 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_106.json
+2024-04-23 22:29:55 
+2024-04-23 22:29:55 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_106.html
+2024-04-23 22:29:55 
+2024-04-23 22:29:59 
+2024-04-23 22:29:59   (Results)
+2024-04-23 22:29:59 
+2024-04-23 22:29:59   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:29:59   │ Tests:        3                                                                                │
+2024-04-23 22:29:59   │ Passing:      3                                                                                │
+2024-04-23 22:29:59   │ Failing:      0                                                                                │
+2024-04-23 22:29:59   │ Pending:      0                                                                                │
+2024-04-23 22:29:59   │ Skipped:      0                                                                                │
+2024-04-23 22:29:59   │ Screenshots:  0                                                                                │
+2024-04-23 22:29:59   │ Video:        true                                                                             │
+2024-04-23 22:29:59   │ Duration:     12 seconds                                                                       │
+2024-04-23 22:29:59   │ Spec Ran:     2-advanced-examples/navigation.cy.js                                             │
+2024-04-23 22:29:59   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:29:59 
+2024-04-23 22:29:59 
+2024-04-23 22:29:59   (Video)
+2024-04-23 22:29:59 
+2024-04-23 22:29:59   -  Video output: /tests/cypress/videos/2-advanced-examples/navigation.cy.js.mp4
+2024-04-23 22:29:59 
+2024-04-23 22:29:59 
+2024-04-23 22:29:59 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:29:59                                                                                                     
+2024-04-23 22:29:59   Running:  2-advanced-examples/network_requests.cy.js                                    (13 of 22)
+2024-04-23 22:30:06 
+2024-04-23 22:30:06 
+2024-04-23 22:30:06   Network Requests
+2024-04-23 22:30:18     ✓ cy.request() - make an XHR request
+2024-04-23 22:30:18     ✓ cy.request() - verify response using BDD syntax
+2024-04-23 22:30:20     ✓ cy.request() with query parameters
+2024-04-23 22:30:20     ✓ cy.request() - pass result to the second request
+2024-04-23 22:30:21     ✓ cy.request() - save response in the shared test context
+2024-04-23 22:30:23     ✓ cy.intercept() - route responses to matching requests
+2024-04-23 22:30:23 
+2024-04-23 22:30:23 
+2024-04-23 22:30:23   6 passing (17s)
+2024-04-23 22:30:23 
+2024-04-23 22:30:23 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_107.json
+2024-04-23 22:30:23 
+2024-04-23 22:30:23 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_107.html
+2024-04-23 22:30:23 
+2024-04-23 22:30:29 
+2024-04-23 22:30:29   (Results)
+2024-04-23 22:30:29 
+2024-04-23 22:30:29   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:30:29   │ Tests:        6                                                                                │
+2024-04-23 22:30:29   │ Passing:      6                                                                                │
+2024-04-23 22:30:29   │ Failing:      0                                                                                │
+2024-04-23 22:30:29   │ Pending:      0                                                                                │
+2024-04-23 22:30:29   │ Skipped:      0                                                                                │
+2024-04-23 22:30:29   │ Screenshots:  0                                                                                │
+2024-04-23 22:30:29   │ Video:        true                                                                             │
+2024-04-23 22:30:29   │ Duration:     17 seconds                                                                       │
+2024-04-23 22:30:29   │ Spec Ran:     2-advanced-examples/network_requests.cy.js                                       │
+2024-04-23 22:30:29   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:30:29 
+2024-04-23 22:30:30 
+2024-04-23 22:30:30   (Video)
+2024-04-23 22:30:30 
+2024-04-23 22:30:30   -  Video output: /tests/cypress/videos/2-advanced-examples/network_requests.cy.js.mp4
+2024-04-23 22:30:30 
+2024-04-23 22:30:30 
+2024-04-23 22:30:30 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:30:30                                                                                                     
+2024-04-23 22:30:30   Running:  2-advanced-examples/querying.cy.js                                            (14 of 22)
+2024-04-23 22:30:39 
+2024-04-23 22:30:39 
+2024-04-23 22:30:39   Querying
+2024-04-23 22:30:50     ✓ cy.get() - query DOM elements
+2024-04-23 22:30:52     ✓ cy.contains() - query DOM elements with matching content
+2024-04-23 22:30:52     ✓ .within() - query DOM elements within a specific element
+2024-04-23 22:30:53     ✓ cy.root() - query the root DOM element
+2024-04-23 22:30:54     ✓ best practices - selecting elements
+2024-04-23 22:30:54 
+2024-04-23 22:30:55 
+2024-04-23 22:30:55   5 passing (16s)
+2024-04-23 22:30:55 
+2024-04-23 22:30:55 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_108.json
+2024-04-23 22:30:55 
+2024-04-23 22:30:55 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_108.html
+2024-04-23 22:30:55 
+2024-04-23 22:31:00 
+2024-04-23 22:31:00   (Results)
+2024-04-23 22:31:00 
+2024-04-23 22:31:00   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:31:00   │ Tests:        5                                                                                │
+2024-04-23 22:31:00   │ Passing:      5                                                                                │
+2024-04-23 22:31:00   │ Failing:      0                                                                                │
+2024-04-23 22:31:00   │ Pending:      0                                                                                │
+2024-04-23 22:31:00   │ Skipped:      0                                                                                │
+2024-04-23 22:31:00   │ Screenshots:  0                                                                                │
+2024-04-23 22:31:00   │ Video:        true                                                                             │
+2024-04-23 22:31:00   │ Duration:     15 seconds                                                                       │
+2024-04-23 22:31:00   │ Spec Ran:     2-advanced-examples/querying.cy.js                                               │
+2024-04-23 22:31:00   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:31:00 
+2024-04-23 22:31:00 
+2024-04-23 22:31:00   (Video)
+2024-04-23 22:31:00 
+2024-04-23 22:31:00   -  Video output: /tests/cypress/videos/2-advanced-examples/querying.cy.js.mp4
+2024-04-23 22:31:00 
+2024-04-23 22:31:00 
+2024-04-23 22:31:00 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:31:00                                                                                                     
+2024-04-23 22:31:00   Running:  2-advanced-examples/spies_stubs_clocks.cy.js                                  (15 of 22)
+2024-04-23 22:31:05 
+2024-04-23 22:31:05 
+2024-04-23 22:31:05   Spies, Stubs, and Clock
+2024-04-23 22:31:13     ✓ cy.spy() - wrap a method in a spy
+2024-04-23 22:31:16     ✓ cy.spy() retries until assertions pass
+2024-04-23 22:31:17     ✓ cy.stub() - create a stub and/or replace a function with stub
+2024-04-23 22:31:18     ✓ cy.clock() - control time in the browser
+2024-04-23 22:31:20     ✓ cy.tick() - move time in the browser
+2024-04-23 22:31:20     ✓ cy.stub() matches depending on arguments
+2024-04-23 22:31:21     ✓ matches call arguments using Sinon matchers
+2024-04-23 22:31:21 
+2024-04-23 22:31:21 
+2024-04-23 22:31:21   7 passing (16s)
+2024-04-23 22:31:21 
+2024-04-23 22:31:21 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_109.json
+2024-04-23 22:31:21 
+2024-04-23 22:31:21 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_109.html
+2024-04-23 22:31:21 
+2024-04-23 22:31:27 
+2024-04-23 22:31:27   (Results)
+2024-04-23 22:31:27 
+2024-04-23 22:31:27   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:31:27   │ Tests:        7                                                                                │
+2024-04-23 22:31:27   │ Passing:      7                                                                                │
+2024-04-23 22:31:27   │ Failing:      0                                                                                │
+2024-04-23 22:31:27   │ Pending:      0                                                                                │
+2024-04-23 22:31:27   │ Skipped:      0                                                                                │
+2024-04-23 22:31:27   │ Screenshots:  0                                                                                │
+2024-04-23 22:31:27   │ Video:        true                                                                             │
+2024-04-23 22:31:27   │ Duration:     15 seconds                                                                       │
+2024-04-23 22:31:27   │ Spec Ran:     2-advanced-examples/spies_stubs_clocks.cy.js                                     │
+2024-04-23 22:31:27   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:31:27 
+2024-04-23 22:31:28 
+2024-04-23 22:31:28   (Video)
+2024-04-23 22:31:28 
+2024-04-23 22:31:28   -  Video output: /tests/cypress/videos/2-advanced-examples/spies_stubs_clocks.cy.js.mp4
+2024-04-23 22:31:28 
+2024-04-23 22:31:28 
+2024-04-23 22:31:28 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:31:28                                                                                                     
+2024-04-23 22:31:28   Running:  2-advanced-examples/storage.cy.js                                             (16 of 22)
+2024-04-23 22:31:36 
+2024-04-23 22:31:36 
+2024-04-23 22:31:36   Local Storage / Session Storage
+2024-04-23 22:31:50     ✓ cy.clearLocalStorage() - clear all data in localStorage for the current origin
+2024-04-23 22:31:51     ✓ cy.getAllLocalStorage() - get all data in localStorage for all origins
+2024-04-23 22:31:52     ✓ cy.clearAllLocalStorage() - clear all data in localStorage for all origins
+2024-04-23 22:31:53     ✓ cy.getAllSessionStorage() - get all data in sessionStorage for all origins
+2024-04-23 22:31:54     ✓ cy.clearAllSessionStorage() - clear all data in sessionStorage for all origins
+2024-04-23 22:31:54 
+2024-04-23 22:31:54 
+2024-04-23 22:31:54   5 passing (18s)
+2024-04-23 22:31:54 
+2024-04-23 22:31:54 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_110.json
+2024-04-23 22:31:54 
+2024-04-23 22:31:54 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_110.html
+2024-04-23 22:31:54 
+2024-04-23 22:32:03 
+2024-04-23 22:32:03   (Results)
+2024-04-23 22:32:03 
+2024-04-23 22:32:03   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:32:03   │ Tests:        5                                                                                │
+2024-04-23 22:32:03   │ Passing:      5                                                                                │
+2024-04-23 22:32:03   │ Failing:      0                                                                                │
+2024-04-23 22:32:03   │ Pending:      0                                                                                │
+2024-04-23 22:32:03   │ Skipped:      0                                                                                │
+2024-04-23 22:32:03   │ Screenshots:  0                                                                                │
+2024-04-23 22:32:03   │ Video:        true                                                                             │
+2024-04-23 22:32:03   │ Duration:     17 seconds                                                                       │
+2024-04-23 22:32:03   │ Spec Ran:     2-advanced-examples/storage.cy.js                                                │
+2024-04-23 22:32:03   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:32:03 
+2024-04-23 22:32:04 
+2024-04-23 22:32:04   (Video)
+2024-04-23 22:32:04 
+2024-04-23 22:32:04   -  Video output: /tests/cypress/videos/2-advanced-examples/storage.cy.js.mp4
+2024-04-23 22:32:04 
+2024-04-23 22:32:04 
+2024-04-23 22:32:04 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:32:04                                                                                                     
+2024-04-23 22:32:04   Running:  2-advanced-examples/traversal.cy.js                                           (17 of 22)
+2024-04-23 22:32:12 
+2024-04-23 22:32:12 
+2024-04-23 22:32:12   Traversal
+2024-04-23 22:32:24     ✓ .children() - get child DOM elements
+2024-04-23 22:32:26     ✓ .closest() - get closest ancestor DOM element
+2024-04-23 22:32:26     ✓ .eq() - get a DOM element at a specific index
+2024-04-23 22:32:28     ✓ .filter() - get DOM elements that match the selector
+2024-04-23 22:32:29     ✓ .find() - get descendant DOM elements of the selector
+2024-04-23 22:32:30     ✓ .first() - get first DOM element
+2024-04-23 22:32:30     ✓ .last() - get last DOM element
+2024-04-23 22:32:31     ✓ .next() - get next sibling DOM element
+2024-04-23 22:32:32     ✓ .nextAll() - get all next sibling DOM elements
+2024-04-23 22:32:33     ✓ .nextUntil() - get next sibling DOM elements until next el
+2024-04-23 22:32:34     ✓ .not() - remove DOM elements from set of DOM elements
+2024-04-23 22:32:35     ✓ .parent() - get parent DOM element from DOM elements
+2024-04-23 22:32:36     ✓ .parents() - get parent DOM elements from DOM elements
+2024-04-23 22:32:38     ✓ .parentsUntil() - get parent DOM elements from DOM elements until el
+2024-04-23 22:32:39     ✓ .prev() - get previous sibling DOM element
+2024-04-23 22:32:40     ✓ .prevAll() - get all previous sibling DOM elements
+2024-04-23 22:32:40     ✓ .prevUntil() - get all previous sibling DOM elements until el
+2024-04-23 22:32:41     ✓ .siblings() - get all sibling DOM elements
+2024-04-23 22:32:41 
+2024-04-23 22:32:41 
+2024-04-23 22:32:41   18 passing (29s)
+2024-04-23 22:32:41 
+2024-04-23 22:32:41 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_111.json
+2024-04-23 22:32:41 
+2024-04-23 22:32:41 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_111.html
+2024-04-23 22:32:41 
+2024-04-23 22:32:47 
+2024-04-23 22:32:47   (Results)
+2024-04-23 22:32:47 
+2024-04-23 22:32:47   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:32:47   │ Tests:        18                                                                               │
+2024-04-23 22:32:47   │ Passing:      18                                                                               │
+2024-04-23 22:32:47   │ Failing:      0                                                                                │
+2024-04-23 22:32:47   │ Pending:      0                                                                                │
+2024-04-23 22:32:47   │ Skipped:      0                                                                                │
+2024-04-23 22:32:47   │ Screenshots:  0                                                                                │
+2024-04-23 22:32:47   │ Video:        true                                                                             │
+2024-04-23 22:32:47   │ Duration:     28 seconds                                                                       │
+2024-04-23 22:32:47   │ Spec Ran:     2-advanced-examples/traversal.cy.js                                              │
+2024-04-23 22:32:47   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:32:47 
+2024-04-23 22:32:47 
+2024-04-23 22:32:47   (Video)
+2024-04-23 22:32:47 
+2024-04-23 22:32:47   -  Video output: /tests/cypress/videos/2-advanced-examples/traversal.cy.js.mp4
+2024-04-23 22:32:47 
+2024-04-23 22:32:47 
+2024-04-23 22:32:47 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:32:47                                                                                                     
+2024-04-23 22:32:47   Running:  2-advanced-examples/utilities.cy.js                                           (18 of 22)
+2024-04-23 22:32:52 
+2024-04-23 22:32:52 
+2024-04-23 22:32:53   Utilities
+2024-04-23 22:33:00     ✓ Cypress._ - call a lodash method
+2024-04-23 22:33:01     ✓ Cypress.$ - call a jQuery method
+2024-04-23 22:33:02     ✓ Cypress.Blob - blob utilities and base64 string conversion
+2024-04-23 22:33:02     ✓ Cypress.minimatch - test out glob patterns against strings
+2024-04-23 22:33:03     ✓ Cypress.Promise - instantiate a bluebird promise
+2024-04-23 22:33:03 
+2024-04-23 22:33:03 
+2024-04-23 22:33:03   5 passing (11s)
+2024-04-23 22:33:03 
+2024-04-23 22:33:04 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_112.json
+2024-04-23 22:33:04 
+2024-04-23 22:33:04 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_112.html
+2024-04-23 22:33:04 
+2024-04-23 22:33:07 
+2024-04-23 22:33:07   (Results)
+2024-04-23 22:33:07 
+2024-04-23 22:33:07   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:33:07   │ Tests:        5                                                                                │
+2024-04-23 22:33:07   │ Passing:      5                                                                                │
+2024-04-23 22:33:07   │ Failing:      0                                                                                │
+2024-04-23 22:33:07   │ Pending:      0                                                                                │
+2024-04-23 22:33:07   │ Skipped:      0                                                                                │
+2024-04-23 22:33:07   │ Screenshots:  0                                                                                │
+2024-04-23 22:33:07   │ Video:        true                                                                             │
+2024-04-23 22:33:07   │ Duration:     11 seconds                                                                       │
+2024-04-23 22:33:07   │ Spec Ran:     2-advanced-examples/utilities.cy.js                                              │
+2024-04-23 22:33:07   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:33:07 
+2024-04-23 22:33:07 
+2024-04-23 22:33:07   (Video)
+2024-04-23 22:33:07 
+2024-04-23 22:33:07   -  Video output: /tests/cypress/videos/2-advanced-examples/utilities.cy.js.mp4
+2024-04-23 22:33:07 
+2024-04-23 22:33:07 
+2024-04-23 22:33:07 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:33:07                                                                                                     
+2024-04-23 22:33:07   Running:  2-advanced-examples/viewport.cy.js                                            (19 of 22)
+2024-04-23 22:33:13 
+2024-04-23 22:33:13 
+2024-04-23 22:33:13   Viewport
+2024-04-23 22:33:23     ✓ cy.viewport() - set the viewport size and dimension (5034ms)
+2024-04-23 22:33:23 
+2024-04-23 22:33:23 
+2024-04-23 22:33:23   1 passing (10s)
+2024-04-23 22:33:23 
+2024-04-23 22:33:23 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_113.json
+2024-04-23 22:33:23 
+2024-04-23 22:33:23 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_113.html
+2024-04-23 22:33:23 
+2024-04-23 22:33:26 
+2024-04-23 22:33:26   (Results)
+2024-04-23 22:33:26 
+2024-04-23 22:33:26   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:33:26   │ Tests:        1                                                                                │
+2024-04-23 22:33:26   │ Passing:      1                                                                                │
+2024-04-23 22:33:26   │ Failing:      0                                                                                │
+2024-04-23 22:33:26   │ Pending:      0                                                                                │
+2024-04-23 22:33:26   │ Skipped:      0                                                                                │
+2024-04-23 22:33:26   │ Screenshots:  0                                                                                │
+2024-04-23 22:33:26   │ Video:        true                                                                             │
+2024-04-23 22:33:26   │ Duration:     10 seconds                                                                       │
+2024-04-23 22:33:26   │ Spec Ran:     2-advanced-examples/viewport.cy.js                                               │
+2024-04-23 22:33:26   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:33:26 
+2024-04-23 22:33:26 
+2024-04-23 22:33:26   (Video)
+2024-04-23 22:33:26 
+2024-04-23 22:33:26   -  Video output: /tests/cypress/videos/2-advanced-examples/viewport.cy.js.mp4
+2024-04-23 22:33:26 
+2024-04-23 22:33:26 
+2024-04-23 22:33:26 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:33:26                                                                                                     
+2024-04-23 22:33:26   Running:  2-advanced-examples/waiting.cy.js                                             (20 of 22)
+2024-04-23 22:33:32 
+2024-04-23 22:33:32 
+2024-04-23 22:33:32   Waiting
+2024-04-23 22:33:43     ✓ cy.wait() - wait for a specific amount of time (6518ms)
+2024-04-23 22:33:44     ✓ cy.wait() - wait for a specific route
+2024-04-23 22:33:44 
+2024-04-23 22:33:44 
+2024-04-23 22:33:44   2 passing (12s)
+2024-04-23 22:33:44 
+2024-04-23 22:33:44 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_114.json
+2024-04-23 22:33:44 
+2024-04-23 22:33:44 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_114.html
+2024-04-23 22:33:44 
+2024-04-23 22:33:48 
+2024-04-23 22:33:48   (Results)
+2024-04-23 22:33:48 
+2024-04-23 22:33:48   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:33:48   │ Tests:        2                                                                                │
+2024-04-23 22:33:48   │ Passing:      2                                                                                │
+2024-04-23 22:33:48   │ Failing:      0                                                                                │
+2024-04-23 22:33:48   │ Pending:      0                                                                                │
+2024-04-23 22:33:48   │ Skipped:      0                                                                                │
+2024-04-23 22:33:48   │ Screenshots:  0                                                                                │
+2024-04-23 22:33:48   │ Video:        true                                                                             │
+2024-04-23 22:33:48   │ Duration:     11 seconds                                                                       │
+2024-04-23 22:33:48   │ Spec Ran:     2-advanced-examples/waiting.cy.js                                                │
+2024-04-23 22:33:48   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:33:48 
+2024-04-23 22:33:48 
+2024-04-23 22:33:48   (Video)
+2024-04-23 22:33:48 
+2024-04-23 22:33:48   -  Video output: /tests/cypress/videos/2-advanced-examples/waiting.cy.js.mp4
+2024-04-23 22:33:48 
+2024-04-23 22:33:48 
+2024-04-23 22:33:48 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:33:48                                                                                                     
+2024-04-23 22:33:48   Running:  2-advanced-examples/window.cy.js                                              (21 of 22)
+2024-04-23 22:33:56 
+2024-04-23 22:33:56 
+2024-04-23 22:33:56   Window
+2024-04-23 22:34:04     ✓ cy.window() - get the global window object
+2024-04-23 22:34:05     ✓ cy.document() - get the document object
+2024-04-23 22:34:05     ✓ cy.title() - get the title
+2024-04-23 22:34:05 
+2024-04-23 22:34:05 
+2024-04-23 22:34:05   3 passing (9s)
+2024-04-23 22:34:05 
+2024-04-23 22:34:05 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_115.json
+2024-04-23 22:34:05 
+2024-04-23 22:34:05 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_115.html
+2024-04-23 22:34:05 
+2024-04-23 22:34:08 
+2024-04-23 22:34:08   (Results)
+2024-04-23 22:34:08 
+2024-04-23 22:34:08   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:34:08   │ Tests:        3                                                                                │
+2024-04-23 22:34:08   │ Passing:      3                                                                                │
+2024-04-23 22:34:08   │ Failing:      0                                                                                │
+2024-04-23 22:34:08   │ Pending:      0                                                                                │
+2024-04-23 22:34:08   │ Skipped:      0                                                                                │
+2024-04-23 22:34:08   │ Screenshots:  0                                                                                │
+2024-04-23 22:34:08   │ Video:        true                                                                             │
+2024-04-23 22:34:08   │ Duration:     8 seconds                                                                        │
+2024-04-23 22:34:08   │ Spec Ran:     2-advanced-examples/window.cy.js                                                 │
+2024-04-23 22:34:08   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:34:08 
+2024-04-23 22:34:09 
+2024-04-23 22:34:09   (Video)
+2024-04-23 22:34:09 
+2024-04-23 22:34:09   -  Video output: /tests/cypress/videos/2-advanced-examples/window.cy.js.mp4
+2024-04-23 22:34:09 
+2024-04-23 22:34:09 
+2024-04-23 22:34:09 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-23 22:34:09                                                                                                     
+2024-04-23 22:34:09   Running:  ghost/registration.cy.js                                                      (22 of 22)
+2024-04-23 22:34:16 
+2024-04-23 22:34:16 
+2024-04-23 22:34:16   Testing basic Angular registration
+2024-04-23 22:34:51     ✓ Test links between registration and login page (26581ms)
+2024-04-23 22:35:40     ✓ Test form feedback (47727ms)
+2024-04-23 22:36:32     ✓ Create an user and login (50100ms)
+2024-04-23 22:36:32 
+2024-04-23 22:36:32 
+2024-04-23 22:36:32   3 passing (2m)
+2024-04-23 22:36:32 
+2024-04-23 22:36:33 [mochawesome] Report JSON saved to /tests/cypress/reports/mochawesome_116.json
+2024-04-23 22:36:33 
+2024-04-23 22:36:33 [mochawesome] Report HTML saved to /tests/cypress/reports/mochawesome_116.html
+2024-04-23 22:36:33 
+2024-04-23 22:36:35 
+2024-04-23 22:36:35   (Results)
+2024-04-23 22:36:35 
+2024-04-23 22:36:35   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:36:35   │ Tests:        3                                                                                │
+2024-04-23 22:36:35   │ Passing:      3                                                                                │
+2024-04-23 22:36:35   │ Failing:      0                                                                                │
+2024-04-23 22:36:35   │ Pending:      0                                                                                │
+2024-04-23 22:36:35   │ Skipped:      0                                                                                │
+2024-04-23 22:36:35   │ Screenshots:  5                                                                                │
+2024-04-23 22:36:35   │ Video:        true                                                                             │
+2024-04-23 22:36:35   │ Duration:     2 minutes, 16 seconds                                                            │
+2024-04-23 22:36:35   │ Spec Ran:     ghost/registration.cy.js                                                         │
+2024-04-23 22:36:35   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:36:35 
+2024-04-23 22:36:35 
+2024-04-23 22:36:35   (Screenshots)
+2024-04-23 22:36:35 
+2024-04-23 22:36:35   -  /tests/cypress/screenshots/ghost/registration.cy.js/pagina1.png                      (1000x633)
+2024-04-23 22:36:35   -  /tests/cypress/screenshots/ghost/registration.cy.js/pagina2.png                      (1000x633)
+2024-04-23 22:36:35   -  /tests/cypress/screenshots/ghost/registration.cy.js/form-feedback.png                (1000x777)
+2024-04-23 22:36:35   -  /tests/cypress/screenshots/ghost/registration.cy.js/success-feedback.png             (1000x633)
+2024-04-23 22:36:35   -  /tests/cypress/screenshots/ghost/registration.cy.js/after-login.png                  (1000x633)
+2024-04-23 22:36:35 
+2024-04-23 22:36:35 
+2024-04-23 22:36:35   (Video)
+2024-04-23 22:36:35 
+2024-04-23 22:36:35   -  Video output: /tests/cypress/videos/ghost/registration.cy.js.mp4
+2024-04-23 22:36:35 
+2024-04-23 22:36:35 
+2024-04-23 22:36:36 ====================================================================================================
+2024-04-23 22:36:36 
+2024-04-23 22:36:36   (Run Finished)
+2024-04-23 22:36:36 
+2024-04-23 22:36:36 
+2024-04-23 22:36:36        Spec                                              Tests  Passing  Failing  Pending  Skipped  
+2024-04-23 22:36:36   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-23 22:36:36   │ ✔  0-uniandes-example/registration.cy.      02:31        3        3        -        -        - │
+2024-04-23 22:36:36   │    js                                                                                          │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  1-getting-started/todo.cy.js             00:15        6        6        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/actions.cy.js        01:34       14       14        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/aliasing.cy.js       00:12        2        2        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/assertions.cy.j      00:18        9        9        -        -        - │
+2024-04-23 22:36:36   │    s                                                                                           │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/connectors.cy.j      00:17        8        8        -        -        - │
+2024-04-23 22:36:36   │    s                                                                                           │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/cookies.cy.js        00:16        7        7        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/cypress_api.cy.      00:21       10       10        -        -        - │
+2024-04-23 22:36:36   │    js                                                                                          │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/files.cy.js          00:15        4        4        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/location.cy.js       00:11        3        3        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/misc.cy.js           00:13        5        5        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/navigation.cy.j      00:12        3        3        -        -        - │
+2024-04-23 22:36:36   │    s                                                                                           │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/network_request      00:17        6        6        -        -        - │
+2024-04-23 22:36:36   │    s.cy.js                                                                                     │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/querying.cy.js       00:15        5        5        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/spies_stubs_clo      00:15        7        7        -        -        - │
+2024-04-23 22:36:36   │    cks.cy.js                                                                                   │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/storage.cy.js        00:17        5        5        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/traversal.cy.js      00:28       18       18        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/utilities.cy.js      00:11        5        5        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/viewport.cy.js       00:10        1        1        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/waiting.cy.js        00:11        2        2        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  2-advanced-examples/window.cy.js         00:08        3        3        -        -        - │
+2024-04-23 22:36:36   ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+2024-04-23 22:36:36   │ ✔  ghost/registration.cy.js                 02:16        3        3        -        -        - │
+2024-04-23 22:36:36   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-23 22:36:36     ✔  All specs passed!                        11:16      129      129        -        -        -  
+2024-04-23 22:36:36 

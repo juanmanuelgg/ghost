@@ -1,3 +1,4 @@
+# Todas las máquinas seran como la t3.micro [2 vCPus, 1 GB Ram]
 Vagrant.configure("2") do |config|
     config.vm.synced_folder ".", "/vagrant", disabled: true
 
@@ -11,31 +12,12 @@ Vagrant.configure("2") do |config|
             vb.gui = false # Display the VirtualBox GUI when booting the machine
             vb.name = "ghost"
             vb.memory = "1024"
-            vb.cpus = 1
+            vb.cpus = 2
         end
 
         abp.vm.cloud_init :user_data do |cloud_init|
             cloud_init.content_type = "text/cloud-config"
             cloud_init.path = "../cloud-init-abp-ghost.yml"
-        end
-    end
-
-    config.vm.define "tests", autostart: false do |tests|
-        tests.vm.box = "ubuntu/jammy64"
-        tests.vm.hostname = "tests"
-        tests.vm.network "private_network", ip: "192.168.56.3"
-        tests.vm.network "forwarded_port", guest: 80, host: 8081, host_ip: "127.0.0.1"
-
-        tests.vm.provider "virtualbox" do |vb|
-            vb.gui = false # Display the VirtualBox GUI when booting the machine
-            vb.name = "tests"
-            vb.memory = "1024"
-            vb.cpus = 1
-        end
-
-        tests.vm.cloud_init :user_data do |cloud_init|
-            cloud_init.content_type = "text/cloud-config"
-            cloud_init.path = "../cloud-init-testing-suite.yml"
         end
     end
 
@@ -49,7 +31,7 @@ Vagrant.configure("2") do |config|
             vb.gui = false # Display the VirtualBox GUI when booting the machine
             vb.name = "monkey"
             vb.memory = "1024"
-            vb.cpus = 1
+            vb.cpus = 2
         end
 
         monkey.vm.cloud_init :user_data do |cloud_init|
@@ -68,12 +50,31 @@ Vagrant.configure("2") do |config|
             vb.gui = false # Display the VirtualBox GUI when booting the machine
             vb.name = "ripper"
             vb.memory = "1024"
-            vb.cpus = 1
+            vb.cpus = 2
         end
 
         ripper.vm.cloud_init :user_data do |cloud_init|
             cloud_init.content_type = "text/cloud-config"
             cloud_init.path = "../cloud-init-ripper.yml"
+        end
+    end
+
+    config.vm.define "tests", autostart: false do |tests|
+        tests.vm.box = "ubuntu/jammy64"
+        tests.vm.hostname = "tests"
+        tests.vm.network "private_network", ip: "192.168.56.3"
+        tests.vm.network "forwarded_port", guest: 80, host: 8081, host_ip: "127.0.0.1"
+
+        tests.vm.provider "virtualbox" do |vb|
+            vb.gui = false # Display the VirtualBox GUI when booting the machine
+            vb.name = "tests"
+            vb.memory = "1024"
+            vb.cpus = 2
+        end
+
+        tests.vm.cloud_init :user_data do |cloud_init|
+            cloud_init.content_type = "text/cloud-config"
+            cloud_init.path = "../cloud-init-testing-suite.yml"
         end
     end
 end

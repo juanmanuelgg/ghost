@@ -8,12 +8,15 @@ services:
       dockerfile: Dockerfile
     deploy:
       resources: # https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
-        limits:
-          cpus: '3' # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
-          memory: 8G # 4GB minimum, 8GB+ for longer test runs
-        reservations:
-          cpus: '2'
-          memory: 4G
+          # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
+          # 4GB minimum, 8GB+ for longer test runs
+          # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: '1'
+          memory: 1G
+        reservations: # t2.micro
+          cpus: '1'
+          memory: 1G
     entrypoint: ["cypress", "run", "--headless", "--browser", "chrome", "--spec", "cypress/e2e/ghost/"] # Override the default entrypoint.
     volumes:
       - ./screenshots/cypress:/tests/cypress/screenshots
@@ -36,6 +39,7 @@ services:
     entrypoint: ["npx", "playwright", "test", "e2e/ghost", "--project", "firefox", "--timeout", "60000"]
     volumes:
       - ./screenshots/playwright:/tests/screenshots
+      - ./videos/playwright:/tests/test-results
       - ./reports/playwright:/tests/playwright-report
   
   e2e-puppeteer:
@@ -46,11 +50,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '4'
-          memory: 8G
-        reservations:
-          cpus: '2'
-          memory: 4G
+          cpus: '1'
+          memory: 1G
     ipc: host
     cap_add:
       - SYS_ADMIN

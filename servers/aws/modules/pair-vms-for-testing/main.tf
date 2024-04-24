@@ -15,25 +15,11 @@ data "aws_ami" "ubuntu" {
 }
 
 data "template_file" "user_data_abp_ghost" {
-  template = file(var.cloud_init_abp_ghost)
-}
-
-locals {
-  map_configs = {
-    "🔬" = {
-      "config" = var.cloud_init_testing_suite
-    },
-    "🐒" = {
-      "config" = var.cloud_init_monkey
-    },
-    "🎩" = {
-      "config" = var.cloud_init_ripper
-    }
-  }
+  template = contains(local.dont_need_second_machine, substr(var.name, 0, 1)) ? file(var.cloud_init_desired_test) : file(var.cloud_init_abp_ghost)
 }
 
 data "template_file" "user_data_for_testing" {
-  template = file(local.map_configs["${substr(var.name, 0, 1)}"].config)
+  template = file(var.cloud_init_desired_test)
 }
 
 resource "aws_instance" "abp_ghost" {
@@ -50,9 +36,15 @@ resource "aws_instance" "abp_ghost" {
   }
 }
 
+locals {
+  region_t3_micro          = ["eu-north-1"]
+  dont_need_second_machine = ["☕", "🛡️"]
+}
+
 resource "aws_instance" "testing_suite" {
+  count                       = contains(local.dont_need_second_machine, substr(var.name, 0, 1)) ? 0 : 1
   ami                         = data.aws_ami.ubuntu.id
-  instance_type               = "t2.micro"
+  instance_type               = contains(local.region_t3_micro, var.region) ? "t3.micro" : "t2.micro"
   subnet_id                   = var.subnet_public_id
   vpc_security_group_ids      = [var.security_group_id]
   associate_public_ip_address = true

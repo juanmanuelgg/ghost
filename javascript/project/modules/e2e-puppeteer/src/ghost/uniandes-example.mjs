@@ -12,12 +12,11 @@ class UniandesExample extends GhostTest {
     const browser = await launch({
       args: ["--no-sandbox"],
       headless: true,
-      timeout: 60000,
+      product: "firefox", // or 'chrome'
+      protocol: "webDriverBiDi",
     });
 
     const page = await browser.newPage();
-    page.setDefaultNavigationTimeout(60000);
-    page.setDefaultTimeout(60000);
     await page.goto(
       "https://angular-6-registration-login-example.stackblitz.io/register"
     );
