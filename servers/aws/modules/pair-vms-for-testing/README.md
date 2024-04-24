@@ -25,15 +25,14 @@ No modules.
 
 ## Inputs
 
-| Name                                                                                                      | Description                                                                     | Type     | Default | Required |
-| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | -------- | ------- | :------: |
-| <a name="input_cloud_init_abp_ghost"></a> [cloud_init_abp_ghost](#input_cloud_init_abp_ghost)             | La ruta de donde se toma la configuración de la máquina de la ABP.              | `string` | n/a     |   yes    |
-| <a name="input_cloud_init_monkey"></a> [cloud_init_monkey](#input_cloud_init_monkey)                      | La ruta de donde se toma la configuración de la máquina del monkey.             | `string` | n/a     |   yes    |
-| <a name="input_cloud_init_ripper"></a> [cloud_init_ripper](#input_cloud_init_ripper)                      | La ruta de donde se toma la configuración de la máquina del ripper.             | `string` | n/a     |   yes    |
-| <a name="input_cloud_init_testing_suite"></a> [cloud_init_testing_suite](#input_cloud_init_testing_suite) | La ruta de donde se toma la configuración de la máquina de suite de la pruebas. | `string` | n/a     |   yes    |
-| <a name="input_name"></a> [name](#input_name)                                                             | Nombre que describe el par de máquinas.                                         | `string` | n/a     |   yes    |
-| <a name="input_security_group_id"></a> [security_group_id](#input_security_group_id)                      | El id de las reglas de firewall que cuidan el trafico de la máquina.            | `string` | n/a     |   yes    |
-| <a name="input_subnet_public_id"></a> [subnet_public_id](#input_subnet_public_id)                         | El id de la subnet a la que pertenece la máquina                                | `string` | n/a     |   yes    |
+| Name                                                                                                   | Description                                                                     | Type     | Default | Required |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- | -------- | ------- | :------: |
+| <a name="input_cloud_init_abp_ghost"></a> [cloud_init_abp_ghost](#input_cloud_init_abp_ghost)          | La ruta de donde se toma la configuración de la máquina de la ABP.              | `string` | n/a     |   yes    |
+| <a name="input_cloud_init_desired_test"></a> [cloud_init_desired_test](#input_cloud_init_desired_test) | La ruta de donde se toma la configuración de la máquina de suite de la pruebas. | `string` | n/a     |   yes    |
+| <a name="input_name"></a> [name](#input_name)                                                          | Nombre que describe el par de máquinas.                                         | `string` | n/a     |   yes    |
+| <a name="input_region"></a> [region](#input_region)                                                    | The region Terraform deploys your instance                                      | `string` | n/a     |   yes    |
+| <a name="input_security_group_id"></a> [security_group_id](#input_security_group_id)                   | El id de las reglas de firewall que cuidan el trafico de la máquina.            | `string` | n/a     |   yes    |
+| <a name="input_subnet_public_id"></a> [subnet_public_id](#input_subnet_public_id)                      | El id de la subnet a la que pertenece la máquina                                | `string` | n/a     |   yes    |
 
 ## Outputs
 
