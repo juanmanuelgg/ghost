@@ -1,0 +1,16 @@
+{
+  "name": "ghost-testing",
+  "version": "1.0.0",
+  "description": "Pruebas automaticas sobre el CMS ghost.",
+  "directories": {
+    "doc": "docs"
+  },
+  "workspaces": [
+    "javascript/project/modules/e2e-playwright"
+  ],
+  "author": "Juan Manuel González Garzón",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1"
+  }
+}
