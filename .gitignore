@@ -9,6 +9,19 @@ javascript/project/screenshots
 javascript/project/reports
 javascript/project/videos
 
+# Monkey (Cypress)
+# Ver .gitignore embebido
+
+# Ripper (Playwright)
+javascript/project/modules/ripper-playwright/.png\n*
+javascript/project/modules/ripper-playwright/screenshots*/
+javascript/project/modules/ripper-playwright/temp*/
+javascript/project/modules/ripper-playwright/*graph.json
+javascript/project/modules/ripper-playwright/*graph2.json
+javascript/project/modules/ripper-playwright/*graph3.json
+javascript/project/modules/ripper-playwright/firebaseConfig.js
+javascript/project/modules/ripper-playwright/results/
+
 # E2E (Cypress)
 javascript/project/modules/e2e-cypress/cypress/screenshots
 javascript/project/modules/e2e-cypress/cypress/reports

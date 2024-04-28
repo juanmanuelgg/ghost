@@ -1,6 +1,6 @@
 {
   "name": "e2e-puppeteer",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Pruebas e2e automatizadas apoyadas con Puppeteer",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,12 @@
     "e2e"
   ],
   "author": "Juan Manuel González Garzón",
+  "contributors": [
+    "Angel Manuel Camacho Gabaldon",
+    "Mauricio Castro Riberos",
+    "Raymundo Martin Flores Arango",
+    "@TheSoftwareDesignLab"
+  ],
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^22.6.5"

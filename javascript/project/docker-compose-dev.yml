@@ -1,6 +1,63 @@
 name: testing-suite
 
 services:
+  monkey-cypress:
+    container_name: monkey-cypress
+    build:
+      context: ./modules/monkey-cypress
+      dockerfile: monkey.Dockerfile
+    deploy:
+      resources: # https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
+        # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
+        # 4GB minimum, 8GB+ for longer test runs
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
+    tty: true
+    volumes:
+      - ./reports/monkey:/tests/results
+
+  smart-monkey-cypress:
+    container_name: smart-monkey-cypress
+    build:
+      context: ./modules/monkey-cypress
+      dockerfile: smart-monkey.Dockerfile
+    deploy:
+      resources: # https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
+        # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
+        # 4GB minimum, 8GB+ for longer test runs
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
+    tty: true
+    volumes:
+      - ./reports/smart-monkey:/tests/results
+
+  ripper-playwright:
+    container_name: ripper-playwright
+    build:
+      context: ./modules/ripper-playwright
+      dockerfile: Dockerfile
+    deploy:
+      resources:
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
+    volumes:
+      - ./reports/ripper:/tests/results
+
   e2e-cypress:
     container_name: e2e-cypress
     build:
@@ -8,16 +65,15 @@ services:
       dockerfile: Dockerfile
     deploy:
       resources: # https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
-          # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
-          # 4GB minimum, 8GB+ for longer test runs
-          # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
+        # 4GB minimum, 8GB+ for longer test runs
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
         limits: # t3.micro
-          cpus: '1'
+          cpus: "2"
           memory: 1G
         reservations: # t2.micro
-          cpus: '1'
+          cpus: "1"
           memory: 1G
-    entrypoint: ["cypress", "run", "--headless", "--browser", "chrome", "--spec", "cypress/e2e/ghost/"] # Override the default entrypoint.
     volumes:
       - ./screenshots/cypress:/tests/cypress/screenshots
       - ./videos/cypress:/tests/cypress/videos
@@ -32,16 +88,19 @@ services:
       - "9323:9323"
     deploy:
       resources:
-        limits:
-          cpus: '1'
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
           memory: 1G
     ipc: host
-    entrypoint: ["npx", "playwright", "test", "e2e/ghost", "--project", "firefox", "--timeout", "60000"]
     volumes:
       - ./screenshots/playwright:/tests/screenshots
       - ./videos/playwright:/tests/test-results
       - ./reports/playwright:/tests/playwright-report
-  
+
   e2e-puppeteer:
     container_name: e2e-puppeteer
     build:
@@ -49,8 +108,12 @@ services:
       dockerfile: Dockerfile
     deploy:
       resources:
-        limits:
-          cpus: '1'
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
           memory: 1G
     ipc: host
     cap_add:

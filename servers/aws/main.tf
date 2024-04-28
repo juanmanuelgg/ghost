@@ -10,7 +10,7 @@ module "network" {
   cidr_subnet = var.cidr_subnet
 }
 
-# Mapa que nos guia al archivo de configuracion de cada prueba de nuestro plan de puebas segun su 🧨T.N.T.🧨
+# Mapa que nos guia al archivo de configuracion de cada prueba de nuestro plan de puebas, segun su 🧨T.N.T.🧨 (no se define aqui sino en los docs).
 locals {
   map_tnt_configs = {
     "☕" = { # Automatica - Unit testing soportadas con mocha.
@@ -18,6 +18,9 @@ locals {
     },
     "🐒" = { # Automatizada - soportadas con Explorador aleatorio soportadas con Cypress.
       "default" = "../cloud-init-monkey.yml"
+    },
+    "🦧" = { # Automatizada - soportadas con Explorador aleatorio soportadas con Cypress.
+      "default" = "../cloud-init-smart-monkey.yml"
     },
     "🎩" = { # Automatizada - soportadas con Explorador sistematico soportadas con Puppeteer,
       "default" = "../cloud-init-ripper.yml"
@@ -58,8 +61,22 @@ locals {
   }
 }
 
+# Entrega Semana 4 (1era implementación. Exploración).
+# Presupuesto 1: 200 Horas AWS EC2 ["🐒-1", "🦧-1", "🦧-2", "🎩-1"]
+# Presupuesto 2: 400 Horas AWS EC2 ["🐒-1", "🐒-2", "🦧-1", "🦧-2" "🦧-3", "🦧-4", "🎩-1", "🎩-2"] 
+
+# Entrega Semana 5 (2da implementación. E2E).
+# [... , "🎭-1", "🦑-1"]
+
+# Entrega Semana 6 (2da implementación. VRT).
+# [... , "🎭-2", "🦑-2", "🪃-1"] 
+
+# Entrega Semana 7 (3era implementación. Generación de datos).
+# [... , "🎭🐼-1", "🦑🐼-1"]
+
+# No se ven en el curso pero se hablaron en el presupuesto =>  [... "☕-1", "⚖️-1", "🛡️-1"]
 module "pair_vms_for_testing" {
-  for_each = toset(["☕-1", "🐒-1", "🎩-1"]) # [... , "🎭-1", "🦑-1", "🎭🐼-1", "🦑🐼-1", "🎭-2", "🦑-2", "🪃-1"] # [... "⚖️-1", "🛡️-1"]
+  for_each = toset(["🐒-1", "🦧-1", "🎩-1"])
   source   = "./modules/pair-vms-for-testing"
   # - (1) aws_ami (ubuntu server 22.04 amd64 image)
   # - (2) template_file

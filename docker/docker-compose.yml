@@ -29,12 +29,11 @@ services:
     image: mysql:8.0
     restart: always
     ports:
-     - 3307:3306
+      - 3307:3306
     environment:
       MYSQL_ROOT_PASSWORD: X02kt6Nr014E74I24Sx8
     # volumes:
     #   - db:/var/lib/mysql
-
 # volumes:
 #   ghost:
 #   db:

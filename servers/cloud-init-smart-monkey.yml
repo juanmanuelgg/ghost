@@ -62,7 +62,7 @@ packages:
   - docker-compose-v2
 
 runcmd:
-  # 1. Levantar el servicio de Docker y ejecutar la coleccion de pruebas e2e-playwright
+  # 1. Levantar el servicio de Docker y ejecutar la coleccion de pruebas smart-monkey-cypress
   - [systemctl, start, docker]
   - [sytemctl, enable, docker]
   - [
@@ -77,9 +77,9 @@ runcmd:
       su,
       tests,
       -c,
-      "cd /home/tests/ && docker compose up --build e2e-playwright",
+      "cd /home/tests/ && docker compose up --build smart-monkey-cypress",
     ]
-  - [cp, -r, /home/tests/reports/monkey, /var/www/html]
+  - [cp, -r, /home/tests/reports/smart-monkey, /var/www/html]
   - [mv, /var/www/html/monkey-execution.html, /var/www/html/index.html]
   # 2. Configurar el servidor web
   - [systemctl, enable, nginx]

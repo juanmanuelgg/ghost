@@ -1,6 +1,6 @@
 {
   "name": "ghost-playwright",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Pruebas e2e automatizadas apoyadas con  playwright.",
   "scripts": {
     "test": "playwright test e2e/ghost/*.spec.ts --project firefox",
@@ -12,6 +12,12 @@
     "e2e"
   ],
   "author": "Juan Manuel González Garzón",
+  "contributors": [
+    "Angel Manuel Camacho Gabaldon",
+    "Mauricio Castro Riberos",
+    "Raymundo Martin Flores Arango",
+    "@TheSoftwareDesignLab"
+  ],
   "license": "ISC",
   "dependencies": {
     "@playwright/test": "^1.43.1",
