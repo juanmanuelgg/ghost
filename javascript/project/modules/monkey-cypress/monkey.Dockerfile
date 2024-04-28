@@ -3,6 +3,7 @@ FROM cypress/included:latest
 WORKDIR /tests
 COPY . .
 
-RUN npm ci --omit=dev || npm install --omit=dev
+RUN npm ci || npm install
+RUN mv monkey-config.js cypress.config.js
 
-ENTRYPOINT ["npm", "run", "monkey"]
+ENTRYPOINT ["cypress", "run", "--headless", "--browser", "chrome"]
