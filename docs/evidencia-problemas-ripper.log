@@ -1,0 +1,1837 @@
+2024-04-28 14:18:44 []
+2024-04-28 14:18:44 []
+2024-04-28 14:18:44 chromium
+2024-04-28 14:18:45 Depth Level: 0 in https://thesoftwaredesignlab.github.io
+2024-04-28 14:18:45 Exploring
+2024-04-28 14:18:45 page.goto: net::ERR_CONNECTION_RESET at https://thesoftwaredesignlab.github.io/
+2024-04-28 14:18:45 Call log:
+2024-04-28 14:18:45   - navigating to "https://thesoftwaredesignlab.github.io/", waiting until "networkidle"
+2024-04-28 14:18:45 
+2024-04-28 14:18:45     at recursiveExploration (/tests/index.cjs:153:14)
+2024-04-28 14:18:45     at /tests/index.cjs:93:11 {
+2024-04-28 14:18:45   name: 'Error'
+2024-04-28 14:18:45 }
+2024-04-28 14:18:45 Tree: 
+2024-04-28 14:18:45 
+2024-04-28 14:18:45 Possible Nodes: 
+2024-04-28 14:18:45 []
+2024-04-28 14:18:45 
+2024-04-28 14:18:45 Possible Links: 
+2024-04-28 14:18:45 []
+2024-04-28 14:18:45 success!
+2024-04-28 14:18:45 ------------------------------------------------------------------------------------
+2024-04-28 14:18:45 Execution finished. Check the report under the results folder
+2024-04-28 14:19:00 []
+2024-04-28 14:19:00 []
+2024-04-28 14:19:00 chromium
+2024-04-28 14:19:01 Depth Level: 0 in https://thesoftwaredesignlab.github.io
+2024-04-28 14:19:01 Exploring
+2024-04-28 14:19:02 0: %c[Update] There have been recent updates to Embedded X Timelines and supported parameters.%c
+2024-04-28 14:19:02     •For more information on what has changed visit: https://twittercommunity.com/t/embedded-timelines-update-parameters-support/177112
+2024-04-28 14:19:02     •Please submit feedback or report any bugs: https://twittercommunity.com/c/publisher/websites/
+2024-04-28 14:19:02 1: font-weight:bold;color:#006FD6
+2024-04-28 14:19:02 2: color:#006FD6
+2024-04-28 14:19:02 Visiting: https://thesoftwaredesignlab.github.io
+2024-04-28 14:19:02 Children pages: 
+2024-04-28 14:19:03 [
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:03   'http://uniandes.edu.co/',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/policies/google-lara.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/policies/aossv-esem.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/policies/aacu-tse.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/policies/bluehack.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/policies/rip-icsme.html',
+2024-04-28 14:19:03   'https://thesoftwaredesignlab.github.io/blog.html'
+2024-04-28 14:19:03 ]
+2024-04-28 14:19:03 lista previa 0
+2024-04-28 14:19:03 lista posterior 0
+2024-04-28 14:19:03 Depth Level: 1 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:03 Exploring
+2024-04-28 14:19:04 0: %c[Update] There have been recent updates to Embedded X Timelines and supported parameters.%c
+2024-04-28 14:19:04     •For more information on what has changed visit: https://twittercommunity.com/t/embedded-timelines-update-parameters-support/177112
+2024-04-28 14:19:04     •Please submit feedback or report any bugs: https://twittercommunity.com/c/publisher/websites/
+2024-04-28 14:19:04 1: font-weight:bold;color:#006FD6
+2024-04-28 14:19:04 2: color:#006FD6
+2024-04-28 14:19:04 Visiting: https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:04 Children pages: 
+2024-04-28 14:19:04 [
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:04   'http://uniandes.edu.co/',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/policies/google-lara.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/policies/aossv-esem.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/policies/aacu-tse.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/policies/bluehack.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/policies/rip-icsme.html',
+2024-04-28 14:19:04   'https://thesoftwaredesignlab.github.io/blog.html'
+2024-04-28 14:19:04 ]
+2024-04-28 14:19:04 lista previa 0
+2024-04-28 14:19:04 lista posterior 0
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/#carouselExampleIndicators
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in http://uniandes.edu.co/
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 2 in https://thesoftwaredesignlab.github.io/blog.html
+2024-04-28 14:19:05 Depth levels reached. Exploration stopped
+2024-04-28 14:19:05 Depth Level: 1 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:05 Exploring
+2024-04-28 14:19:06 Visiting: https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:06 Children pages: 
+2024-04-28 14:19:06 [
+2024-04-28 14:19:06   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:06   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:06   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:06   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:06   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:06   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:06   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:06   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:06   'https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/',
+2024-04-28 14:19:06   'https://www.inf.usi.ch/phd/mazuerarozo/',
+2024-04-28 14:19:06   'http://caev03.github.io/',
+2024-04-28 14:19:06   'http://www.inf.usi.ch/faculty/bavota/',
+2024-04-28 14:19:06   'https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en/',
+2024-04-28 14:19:06   'https://profesores.virtual.uniandes.edu.co/sarueda/en/inicio-en/',
+2024-04-28 14:19:06   'https://www.cs.colostate.edu/~lmorenoc/',
+2024-04-28 14:19:06   'http://www.cs.wm.edu/~denys/index.html',
+2024-04-28 14:19:06   'http://www.ing.unisannio.it/mdipenta/',
+2024-04-28 14:19:06   'http://www.christophervendome.com/',
+2024-04-28 14:19:06   'https://www.scss.tcd.ie/Ivana.Dusparic/',
+2024-04-28 14:19:06   'https://slinan.github.io/'
+2024-04-28 14:19:06 ]
+2024-04-28 14:19:06 lista previa 0
+2024-04-28 14:19:06 lista posterior 0
+2024-04-28 14:19:06 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://www.inf.usi.ch/phd/mazuerarozo/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in http://caev03.github.io/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in http://www.inf.usi.ch/faculty/bavota/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://profesores.virtual.uniandes.edu.co/sarueda/en/inicio-en/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://www.cs.colostate.edu/~lmorenoc/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in http://www.cs.wm.edu/~denys/index.html
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in http://www.ing.unisannio.it/mdipenta/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in http://www.christophervendome.com/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://www.scss.tcd.ie/Ivana.Dusparic/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 2 in https://slinan.github.io/
+2024-04-28 14:19:06 Depth levels reached. Exploration stopped
+2024-04-28 14:19:06 Depth Level: 1 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:06 Exploring
+2024-04-28 14:19:07 Visiting: https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:07 Children pages: 
+2024-04-28 14:19:07 [
+2024-04-28 14:19:07   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:07   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:07   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:07   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:07   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:07   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:07   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:07   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:07   'https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/',
+2024-04-28 14:19:07   'http://caev03.github.io/'
+2024-04-28 14:19:07 ]
+2024-04-28 14:19:07 lista previa 0
+2024-04-28 14:19:07 lista posterior 0
+2024-04-28 14:19:07 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 2 in https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 2 in http://caev03.github.io/
+2024-04-28 14:19:07 Depth levels reached. Exploration stopped
+2024-04-28 14:19:07 Depth Level: 1 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:07 Exploring
+2024-04-28 14:19:08 Visiting: https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:08 Children pages: 
+2024-04-28 14:19:08 [
+2024-04-28 14:19:08   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:08   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:08   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:08   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:08   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:08   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:08   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:08   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:08   'https://slinan.github.io/',
+2024-04-28 14:19:08   'http://caev03.github.io/',
+2024-04-28 14:19:08   'https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/',
+2024-04-28 14:19:08   'http://www.inf.usi.ch/faculty/bavota/',
+2024-04-28 14:19:08   'http://www.christophervendome.com/',
+2024-04-28 14:19:08   'http://www.ing.unisannio.it/mdipenta/',
+2024-04-28 14:19:08   'http://www.cs.wm.edu/~denys/index.html',
+2024-04-28 14:19:08   'https://profesores.virtual.uniandes.edu.co/sarueda/en/inicio-en/',
+2024-04-28 14:19:08   'https://www.inf.usi.ch/phd/mazuerarozo/'
+2024-04-28 14:19:08 ]
+2024-04-28 14:19:08 lista previa 0
+2024-04-28 14:19:08 lista posterior 0
+2024-04-28 14:19:08 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://slinan.github.io/
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in http://caev03.github.io/
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in http://www.inf.usi.ch/faculty/bavota/
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in http://www.christophervendome.com/
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in http://www.ing.unisannio.it/mdipenta/
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in http://www.cs.wm.edu/~denys/index.html
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://profesores.virtual.uniandes.edu.co/sarueda/en/inicio-en/
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 2 in https://www.inf.usi.ch/phd/mazuerarozo/
+2024-04-28 14:19:08 Depth levels reached. Exploration stopped
+2024-04-28 14:19:08 Depth Level: 1 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:08 Exploring
+2024-04-28 14:19:09 Visiting: https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:09 Children pages: 
+2024-04-28 14:19:09 [
+2024-04-28 14:19:09   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:09   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:09   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:09   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:09   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:09   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:09   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:09   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:09   'https://slinan.github.io/',
+2024-04-28 14:19:09   'http://caev03.github.io/',
+2024-04-28 14:19:09   'https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/'
+2024-04-28 14:19:09 ]
+2024-04-28 14:19:09 lista previa 0
+2024-04-28 14:19:09 lista posterior 0
+2024-04-28 14:19:09 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in https://slinan.github.io/
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in http://caev03.github.io/
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 2 in https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/
+2024-04-28 14:19:09 Depth levels reached. Exploration stopped
+2024-04-28 14:19:09 Depth Level: 1 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:09 Exploring
+2024-04-28 14:19:10 Visiting: https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:10 Children pages: 
+2024-04-28 14:19:10 [
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:10   'https://doi.org/10.1109/TSE.2020.2982638',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/publications.html#',
+2024-04-28 14:19:10   'https://doi.org/10.1007/s10664-019-09795-6',
+2024-04-28 14:19:10   'https://doi.org/',
+2024-04-28 14:19:10   'https://doi.org/10.3389/fpubh.2020.00064',
+2024-04-28 14:19:10   'https://caev03.github.io/assets/pdfs/bello2020hallOfApps.pdf',
+2024-04-28 14:19:10   'https://caev03.github.io/assets/pdfs/escobar2020codeless.pdf',
+2024-04-28 14:19:10   'https://doi.org/10.1007/978-3-030-35333-9_55',
+2024-04-28 14:19:10   'https://doi.org/10.1109/TSE.2019.2901468',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ASE.2019.00109',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSME.2019.00073',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSME.2019.00014',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSME.2019.00071',
+2024-04-28 14:19:10   'https://doi.org/10.13140/RG.2.2.21572.68483',
+2024-04-28 14:19:10   'https://doi.org/10.1109/MSR.2019.00055',
+2024-04-28 14:19:10   'https://doi.org/10.1007/s10664-019-09689-7',
+2024-04-28 14:19:10   'https://doi.org/10.1109/TSE.2018.2890652',
+2024-04-28 14:19:10   'https://doi.org/10.1016/j.jss.2017.11.043',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSME.2018.00065',
+2024-04-28 14:19:10   'https://doi.org/10.1145/3241742',
+2024-04-28 14:19:10   'https://doi.org/10.1145/3213846.3229504',
+2024-04-28 14:19:10   'https://doi.org/10.1145/3180155.3180221',
+2024-04-28 14:19:10   'https://doi.org/10.1145/3183440.3183492',
+2024-04-28 14:19:10   'https://doi.org/10.1109/SANER.2018.8330236',
+2024-04-28 14:19:10   'https://doi.org/10.1002/smr.1958',
+2024-04-28 14:19:10   'https://doi.org/10.1145/3196321.3196339',
+2024-04-28 14:19:10   'https://doi.org/10.1145/3196321.3196322',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSME.2017.17',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSME.2017.27',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSME.2017.47',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSE-C.2017.166',
+2024-04-28 14:19:10   'https://doi.org/10.1109/MSR.2017.60',
+2024-04-28 14:19:10   'https://arxiv.org/pdf/1704.03356.pdf',
+2024-04-28 14:19:10   'http://ml-papers.gitlab.io/android.vulnerabilities-2017/appendix/MSR2017/paper.html',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSE-C.2017.16',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSE.2017.19',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ICSE-C.2017.10',
+2024-04-28 14:19:10   'https://doi.org/10.1145/3106237.3106275',
+2024-04-28 14:19:10   'https://doi.org/10.1109/ASE.2017.8115654',
+2024-04-28 14:19:10   'https://doi.org/10.1145/2931037.2931072',
+2024-04-28 14:19:10   'https://doi.org/10.1145/2889160.2889177'
+2024-04-28 14:19:10 ]
+2024-04-28 14:19:10 lista previa 1
+2024-04-28 14:19:10 lista posterior 1
+2024-04-28 14:19:10 Depth Level: 1 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:10 Exploring
+2024-04-28 14:19:10 TypeError: Cannot read properties of undefined (reading 'words')
+2024-04-28 14:19:10     at fillInput (/tests/index.cjs:734:37)
+2024-04-28 14:19:10     at async interactWithObject (/tests/index.cjs:485:9)
+2024-04-28 14:19:10     at async interactWithObjects (/tests/index.cjs:444:5)
+2024-04-28 14:19:10     at async recursiveExploration (/tests/index.cjs:212:7)
+2024-04-28 14:19:10     at async recursiveExploration (/tests/index.cjs:221:11)
+2024-04-28 14:19:10     at async /tests/index.cjs:93:5
+2024-04-28 14:19:10 elementHandle.click: Element is not attached to the DOM
+2024-04-28 14:19:10 Call log:
+2024-04-28 14:19:10   - attempting click action
+2024-04-28 14:19:10   -   waiting for element to be visible, enabled and stable
+2024-04-28 14:19:10 
+2024-04-28 14:19:10     at fillInput (/tests/index.cjs:731:19)
+2024-04-28 14:19:10     at async interactWithObject (/tests/index.cjs:485:9)
+2024-04-28 14:19:10     at async interactWithObjects (/tests/index.cjs:444:5)
+2024-04-28 14:19:10     at async recursiveExploration (/tests/index.cjs:212:7)
+2024-04-28 14:19:10     at async recursiveExploration (/tests/index.cjs:221:11)
+2024-04-28 14:19:10     at /tests/async /tests/index.cjs:93:5 {
+2024-04-28 14:19:10   name: 'Error'
+2024-04-28 14:19:10 }
+2024-04-28 14:19:10 Visiting: https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:10 Children pages: 
+2024-04-28 14:19:10 [
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:10   'https://github.com/TheSoftwareDesignLab/mutode',
+2024-04-28 14:19:10   'https://www.npmjs.com/package/mutode',
+2024-04-28 14:19:10   'https://github.com/TheSoftwareDesignLab/MutAPK',
+2024-04-28 14:19:10   'https://thesoftwaredesignlab.github.io/MutAPK'
+2024-04-28 14:19:10 ]
+2024-04-28 14:19:10 lista previa 0
+2024-04-28 14:19:10 lista posterior 0
+2024-04-28 14:19:11 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://github.com/TheSoftwareDesignLab/mutode
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://www.npmjs.com/package/mutode
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://github.com/TheSoftwareDesignLab/MutAPK
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 2 in https://thesoftwaredesignlab.github.io/MutAPK
+2024-04-28 14:19:11 Depth levels reached. Exploration stopped
+2024-04-28 14:19:11 Depth Level: 1 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:11 Exploring
+2024-04-28 14:19:11 0: Search endpoint requested!
+2024-04-28 14:19:14 Visiting: https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:14 Children pages: 
+2024-04-28 14:19:14 [
+2024-04-28 14:19:14   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:14   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:14   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:14   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:14   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:14   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:14   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:14   'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:14 ]
+2024-04-28 14:19:14 lista previa 0
+2024-04-28 14:19:14 lista posterior 0
+2024-04-28 14:19:14 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:14 Depth levels reached. Exploration stopped
+2024-04-28 14:19:14 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:14 Depth levels reached. Exploration stopped
+2024-04-28 14:19:14 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:14 Depth levels reached. Exploration stopped
+2024-04-28 14:19:14 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:14 Depth levels reached. Exploration stopped
+2024-04-28 14:19:14 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:14 Depth levels reached. Exploration stopped
+2024-04-28 14:19:14 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:14 Depth levels reached. Exploration stopped
+2024-04-28 14:19:14 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:14 Depth levels reached. Exploration stopped
+2024-04-28 14:19:14 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:14 Depth levels reached. Exploration stopped
+2024-04-28 14:19:14 Depth Level: 1 in https://thesoftwaredesignlab.github.io/#carouselExampleIndicators
+2024-04-28 14:19:14 Exploring
+2024-04-28 14:19:14 0: %c[Update] There have been recent updates to Embedded X Timelines and supported parameters.%c
+2024-04-28 14:19:14     •For more information on what has changed visit: https://twittercommunity.com/t/embedded-timelines-update-parameters-support/177112
+2024-04-28 14:19:14     •Please submit feedback or report any bugs: https://twittercommunity.com/c/publisher/websites/
+2024-04-28 14:19:14 1: font-weight:bold;color:#006FD6
+2024-04-28 14:19:14 2: color:#006FD6
+2024-04-28 14:19:15 Visiting: https://thesoftwaredesignlab.github.io/#carouselExampleIndicators
+2024-04-28 14:19:15 Children pages: 
+2024-04-28 14:19:15 [
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:15   'http://uniandes.edu.co/',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/policies/google-lara.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/policies/aossv-esem.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/policies/aacu-tse.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/policies/bluehack.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/policies/rip-icsme.html',
+2024-04-28 14:19:15   'https://thesoftwaredesignlab.github.io/blog.html'
+2024-04-28 14:19:15 ]
+2024-04-28 14:19:15 lista previa 0
+2024-04-28 14:19:15 lista posterior 0
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/#carouselExampleIndicators
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in http://uniandes.edu.co/
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 2 in https://thesoftwaredesignlab.github.io/blog.html
+2024-04-28 14:19:15 Depth levels reached. Exploration stopped
+2024-04-28 14:19:15 Depth Level: 1 in http://uniandes.edu.co/
+2024-04-28 14:19:15 Exploring
+2024-04-28 14:19:18 0: [Meta Pixel] - Duplicate Pixel ID: 942212480966418.
+2024-04-28 14:19:26 Visiting: http://uniandes.edu.co/
+2024-04-28 14:19:26 Children pages: 
+2024-04-28 14:19:26 [
+2024-04-28 14:19:26   'https://uniandes.edu.co/#main-content',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/universidad/informacion-general/rectoria',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/universidad/mision-historia-simbolos',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/universidad/gobierno-y-directivos',
+2024-04-28 14:19:26   'https://uniandes.edu.co/sites/default/files/asset/document/pdi-2021-2025-final-julio21-baja.pdf',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/universidad/identidad-institucional',
+2024-04-28 14:19:26   'https://registro.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/universidad/ranking-acreditacion',
+2024-04-28 14:19:26   'https://uniandes.edu.co/convivencia-transparencia-uniandes',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/convenios-alianzas',
+2024-04-28 14:19:26   'https://planeacion.uniandes.edu.co/estadisticas/universidad-en-cifras',
+2024-04-28 14:19:26   'https://gerenciacampus.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://accesotemporalalcampus.uniandes.edu.co/kioskoweb/account/logon',
+2024-04-28 14:19:26   'https://academia.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://uniandes.edu.co/internacionalizacion/',
+2024-04-28 14:19:26   'https://enyy-dev1.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/es/sites/CX_2002',
+2024-04-28 14:19:26   'https://bit.ly/3gHvZTq',
+2024-04-28 14:19:26   'https://apoyofinanciero.uniandes.edu.co/index.php',
+2024-04-28 14:19:26   'https://matriculas.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://aspirantes.uniandes.edu.co/es/pregrado/acompanamiento-pregrado',
+2024-04-28 14:19:26   'https://decanaturadeestudiantes.uniandes.edu.co/programa-estudios-dirigidos/si-eres-aspirante',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/inscripciones/por-que-estudiar-en-uniandes',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/inscripciones/bienestar-comunidad-vida-universitaria',
+2024-04-28 14:19:26   'https://vivienda.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/programas-facultades/lista-facultades',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/programas-facultades/lista-departamentos',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/oferta-academica/programas',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/programas-facultades/programas/pregrado',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/programas-facultades/programas/especializaciones',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/programas-facultades/programas/maestrias',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/programas-facultades/programas/doctorados',
+2024-04-28 14:19:26   'https://educacioncontinua.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://administracion.uniandes.edu.co/programas/executive-education/',
+2024-04-28 14:19:26   'https://moocs.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://biblioteca.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://investigacioncreacion.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library',
+2024-04-28 14:19:26   'https://revistas.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://repositorio.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://biblioteca.uniandes.edu.co/es/repositorio-de-datos',
+2024-04-28 14:19:26   'https://uniandes.edu.co/donaciones/',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/citas-psicologicas',
+2024-04-28 14:19:26   'https://ombudsperson.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://ombudsperson.uniandes.edu.co/maad/protocolo-maad',
+2024-04-28 14:19:26   'https://maad101.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://uniandes.edu.co/egresado-uniandes',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/universidad/informacion-general/directorio-redes-sociales',
+2024-04-28 14:19:26   'https://uniandes.edu.co/soy/vida-universitaria/cultura-uniandes',
+2024-04-28 14:19:26   'https://decanaturadeestudiantes.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://campusinfo.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/mi-uniandes/campus/infraestructura-laboratorios',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/universidad/recursos/laboratorios',
+2024-04-28 14:19:26   'https://biblioteca.uniandes.edu.co/index.php?lang=es',
+2024-04-28 14:19:26   'https://servicios.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://transparenciauniandes.ethicsglobal.com/',
+2024-04-28 14:19:26   'https://bit.ly/3stQ98V',
+2024-04-28 14:19:26   'https://mibanner.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://www.outlook.com/uniandes.edu.co',
+2024-04-28 14:19:26   'https://bit.ly/3LoPJJy',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/soy/estudiante',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/soy/profesor',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/soy/administrativo',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/soy/visitante',
+2024-04-28 14:19:26   'https://bloqueneon.uniandes.edu.co/',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/comunidad/renata-la-reina-canina-del-campus',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/ciencias-biologicas/tenemos-que-hablar-del-amazonas',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/desarrollo-regional/colombia-un-pais-hambriento-y-obeso',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/gobierno-y-politica/la-necesidad-de-fortalecer-la-cooperacion-en-las-americas',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/ingenieria/un-espacio-para-crear-soluciones-en-salud',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/salud-y-medicina/unamonos-por-la-salud-de-los-colombianos',
+2024-04-28 14:19:26   'https://uniandesheda.my.site.com/Admisiones/s/eventoindividual?id=701RM000008E9bV&utm_source=homepaginaprincipal',
+2024-04-28 14:19:26   'https://bit.ly/estudios-dirigidos',
+2024-04-28 14:19:26   'https://educacioncontinua.uniandes.edu.co/es/programas/cursos-libres-y-de-extension',
+2024-04-28 14:19:26   'https://educacioncontinua.uniandes.edu.co/es/programas/open-year',
+2024-04-28 14:19:26   'https://educacioncontinua.uniandes.edu.co/es/programas/premedico-open-year-uniandes',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/idiomas-y-literatura/filbo-2024-la-feria-de-la-naturaleza',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/ciencias-biologicas/colombia-defiende-su-biodiversidad-en-la-cop16',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/educacion/rectora-de-uniandes-presente-en-la-alianza-u7-por-la-educacion-global',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/premios-y-reconocimientos/ranking-qs-once-areas-academicas-de-los-andes-en-el-top-cien-mundial',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/gobierno-y-politica/felipe-sanchez-posada-recibe-la-distincion-a-la-responsabilidad-social-universitaria-2024-1',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias/desarrollo-regional/los-andes-se-une-a-las-jornadas-de-limpieza-del-centro-de-bogota',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/noticias',
+2024-04-28 14:19:26   'https://bit.ly/coloquio-cigarrillos-electronicos-2024-10',
+2024-04-28 14:19:26   'https://evento.uniandes.edu.co/es/exito-estudiantil-2024-1',
+2024-04-28 14:19:26   'https://evento.uniandes.edu.co/es/japon-perspectiva20241',
+2024-04-28 14:19:26   'https://evento.uniandes.edu.co/es/repensando-la-salud',
+2024-04-28 14:19:26   'https://uniandesheda.my.site.com/Admisiones/s/eventoindividual?id=701RM000008E9bVYAS',
+2024-04-28 14:19:26   'https://uniandes.edu.co/es/eventos-destacados',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/transformaciones-que-perduran-orientaciones-para-garantizar-la-sostenibilidad-de-una-innovacion-educativa',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/investigaciones-sobre-educacion-infantil-transiciones-armonicas-procesos-de-lectoescritura-y-practicas-pedagogicas',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/preservacion-de-la-fertilidad',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/injusticia-sin-fin-la-brecha-pensional-de-genero-e-ideas-para-cerrarla',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/bauhaus-1001-reverberaciones-latinoamericanas',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/hacia-la-normalizacion-del-uso-de-la-fuerza-para-el-creyente-comentario-a-con-la-guia-de-dios-la-guerra-es-licita-para-los-cristianos',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/historia-de-la-basura-en-bogota-escobitas-bacterias-y-botaderos-1950-2003',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/paz-y-opinion-publica-en-colombia',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/como-se-justifica-una-invasion-de-senores-y-caciques-muiscas-a-indios-tiranos',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/el-comportamiento-internacional-de-colombia-en-el-siglo-xix-interlocutores-actores-y-tematicas',
+2024-04-28 14:19:26   'https://ediciones.uniandes.edu.co/library/publication/fusiones-y-adquisiciones-asimetria-informativa-y-gestion-de-la-incertidumbre-1706543463',
+2024-04-28 14:19:26   ... 25 more items
+2024-04-28 14:19:26 ]
+2024-04-28 14:19:28 Depth Level: 1 in https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:28 Exploring
+2024-04-28 14:19:28 Visiting: https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:28 Children pages: 
+2024-04-28 14:19:28 [
+2024-04-28 14:19:28   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:28   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:28   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:28   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:28   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:28   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:28   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:28   'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:28 ]
+2024-04-28 14:19:28 lista previa 0
+2024-04-28 14:19:28 lista posterior 0
+2024-04-28 14:19:28 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:28 Depth levels reached. Exploration stopped
+2024-04-28 14:19:28 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:28 Depth levels reached. Exploration stopped
+2024-04-28 14:19:28 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:28 Depth levels reached. Exploration stopped
+2024-04-28 14:19:28 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:28 Depth levels reached. Exploration stopped
+2024-04-28 14:19:28 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:28 Depth levels reached. Exploration stopped
+2024-04-28 14:19:28 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:28 Depth levels reached. Exploration stopped
+2024-04-28 14:19:28 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:28 Depth levels reached. Exploration stopped
+2024-04-28 14:19:28 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:28 Depth levels reached. Exploration stopped
+2024-04-28 14:19:28 Depth Level: 1 in https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:28 Exploring
+2024-04-28 14:19:29 Visiting: https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:29 Children pages: 
+2024-04-28 14:19:29 [
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:29 ]
+2024-04-28 14:19:29 lista previa 0
+2024-04-28 14:19:29 lista posterior 0
+2024-04-28 14:19:29 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:29 Depth levels reached. Exploration stopped
+2024-04-28 14:19:29 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:29 Depth levels reached. Exploration stopped
+2024-04-28 14:19:29 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:29 Depth levels reached. Exploration stopped
+2024-04-28 14:19:29 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:29 Depth levels reached. Exploration stopped
+2024-04-28 14:19:29 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:29 Depth levels reached. Exploration stopped
+2024-04-28 14:19:29 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:29 Depth levels reached. Exploration stopped
+2024-04-28 14:19:29 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:29 Depth levels reached. Exploration stopped
+2024-04-28 14:19:29 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:29 Depth levels reached. Exploration stopped
+2024-04-28 14:19:29 Depth Level: 1 in https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:29 Exploring
+2024-04-28 14:19:29 Visiting: https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:29 Children pages: 
+2024-04-28 14:19:29 [
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:29   'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:29 ]
+2024-04-28 14:19:30 lista previa 0
+2024-04-28 14:19:30 lista posterior 0
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 1 in https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:30 Exploring
+2024-04-28 14:19:30 Visiting: https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:30 Children pages: 
+2024-04-28 14:19:30 [
+2024-04-28 14:19:30   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:30   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:30   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:30   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:30   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:30   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:30   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:30   'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:30 ]
+2024-04-28 14:19:30 lista previa 0
+2024-04-28 14:19:30 lista posterior 0
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:30 Depth levels reached. Exploration stopped
+2024-04-28 14:19:30 Depth Level: 1 in https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:30 Exploring
+2024-04-28 14:19:31 Visiting: https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:31 Children pages: 
+2024-04-28 14:19:31 [
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:31 ]
+2024-04-28 14:19:31 lista previa 0
+2024-04-28 14:19:31 lista posterior 0
+2024-04-28 14:19:31 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:31 Depth levels reached. Exploration stopped
+2024-04-28 14:19:31 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:31 Depth levels reached. Exploration stopped
+2024-04-28 14:19:31 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:31 Depth levels reached. Exploration stopped
+2024-04-28 14:19:31 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:31 Depth levels reached. Exploration stopped
+2024-04-28 14:19:31 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:31 Depth levels reached. Exploration stopped
+2024-04-28 14:19:31 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:31 Depth levels reached. Exploration stopped
+2024-04-28 14:19:31 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:31 Depth levels reached. Exploration stopped
+2024-04-28 14:19:31 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:31 Depth levels reached. Exploration stopped
+2024-04-28 14:19:31 Depth Level: 1 in https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:31 Exploring
+2024-04-28 14:19:31 Visiting: https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:31 Children pages: 
+2024-04-28 14:19:31 [
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:31   'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:31 ]
+2024-04-28 14:19:31 lista previa 0
+2024-04-28 14:19:31 lista posterior 0
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 1 in https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:32 Exploring
+2024-04-28 14:19:32 Visiting: https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:32 Children pages: 
+2024-04-28 14:19:32 [
+2024-04-28 14:19:32   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:32   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:32   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:32   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:32   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:32   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:32   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:32   'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:32 ]
+2024-04-28 14:19:32 lista previa 0
+2024-04-28 14:19:32 lista posterior 0
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:32 Depth levels reached. Exploration stopped
+2024-04-28 14:19:32 Depth Level: 1 in https://thesoftwaredesignlab.github.io/blog.html
+2024-04-28 14:19:32 Exploring
+2024-04-28 14:19:34 Visiting: https://thesoftwaredesignlab.github.io/blog.html
+2024-04-28 14:19:34 Children pages: 
+2024-04-28 14:19:34 [
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/google-lara.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/aossv-esem.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/aacu-tse.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/bluehack.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/rip-icsme.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/mutode-nodesummit.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/mutode-issta.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/mdroid.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/acm-award.html'
+2024-04-28 14:19:34 ]
+2024-04-28 14:19:34 lista previa 0
+2024-04-28 14:19:34 lista posterior 0
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/mutode-nodesummit.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/mutode-issta.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/mdroid.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Depth Level: 2 in https://thesoftwaredesignlab.github.io/policies/acm-award.html
+2024-04-28 14:19:34 Depth levels reached. Exploration stopped
+2024-04-28 14:19:34 Tree: 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/#carouselExampleIndicators
+2024-04-28 14:19:34 http://uniandes.edu.co/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/blog.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/#carouselExampleIndicators
+2024-04-28 14:19:34 http://uniandes.edu.co/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/blog.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/
+2024-04-28 14:19:34 https://www.inf.usi.ch/phd/mazuerarozo/
+2024-04-28 14:19:34 http://caev03.github.io/
+2024-04-28 14:19:34 http://www.inf.usi.ch/faculty/bavota/
+2024-04-28 14:19:34 https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en/
+2024-04-28 14:19:34 https://profesores.virtual.uniandes.edu.co/sarueda/en/inicio-en/
+2024-04-28 14:19:34 https://www.cs.colostate.edu/~lmorenoc/
+2024-04-28 14:19:34 http://www.cs.wm.edu/~denys/index.html
+2024-04-28 14:19:34 http://www.ing.unisannio.it/mdipenta/
+2024-04-28 14:19:34 http://www.christophervendome.com/
+2024-04-28 14:19:34 https://www.scss.tcd.ie/Ivana.Dusparic/
+2024-04-28 14:19:34 https://slinan.github.io/
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/
+2024-04-28 14:19:34 http://caev03.github.io/
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://slinan.github.io/
+2024-04-28 14:19:34 http://caev03.github.io/
+2024-04-28 14:19:34 https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/
+2024-04-28 14:19:34 http://www.inf.usi.ch/faculty/bavota/
+2024-04-28 14:19:34 http://www.christophervendome.com/
+2024-04-28 14:19:34 http://www.ing.unisannio.it/mdipenta/
+2024-04-28 14:19:34 http://www.cs.wm.edu/~denys/index.html
+2024-04-28 14:19:34 https://profesores.virtual.uniandes.edu.co/sarueda/en/inicio-en/
+2024-04-28 14:19:34 https://www.inf.usi.ch/phd/mazuerarozo/
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://slinan.github.io/
+2024-04-28 14:19:34 http://caev03.github.io/
+2024-04-28 14:19:34 https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en/
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://doi.org/10.1109/TSE.2020.2982638
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html#
+2024-04-28 14:19:34 https://doi.org/10.1007/s10664-019-09795-6
+2024-04-28 14:19:34 https://doi.org/
+2024-04-28 14:19:34 https://doi.org/10.3389/fpubh.2020.00064
+2024-04-28 14:19:34 https://caev03.github.io/assets/pdfs/bello2020hallOfApps.pdf
+2024-04-28 14:19:34 https://caev03.github.io/assets/pdfs/escobar2020codeless.pdf
+2024-04-28 14:19:34 https://doi.org/10.1007/978-3-030-35333-9_55
+2024-04-28 14:19:34 https://doi.org/10.1109/TSE.2019.2901468
+2024-04-28 14:19:34 https://doi.org/10.1109/ASE.2019.00109
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSME.2019.00073
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSME.2019.00014
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSME.2019.00071
+2024-04-28 14:19:34 https://doi.org/10.13140/RG.2.2.21572.68483
+2024-04-28 14:19:34 https://doi.org/10.1109/MSR.2019.00055
+2024-04-28 14:19:34 https://doi.org/10.1007/s10664-019-09689-7
+2024-04-28 14:19:34 https://doi.org/10.1109/TSE.2018.2890652
+2024-04-28 14:19:34 https://doi.org/10.1016/j.jss.2017.11.043
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSME.2018.00065
+2024-04-28 14:19:34 https://doi.org/10.1145/3241742
+2024-04-28 14:19:34 https://doi.org/10.1145/3213846.3229504
+2024-04-28 14:19:34 https://doi.org/10.1145/3180155.3180221
+2024-04-28 14:19:34 https://doi.org/10.1145/3183440.3183492
+2024-04-28 14:19:34 https://doi.org/10.1109/SANER.2018.8330236
+2024-04-28 14:19:34 https://doi.org/10.1002/smr.1958
+2024-04-28 14:19:34 https://doi.org/10.1145/3196321.3196339
+2024-04-28 14:19:34 https://doi.org/10.1145/3196321.3196322
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSME.2017.17
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSME.2017.27
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSME.2017.47
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSE-C.2017.166
+2024-04-28 14:19:34 https://doi.org/10.1109/MSR.2017.60
+2024-04-28 14:19:34 https://arxiv.org/pdf/1704.03356.pdf
+2024-04-28 14:19:34 http://ml-papers.gitlab.io/android.vulnerabilities-2017/appendix/MSR2017/paper.html
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSE-C.2017.16
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSE.2017.19
+2024-04-28 14:19:34 https://doi.org/10.1109/ICSE-C.2017.10
+2024-04-28 14:19:34 https://doi.org/10.1145/3106237.3106275
+2024-04-28 14:19:34 https://doi.org/10.1109/ASE.2017.8115654
+2024-04-28 14:19:34 https://doi.org/10.1145/2931037.2931072
+2024-04-28 14:19:34 https://doi.org/10.1145/2889160.2889177
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://github.com/TheSoftwareDesignLab/mutode
+2024-04-28 14:19:34 https://www.npmjs.com/package/mutode
+2024-04-28 14:19:34 https://github.com/TheSoftwareDesignLab/MutAPK
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/MutAPK
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/#carouselExampleIndicators
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/#carouselExampleIndicators
+2024-04-28 14:19:34 http://uniandes.edu.co/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/blog.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 http://uniandes.edu.co/
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://uniandes.edu.co/#main-content
+2024-04-28 14:19:34 https://uniandes.edu.co/es
+2024-04-28 14:19:34 https://uniandes.edu.co/es/universidad/informacion-general/rectoria
+2024-04-28 14:19:34 https://uniandes.edu.co/es/universidad/mision-historia-simbolos
+2024-04-28 14:19:34 https://uniandes.edu.co/es/universidad/gobierno-y-directivos
+2024-04-28 14:19:34 https://uniandes.edu.co/sites/default/files/asset/document/pdi-2021-2025-final-julio21-baja.pdf
+2024-04-28 14:19:34 https://uniandes.edu.co/es/universidad/identidad-institucional
+2024-04-28 14:19:34 https://registro.uniandes.edu.co/
+2024-04-28 14:19:34 https://uniandes.edu.co/es/universidad/ranking-acreditacion
+2024-04-28 14:19:34 https://uniandes.edu.co/convivencia-transparencia-uniandes
+2024-04-28 14:19:34 https://uniandes.edu.co/es/convenios-alianzas
+2024-04-28 14:19:34 https://planeacion.uniandes.edu.co/estadisticas/universidad-en-cifras
+2024-04-28 14:19:34 https://gerenciacampus.uniandes.edu.co/
+2024-04-28 14:19:34 https://accesotemporalalcampus.uniandes.edu.co/kioskoweb/account/logon
+2024-04-28 14:19:34 https://academia.uniandes.edu.co/
+2024-04-28 14:19:34 https://uniandes.edu.co/internacionalizacion/
+2024-04-28 14:19:34 https://enyy-dev1.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/es/sites/CX_2002
+2024-04-28 14:19:34 https://bit.ly/3gHvZTq
+2024-04-28 14:19:34 https://apoyofinanciero.uniandes.edu.co/index.php
+2024-04-28 14:19:34 https://matriculas.uniandes.edu.co/
+2024-04-28 14:19:34 https://aspirantes.uniandes.edu.co/es/pregrado/acompanamiento-pregrado
+2024-04-28 14:19:34 https://decanaturadeestudiantes.uniandes.edu.co/programa-estudios-dirigidos/si-eres-aspirante
+2024-04-28 14:19:34 https://uniandes.edu.co/es/inscripciones/por-que-estudiar-en-uniandes
+2024-04-28 14:19:34 https://uniandes.edu.co/es/inscripciones/bienestar-comunidad-vida-universitaria
+2024-04-28 14:19:34 https://vivienda.uniandes.edu.co/
+2024-04-28 14:19:34 https://uniandes.edu.co/es/programas-facultades/lista-facultades
+2024-04-28 14:19:34 https://uniandes.edu.co/es/programas-facultades/lista-departamentos
+2024-04-28 14:19:34 https://uniandes.edu.co/es/oferta-academica/programas
+2024-04-28 14:19:34 https://uniandes.edu.co/es/programas-facultades/programas/pregrado
+2024-04-28 14:19:34 https://uniandes.edu.co/es/programas-facultades/programas/especializaciones
+2024-04-28 14:19:34 https://uniandes.edu.co/es/programas-facultades/programas/maestrias
+2024-04-28 14:19:34 https://uniandes.edu.co/es/programas-facultades/programas/doctorados
+2024-04-28 14:19:34 https://educacioncontinua.uniandes.edu.co/
+2024-04-28 14:19:34 https://administracion.uniandes.edu.co/programas/executive-education/
+2024-04-28 14:19:34 https://moocs.uniandes.edu.co/
+2024-04-28 14:19:34 https://biblioteca.uniandes.edu.co/
+2024-04-28 14:19:34 https://investigacioncreacion.uniandes.edu.co/
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library
+2024-04-28 14:19:34 https://revistas.uniandes.edu.co/
+2024-04-28 14:19:34 https://repositorio.uniandes.edu.co/
+2024-04-28 14:19:34 https://biblioteca.uniandes.edu.co/es/repositorio-de-datos
+2024-04-28 14:19:34 https://uniandes.edu.co/donaciones/
+2024-04-28 14:19:34 https://uniandes.edu.co/es/citas-psicologicas
+2024-04-28 14:19:34 https://ombudsperson.uniandes.edu.co/
+2024-04-28 14:19:34 https://ombudsperson.uniandes.edu.co/maad/protocolo-maad
+2024-04-28 14:19:34 https://maad101.uniandes.edu.co/
+2024-04-28 14:19:34 https://uniandes.edu.co/egresado-uniandes
+2024-04-28 14:19:34 https://uniandes.edu.co/es/universidad/informacion-general/directorio-redes-sociales
+2024-04-28 14:19:34 https://uniandes.edu.co/soy/vida-universitaria/cultura-uniandes
+2024-04-28 14:19:34 https://decanaturadeestudiantes.uniandes.edu.co/
+2024-04-28 14:19:34 https://campusinfo.uniandes.edu.co/
+2024-04-28 14:19:34 https://uniandes.edu.co/es/mi-uniandes/campus/infraestructura-laboratorios
+2024-04-28 14:19:34 https://uniandes.edu.co/es/universidad/recursos/laboratorios
+2024-04-28 14:19:34 https://biblioteca.uniandes.edu.co/index.php?lang=es
+2024-04-28 14:19:34 https://servicios.uniandes.edu.co/
+2024-04-28 14:19:34 https://transparenciauniandes.ethicsglobal.com/
+2024-04-28 14:19:34 https://bit.ly/3stQ98V
+2024-04-28 14:19:34 https://mibanner.uniandes.edu.co/
+2024-04-28 14:19:34 https://www.outlook.com/uniandes.edu.co
+2024-04-28 14:19:34 https://bit.ly/3LoPJJy
+2024-04-28 14:19:34 https://uniandes.edu.co/es/soy/estudiante
+2024-04-28 14:19:34 https://uniandes.edu.co/es/soy/profesor
+2024-04-28 14:19:34 https://uniandes.edu.co/es/soy/administrativo
+2024-04-28 14:19:34 https://uniandes.edu.co/es/soy/visitante
+2024-04-28 14:19:34 https://bloqueneon.uniandes.edu.co/
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/comunidad/renata-la-reina-canina-del-campus
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/ciencias-biologicas/tenemos-que-hablar-del-amazonas
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/desarrollo-regional/colombia-un-pais-hambriento-y-obeso
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/gobierno-y-politica/la-necesidad-de-fortalecer-la-cooperacion-en-las-americas
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/ingenieria/un-espacio-para-crear-soluciones-en-salud
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/salud-y-medicina/unamonos-por-la-salud-de-los-colombianos
+2024-04-28 14:19:34 https://uniandesheda.my.site.com/Admisiones/s/eventoindividual?id=701RM000008E9bV&utm_source=homepaginaprincipal
+2024-04-28 14:19:34 https://bit.ly/estudios-dirigidos
+2024-04-28 14:19:34 https://educacioncontinua.uniandes.edu.co/es/programas/cursos-libres-y-de-extension
+2024-04-28 14:19:34 https://educacioncontinua.uniandes.edu.co/es/programas/open-year
+2024-04-28 14:19:34 https://educacioncontinua.uniandes.edu.co/es/programas/premedico-open-year-uniandes
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/idiomas-y-literatura/filbo-2024-la-feria-de-la-naturaleza
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/ciencias-biologicas/colombia-defiende-su-biodiversidad-en-la-cop16
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/educacion/rectora-de-uniandes-presente-en-la-alianza-u7-por-la-educacion-global
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/premios-y-reconocimientos/ranking-qs-once-areas-academicas-de-los-andes-en-el-top-cien-mundial
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/gobierno-y-politica/felipe-sanchez-posada-recibe-la-distincion-a-la-responsabilidad-social-universitaria-2024-1
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias/desarrollo-regional/los-andes-se-une-a-las-jornadas-de-limpieza-del-centro-de-bogota
+2024-04-28 14:19:34 https://uniandes.edu.co/es/noticias
+2024-04-28 14:19:34 https://bit.ly/coloquio-cigarrillos-electronicos-2024-10
+2024-04-28 14:19:34 https://evento.uniandes.edu.co/es/exito-estudiantil-2024-1
+2024-04-28 14:19:34 https://evento.uniandes.edu.co/es/japon-perspectiva20241
+2024-04-28 14:19:34 https://evento.uniandes.edu.co/es/repensando-la-salud
+2024-04-28 14:19:34 https://uniandesheda.my.site.com/Admisiones/s/eventoindividual?id=701RM000008E9bVYAS
+2024-04-28 14:19:34 https://uniandes.edu.co/es/eventos-destacados
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/transformaciones-que-perduran-orientaciones-para-garantizar-la-sostenibilidad-de-una-innovacion-educativa
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/investigaciones-sobre-educacion-infantil-transiciones-armonicas-procesos-de-lectoescritura-y-practicas-pedagogicas
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/preservacion-de-la-fertilidad
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/injusticia-sin-fin-la-brecha-pensional-de-genero-e-ideas-para-cerrarla
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/bauhaus-1001-reverberaciones-latinoamericanas
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/hacia-la-normalizacion-del-uso-de-la-fuerza-para-el-creyente-comentario-a-con-la-guia-de-dios-la-guerra-es-licita-para-los-cristianos
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/historia-de-la-basura-en-bogota-escobitas-bacterias-y-botaderos-1950-2003
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/paz-y-opinion-publica-en-colombia
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/como-se-justifica-una-invasion-de-senores-y-caciques-muiscas-a-indios-tiranos
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/el-comportamiento-internacional-de-colombia-en-el-siglo-xix-interlocutores-actores-y-tematicas
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/fusiones-y-adquisiciones-asimetria-informativa-y-gestion-de-la-incertidumbre-1706543463
+2024-04-28 14:19:34 https://ediciones.uniandes.edu.co/library/publication/permitido-discriminar-el-vacio-regulatorio-del-periodo-previo-al-contrato-de-trabajo-en-colombia
+2024-04-28 14:19:34 https://uniandes.edu.co/es/publicaciones
+2024-04-28 14:19:34 https://uniandes.edu.co/donaciones
+2024-04-28 14:19:34 https://eventos.uniandes.edu.co/
+2024-04-28 14:19:34 https://secretariageneral.uniandes.edu.co/images/documents/Acuerdo20.pdf
+2024-04-28 14:19:34 https://uniandes.edu.co/bienestar/
+2024-04-28 14:19:34 https://uniandes.edu.co/estatuto-docente/
+2024-04-28 14:19:34 https://secretariageneral.uniandes.edu.co/images/documents/Estatutos-Universidad-de-los-Andes-2020-ratificados-MEN.pdf
+2024-04-28 14:19:34 https://uniandes.edu.co/es/transparencia-y-acceso-informaci%C3%B3n-p%C3%BAblica
+2024-04-28 14:19:34 https://secretariageneral.uniandes.edu.co/index.php/es/component/content/article/11-asuntos-estudiantiles/24-reglamentos-estudiantiles
+2024-04-28 14:19:34 https://uniandes.edu.co/uso-de-datos-personales-uniandes
+2024-04-28 14:19:34 https://ghdo.uniandes.edu.co/index.php/es/en-emergencias
+2024-04-28 14:19:34 https://uniandes.edu.co/sitemap/
+2024-04-28 14:19:34 https://uniandes.edu.co/noticias/
+2024-04-28 14:19:34 https://enyy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/es/sites/CX
+2024-04-28 14:19:34 https://uniandes.edu.co/preguntas-frecuentes/
+2024-04-28 14:19:34 https://uniandes.edu.co/sites/default/files/asset/document/international-visitors-handbook-2023.pdf
+2024-04-28 14:19:34 https://uniandes.edu.co/sites/default/files/asset/document/handbook-international-students-2022.pdf
+2024-04-28 14:19:34 https://www.facebook.com/pages/Universidad-de-los-Andes/312867483159
+2024-04-28 14:19:34 https://twitter.com/Uniandes
+2024-04-28 14:19:34 https://www.youtube.com/user/uniandes
+2024-04-28 14:19:34 https://www.linkedin.com/company/universidad-de-los-andes
+2024-04-28 14:19:34 http://instagram.com/uniandes
+2024-04-28 14:19:34 https://www.tiktok.com/@universidaddelosandes
+2024-04-28 14:19:34 https://uniandes.edu.co/universidad/informacion-general/redes-sociales/
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/blog.html
+2024-04-28 14:19:34  Children: 
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/people.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/teaching.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/research.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/development.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/publications.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/code.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/contact.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/google-lara.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aossv-esem.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/aacu-tse.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/bluehack.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/rip-icsme.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/mutode-nodesummit.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/mutode-issta.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/mdroid.html
+2024-04-28 14:19:34 https://thesoftwaredesignlab.github.io/policies/acm-award.html
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 Possible Nodes: 
+2024-04-28 14:19:34 [
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:34   'http://uniandes.edu.co/',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/google-lara.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/aossv-esem.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/aacu-tse.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/bluehack.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/policies/rip-icsme.html',
+2024-04-28 14:19:34   'https://thesoftwaredesignlab.github.io/blog.html'
+2024-04-28 14:19:34 ]
+2024-04-28 14:19:34 
+2024-04-28 14:19:34 Possible Links: 
+2024-04-28 14:19:34 [
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'http://uniandes.edu.co/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/google-lara.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/aossv-esem.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/aacu-tse.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/bluehack.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/rip-icsme.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/blog.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'http://uniandes.edu.co/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/google-lara.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/aossv-esem.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/acm-award-scalabrino.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/aacu-tse.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/mooec-tosem.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/bluehack.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/policies/rip-icsme.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/blog.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/people.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/teaching.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/research.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/development.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/publications.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/code.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/contact.html',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/people.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/teaching.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/research.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/development.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/publications.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/code.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   {
+2024-04-28 14:19:34     source: 'https://thesoftwaredesignlab.github.io/#carouselExampleIndicators',
+2024-04-28 14:19:34     target: 'https://thesoftwaredesignlab.github.io/contact.html'
+2024-04-28 14:19:34   },
+2024-04-28 14:19:34   ... 81 more items
+2024-04-28 14:19:34 ]
+2024-04-28 14:19:34 success!
+2024-04-28 14:19:34 ------------------------------------------------------------------------------------
+2024-04-28 14:19:34 Execution finished. Check the report under the results folder

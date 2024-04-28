@@ -1,7 +1,7 @@
 {
-  "name": "cypress",
-  "version": "1.0.0",
-  "description": "Pruebas automatizadas apoyadas con cypress.",
+  "name": "e2e-cypress",
+  "version": "0.1.0",
+  "description": "Pruebas e2e automatizadas apoyadas con cypress.",
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open --e2e --browser chrome",
@@ -14,6 +14,12 @@
     "e2e"
   ],
   "author": "Juan Manuel González Garzón",
+  "contributors": [
+    "Angel Manuel Camacho Gabaldon",
+    "Mauricio Castro Riberos",
+    "Raymundo Martin Flores Arango",
+    "@TheSoftwareDesignLab"
+  ],
   "license": "ISC",
   "dependencies": {
     "mochawesome": "^7.1.3"

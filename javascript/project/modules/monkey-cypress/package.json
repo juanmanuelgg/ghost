@@ -1,0 +1,36 @@
+{
+  "name": "monkey",
+  "version": "1.0.0",
+  "description": "Random and smart monkey testing tool for web apps",
+  "main": "index.js",
+  "scripts": {
+    "monkey": "./node_modules/.bin/cypress run --config-file ./monkey-config.json",
+    "smart-monkey": "./node_modules/.bin/cypress run --config-file ./smart-monkey-config.json",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSoftwareDesignLab/monkey-cypress"
+  },
+  "author": "jespitiaa",
+  "contributors": [
+    "Angel Manuel Camacho Gabaldon",
+    "Mauricio Castro Riberos",
+    "Raymundo Martin Flores Arango",
+    "Juan Manuel González Garzón"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSoftwareDesignLab/monkey-cypress/issues"
+  },
+  "homepage": "https://github.com/TheSoftwareDesignLab/monkey-cypress#readme",
+  "devDependencies": {
+    "cypress-log-to-output": "^1.0.8",
+    "cypress-plugin-tab": "^1.0.5",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^4.1.0",
+    "cypress": "^13.8.1"
+  }
+}

@@ -1,0 +1,12 @@
+#Construido sobre: https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/ (Capitulo: Setting up a reverse proxy server)
+
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+    server_name _;
+    root /usr/share/nginx/html;
+    index index.html;
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}

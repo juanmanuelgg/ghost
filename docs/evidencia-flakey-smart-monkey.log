@@ -1,0 +1,112 @@
+2024-04-28 16:04:05 
+2024-04-28 16:04:05 DevTools listening on ws://127.0.0.1:34687/devtools/browser/ce12363f-72f5-45cd-8468-cf8118a2bfc4
+2024-04-28 16:04:06 
+2024-04-28 16:04:06 ====================================================================================================
+2024-04-28 16:04:06 
+2024-04-28 16:04:06   (Run Starting)
+2024-04-28 16:04:06 
+2024-04-28 16:04:06   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-28 16:04:06   │ Cypress:        13.8.1                                                                         │
+2024-04-28 16:04:06   │ Browser:        Chrome 124 (headless)                                                          │
+2024-04-28 16:04:06   │ Node Version:   v22.0.0 (/usr/local/bin/node)                                                  │
+2024-04-28 16:04:06   │ Specs:          1 found (smart-monkey.cy.js)                                                   │
+2024-04-28 16:04:06   │ Searched:       cypress/e2e/monkey/smart-monkey.cy.js                                          │
+2024-04-28 16:04:06   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-28 16:04:06 
+2024-04-28 16:04:06 
+2024-04-28 16:04:06 ────────────────────────────────────────────────────────────────────────────────────────────────────
+2024-04-28 16:04:06                                                                                                     
+2024-04-28 16:04:06   Running:  smart-monkey.cy.js                                                              (1 of 1)
+2024-04-28 16:04:06 [cypress-log-to-output] Attempting to connect to Chrome Debugging Protocol
+2024-04-28 16:04:12 
+2024-04-28 16:04:12 
+2024-04-28 16:04:12   App prueba under smarter monkeys
+2024-04-28 16:04:12 Log started
+2024-04-28 16:04:12 Seed: 1234
+2024-04-28 16:04:16 Logged #Key press
+2024-04-28 16:04:16 Logged #Chaos: Clear cookies
+2024-04-28 16:04:17 Logged #Random double click
+2024-04-28 16:04:17 Logged #Key press
+2024-04-28 16:04:17 Logged #Random double click
+2024-04-28 16:04:18 Logged #Key press
+2024-04-28 16:04:18 Logged #Page navigation (back)
+2024-04-28 16:04:18 Logged #Special key press
+2024-04-28 16:04:19 Logged #Viewport change
+2024-04-28 16:04:19 Logged #Viewport change
+2024-04-28 16:04:19 Logged #Action: click anchor
+2024-04-28 16:04:20 Logged #Special key press
+2024-04-28 16:04:20 Logged #Scroll event (horizontal bk)
+2024-04-28 16:04:20 Logged #Selector focus (hover)
+2024-04-28 16:04:21 Logged #Viewport change
+2024-04-28 16:04:21 Logged #Page navigation (back)
+2024-04-28 16:04:21 Logged #Scroll event (pg down)
+2024-04-28 16:04:22 Logged #Scroll event (horizontal fw)
+2024-04-28 16:04:22 Logged #Random double click
+2024-04-28 16:04:22 Logged #Chaos: Clear cookies
+2024-04-28 16:04:23 Logged #Page navigation (back)
+2024-04-28 16:04:23 Logged #Chaos: Clear cookies
+2024-04-28 16:04:23 Logged #Selector focus (hover)
+2024-04-28 16:04:24 Logged #Selector focus (hover)
+2024-04-28 16:04:24 Logged #Random double click
+2024-04-28 16:04:24 Logged #Scroll event (horizontal bk)
+2024-04-28 16:04:25 Logged #Action: click anchor
+2024-04-28 16:04:25 Logged #Random double click
+2024-04-28 16:04:25 Logged #Special key press
+2024-04-28 16:04:26 Logged #Random double click
+2024-04-28 16:04:26 Logged #Action: click anchor
+2024-04-28 16:04:27 Logged #Selector focus (hover)
+2024-04-28 16:04:27 Logged #Scroll event (horizontal bk)
+2024-04-28 16:04:27 Logged #Scroll event (horizontal fw)
+2024-04-28 16:04:28     1) visits App prueba and survives smarter monkeys
+2024-04-28 16:04:28 Finished logging
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 
+2024-04-28 16:04:28   0 passing (16s)
+2024-04-28 16:04:28   1 failing
+2024-04-28 16:04:28 
+2024-04-28 16:04:28   1) App prueba under smarter monkeys
+2024-04-28 16:04:28        visits App prueba and survives smarter monkeys:
+2024-04-28 16:04:28      CypressError: `cy.type()` can only accept a string or number. You passed in: ``
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 https://on.cypress.io/type
+2024-04-28 16:04:28       at Context.type (https://losestudiantes.com/__cypress/runner/cypress_runner.js:114423:68)
+2024-04-28 16:04:28       at wrapped (https://losestudiantes.com/__cypress/runner/cypress_runner.js:138411:19)
+2024-04-28 16:04:28   From Your Spec Code:
+2024-04-28 16:04:28       at Context.eval (webpack://monkey/./cypress/e2e/monkey/smart-monkey.cy.js:602:23)
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 
+2024-04-28 16:04:28   (Results)
+2024-04-28 16:04:28 
+2024-04-28 16:04:28   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-28 16:04:28   │ Tests:        1                                                                                │
+2024-04-28 16:04:28   │ Passing:      0                                                                                │
+2024-04-28 16:04:28   │ Failing:      1                                                                                │
+2024-04-28 16:04:28   │ Pending:      0                                                                                │
+2024-04-28 16:04:28   │ Skipped:      0                                                                                │
+2024-04-28 16:04:28   │ Screenshots:  1                                                                                │
+2024-04-28 16:04:28   │ Video:        false                                                                            │
+2024-04-28 16:04:28   │ Duration:     16 seconds                                                                       │
+2024-04-28 16:04:28   │ Spec Ran:     smart-monkey.cy.js                                                               │
+2024-04-28 16:04:28   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 
+2024-04-28 16:04:28   (Screenshots)
+2024-04-28 16:04:28 
+2024-04-28 16:04:28   -  /tests/cypress/screenshots/smart-monkey.cy.js/App prueba under smarter monkeys -     (1280x633)
+2024-04-28 16:04:28      - visits App prueba and survives smarter monkeys (failed).png                                  
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 ====================================================================================================
+2024-04-28 16:04:28 
+2024-04-28 16:04:28   (Run Finished)
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 
+2024-04-28 16:04:28        Spec                                              Tests  Passing  Failing  Pending  Skipped  
+2024-04-28 16:04:28   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+2024-04-28 16:04:28   │ ✖  smart-monkey.cy.js                       00:16        1        -        1        -        - │
+2024-04-28 16:04:28   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+2024-04-28 16:04:28     ✖  1 of 1 failed (100%)                     00:16        1        -        1        -        -  
+2024-04-28 16:04:28 
+2024-04-28 16:04:28 

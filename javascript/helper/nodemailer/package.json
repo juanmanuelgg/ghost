@@ -4,7 +4,8 @@
   "description": "Ejemplo de uso de nodemailer para practicar la correcta configuración de un correo electronico en ghost.",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "format": "prettier --write ."
   },
   "keywords": [
     "nodemailer"
@@ -14,5 +15,8 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }

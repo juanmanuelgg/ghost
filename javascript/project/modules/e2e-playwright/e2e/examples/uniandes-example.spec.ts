@@ -1,5 +1,5 @@
 //Importar Playwright
-import { expect, test } from "@playwright/test";
+import { test } from "@playwright/test";
 
 //Función flecha asíncrona
 test("homepage has title and links to intro page", async ({ page }) => {
@@ -69,5 +69,4 @@ test("homepage has title and links to intro page", async ({ page }) => {
   console.log(
     `Logged in. Your user was ${feedback3 ? "successfully" : "not"} created`,
   );
-  //...
 });

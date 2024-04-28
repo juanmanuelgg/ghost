@@ -1,0 +1,95 @@
+#cloud-config
+# Construido sobre: https://cloudinit.readthedocs.io/en/latest/reference/base_config_reference.html#example
+# Construido sobre: https://developer.hashicorp.com/terraform/tutorials/provision/cloud-init
+# Construido sobre: https://www.digitalocean.com/community/tutorials/an-introduction-to-cloud-config-scripting
+
+# Validado con: cloud-init schema --config-file cloud-init.yml --annotate
+
+groups:
+  - docker
+
+disable_root: true
+
+users:
+  - default
+  - name: ubuntu
+    doas:
+      - permit nopass ubuntu
+    gecos: Ubuntu
+    groups: [adm, cdrom, dip, lxd, sudo]
+    lock_passwd: true # Deny user to log in with a password.
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAC7gHmnuL9wZC5ppTx0T0nkb1arlx+l1ff7MiV+2X2jJ0CidgDPk36FF/rYlDAoXC864hk4cN/fjz8S7AJ8m5RT1ACBGkEPGzhvH+9gTYsZQdBWxLtQ4IxDm5LxhjD9wNGlwCRRvnAfRovcqHS6gD8d0IZMyZJUHjOjaptJ+yv8TjPuGQ== Llave administrador
+  - name: tests
+    gecos: Ghost
+    groups: docker
+    lock_passwd: true # Deny user to log in with a password.
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBADLtmppm3HoMqvM1paxvY1uJaDXeaLD1UWcZuhpaKENSxunuBS6RZnv1GrckwEC1GojxziDtrfLksF6jDC9kPdGCgFq5SrZtMzoFudwYtUgrE0VqCq2ozFOBXvXB8ryi9gLbVGKVH0iSSvhSmLxUAGEw9nTIpbxd+/sYLq3yc4JPdgYTQ== Llave tests
+
+timezone: America/Bogota
+
+keyboard:
+  layout: latam
+
+write_files:
+  - path: /etc/nginx/sites-available/default
+    content: |
+      server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+        server_name _;
+        root /var/www/html;
+        index index.html;
+        location / {
+          try_files $uri $uri/ =404;
+        }
+      }
+    owner: "root:root"
+    permissions: "0640"
+    defer: false
+
+# Unofficial distributions of Docker packages in APT;
+# No es perfecto, pero es una forma de instalar Docker en Ubuntu.
+packages:
+  - ufw
+  - nginx
+  - docker
+  - docker.io
+  - docker-compose-v2
+
+runcmd:
+  # 1. Levantar el servicio de Docker y ejecutar la coleccion de pruebas smart-monkey-cypress
+  - [systemctl, start, docker]
+  - [sytemctl, enable, docker]
+  - [
+      wget,
+      "https://raw.githubusercontent.com/juanmanuelgg/Ghost/main/javascript/project/docker-compose-prod.yml",
+      -O,
+      /home/tests/docker-compose.yml,
+    ]
+  - [chown, tests:docker, /home/tests/docker-compose.yml]
+  - [sleep, 90]
+  - [
+      su,
+      tests,
+      -c,
+      "cd /home/tests/ && docker compose up --build smart-monkey-cypress",
+    ]
+  - [cp, -r, /home/tests/reports/smart-monkey, /var/www/html]
+  - [mv, /var/www/html/monkey-execution.html, /var/www/html/index.html]
+  # 2. Configurar el servidor web
+  - [systemctl, enable, nginx]
+  - [systemctl, restart, nginx]
+  # 3. Configurar el firewall de maquina
+  - ufw reset
+  - ufw default deny incoming
+  - ufw default allow outgoing
+  - ufw allow in on lo
+  - ufw allow from 127.0.0.1/8
+  - ufw allow 'Nginx Full'
+  - ufw allow 'OpenSSH'
+  - ufw enable

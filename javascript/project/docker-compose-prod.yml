@@ -7,10 +7,20 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: "1"
           memory: 1G
     ipc: host
-    entrypoint: ["npx", "playwright", "test", "e2e/ghost", "--project", "firefox", "--timeout", "60000"]
+    entrypoint:
+      [
+        "npx",
+        "playwright",
+        "test",
+        "e2e/ghost",
+        "--project",
+        "firefox",
+        "--timeout",
+        "60000",
+      ]
     volumes:
       - ./images/playwright:/tests/screenshots
       - ./reports/playwright:/tests/playwright-report

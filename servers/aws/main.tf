@@ -1,131 +1,94 @@
-# Construido sobre: https://github.com/hashicorp/learn-terraform-provisioning/blob/cloudinit/instances/main.tf
+module "network" {
+  source = "./modules/network"
+  # - (1) aws_vpc
+  # - (1) aws_internet_gateway
+  # - (1) aws_subnet
+  # - (1) aws_route_table
+  # - (1) aws_route_table_association
+  # - (1) aws_security_group
+  cidr_vpc    = var.cidr_vpc
+  cidr_subnet = var.cidr_subnet
+}
 
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.0"
+# Mapa que nos guia al archivo de configuracion de cada prueba de nuestro plan de puebas, segun su 🧨T.N.T.🧨 (no se define aqui sino en los docs).
+locals {
+  map_tnt_configs = {
+    "☕" = { # Automatica - Unit testing soportadas con mocha.
+      "default" = "../cloud-init-unit-testing.yml"
+    },
+    "🐒" = { # Automatizada - soportadas con Explorador aleatorio soportadas con Cypress.
+      "default" = "../cloud-init-monkey.yml"
+    },
+    "🦧" = { # Automatizada - soportadas con Explorador aleatorio soportadas con Cypress.
+      "default" = "../cloud-init-smart-monkey.yml"
+    },
+    "🎩" = { # Automatizada - soportadas con Explorador sistematico soportadas con Puppeteer,
+      "default" = "../cloud-init-ripper.yml"
+    },
+    "⚪" = {                                                # Automatizada - End-to-End Testing soportadas con Cypress.
+      "🐼"       = "../cloud-init-cypress-random-data.yml", # Entrada de datos aleatorios, con Faker.js.
+      "📐"       = "../cloud-init-cypress-fix-data.yml",    # Entrada de datos fijos.
+      "default" = "../cloud-init-cypress-fix-data.yml"
+    },
+    "🎭" = {                                                   # Automatizada - End-to-End Testing soportadas con Playwright.
+      "🐼"       = "../cloud-init-playwright-random-data.yml", # Entrada de datos aleatorios, con Faker.js.
+      "📐"       = "../cloud-init-playwright-fix-data.yml",    # Entrada de datos fijos.
+      "default" = "../cloud-init-playwright-fix-data.yml"
+    },
+    "🏗️" = {                                                  # Automatizada - End-to-End Testing soportadas con Puppeteer.
+      "🐼"       = "../cloud-init-puppeteer-random-data.yml", # Entrada de datos aleatorios, con Faker.js.
+      "📐"       = "../cloud-init-puppeteer-fix-data.yml",    # Entrada de datos fijos.
+      "default" = "../cloud-init-puppeteer-fix-data.yml"
+    },
+    "🦑" = {                                               # Automatizada - End-to-End Testing soportadas con Kraken.
+      "🐼"       = "../cloud-init-kraken-random-data.yml", # Entrada de datos aleatorios, con Faker.js.
+      "📐"       = "../cloud-init-kraken-fix-data.yml",    # Entrada de datos fijos.
+      "default" = "../cloud-init-kraken-fix-data.yml"
+    },
+    "🪃" = {                                         # Automatica - Visual Regression Testing
+      "🟣"       = "../cloud-init-vrt-resemble.yml"  # Usando Resemble.js.
+      "🦝"       = "../cloud-init-vrt-backstop.yml", # Usando BackstopJS.
+      "default" = "../cloud-init-vrt-backstop.yml"
+    },
+    "⚖️" = {                                        # Automatica - Load Testing
+      "⏱️"       = "../cloud-init-load-jmeter.yml"  # Usando Apache JMeter™.
+      "🦗"       = "../cloud-init-load-locust.yml", # Usando Locust.
+      "default" = "../cloud-init-load-locust.yml"
+    },
+    "🛡️" = { # Automatica - Static Application Security Testing soportadas con ¿?¿?¿?
+      "default" = "../cloud-init-sast.yml"
     }
   }
 }
 
-# Configure the AWS Provider
-provider "aws" {
-  region     = var.region
-  access_key = var.access_key
-  secret_key = var.secret_key
-}
+# Entrega Semana 4 (1era implementación. Exploración).
+# Presupuesto 1: 200 Horas AWS EC2 ["🐒-1", "🦧-1", "🦧-2", "🎩-1"]
+# Presupuesto 2: 400 Horas AWS EC2 ["🐒-1", "🐒-2", "🦧-1", "🦧-2" "🦧-3", "🦧-4", "🎩-1", "🎩-2"] 
 
-data "aws_ami" "ubuntu" {
-  most_recent = true
+# Entrega Semana 5 (2da implementación. E2E).
+# [... , "🎭-1", "🦑-1"]
 
-  filter {
-    name   = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-*22*-amd64-server-*"]
-  }
+# Entrega Semana 6 (2da implementación. VRT).
+# [... , "🎭-2", "🦑-2", "🪃-1"] 
 
-  filter {
-    name   = "virtualization-type"
-    values = ["hvm"]
-  }
+# Entrega Semana 7 (3era implementación. Generación de datos).
+# [... , "🎭🐼-1", "🦑🐼-1"]
 
-  owners = ["099720109477"] # Canonical
-}
-
-resource "aws_vpc" "vpc" {
-  cidr_block           = var.cidr_vpc
-  enable_dns_support   = true
-  enable_dns_hostnames = true
-}
-
-resource "aws_internet_gateway" "igw" {
-  vpc_id = aws_vpc.vpc.id
-}
-
-resource "aws_subnet" "subnet_public" {
-  vpc_id     = aws_vpc.vpc.id
-  cidr_block = var.cidr_subnet
-}
-
-resource "aws_route_table" "rtb_public" {
-  vpc_id = aws_vpc.vpc.id
-
-  route {
-    cidr_block = "0.0.0.0/0"
-    gateway_id = aws_internet_gateway.igw.id
-  }
-}
-
-resource "aws_route_table_association" "rta_subnet_public" {
-  subnet_id      = aws_subnet.subnet_public.id
-  route_table_id = aws_route_table.rtb_public.id
-}
-
-resource "aws_security_group" "sg_22_80" {
-  name   = "sg_22"
-  vpc_id = aws_vpc.vpc.id
-
-  # SSH access from the VPC
-  ingress {
-    from_port   = 22
-    to_port     = 22
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
-  ingress {
-    from_port   = 80
-    to_port     = 80
-    protocol    = "tcp"
-    cidr_blocks = [aws_vpc.vpc.cidr_block]
-  }
-
-  egress {
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-}
-
-data "template_file" "user_data_abp_ghost" {
-  template = file(var.cloud_init_abp_ghost)
-}
-
-resource "aws_instance" "abp_ghost" {
-  ami                         = data.aws_ami.ubuntu.id
-  instance_type               = "t2.micro"
-  subnet_id                   = aws_subnet.subnet_public.id
-  vpc_security_group_ids      = [aws_security_group.sg_22_80.id]
-  associate_public_ip_address = true
-  user_data                   = data.template_file.user_data_abp_ghost.rendered
-
-  tags = {
-    env = "lab"
-  }
-}
-
-output "public_ip" {
-  value = aws_instance.abp_ghost.public_ip
-}
-
-data "template_file" "user_data_testing_suite" {
-  template = file(var.cloud_init_testing_suite)
-}
-
-resource "aws_instance" "testing_suite" {
-  ami                         = data.aws_ami.ubuntu.id
-  instance_type               = "t2.micro"
-  subnet_id                   = aws_subnet.subnet_public.id
-  vpc_security_group_ids      = [aws_security_group.sg_22_80.id]
-  associate_public_ip_address = true
-  user_data                   = data.template_file.user_data_testing_suite.rendered
-
-  tags = {
-    env = "lab"
-  }
-}
-
-output "public_ip" {
-  value = aws_instance.testing_suite.public_ip
+# No se ven en el curso pero se hablaron en el presupuesto =>  [... "☕-1", "⚖️-1", "🛡️-1"]
+module "pair_vms_for_testing" {
+  for_each = toset(["🐒-1", "🦧-1", "🎩-1"])
+  source   = "./modules/pair-vms-for-testing"
+  # - (1) aws_ami (ubuntu server 22.04 amd64 image)
+  # - (2) template_file
+  # - (2) aws_instance
+  region               = var.region
+  name                 = each.key
+  subnet_public_id     = module.network.subnet_public_id
+  security_group_id    = module.network.security_group_id
+  cloud_init_abp_ghost = var.cloud_init_abp_ghost
+  cloud_init_desired_test = local.map_tnt_configs["${
+    substr(each.key, 0, 1)
+    }"]["${
+    substr(each.key, 1, 2) != "-" ? substr(each.key, 1, 2) : "default"
+  }"]
 }

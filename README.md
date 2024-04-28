@@ -135,3 +135,5 @@ htpasswd -c /etc/nginx/.htpasswd monitores
 # Nota: bW9uaXRvcmVzOnBhc3N3b3JkcXVlbHVlZ29zZWNhbWJpYQ== es la codificación Base64 de monitores:passwordqueluegosecambia
 node -e "console.log(btoa(process.argv[1]))" -- "monitores:passwordqueluegosecambia"
 ```
+
+https://github.com/hashicorp/learn-terraform-provisioning/blob/cloudinit/instances/main.tf

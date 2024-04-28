@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.eol": "\n",
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  }
+}
