@@ -21,9 +21,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.REGISTRY_GHCR_TOKEN }}
-      - name: downcase GITHUB_REPOSITORY
-        run: |
-          echo "GITHUB_REPOSITORY_LOWERCASE=${GITHUB_REPOSITORY,,}" >> ${GITHUB_ENV}
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
@@ -32,8 +29,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/monkey-cypress:latest
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/monkey-cypress:0.0.1
+            ghcr.io/$GITHUB_REPOSITORY/monkey-cypress:latest
+            ghcr.io/$GITHUB_REPOSITORY/monkey-cypress:0.0.1
 
   docker-image-smart-monkey-cypress:
     runs-on: ubuntu-latest
@@ -50,9 +47,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.REGISTRY_GHCR_TOKEN }}
-      - name: downcase GITHUB_REPOSITORY
-        run: |
-          echo "GITHUB_REPOSITORY_LOWERCASE=${GITHUB_REPOSITORY,,}" >> ${GITHUB_ENV}
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
@@ -61,8 +55,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/smart-monkey-cypress:latest
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/smart-monkey-cypress:0.0.1
+            ghcr.io/$GITHUB_REPOSITORY/smart-monkey-cypress:latest
+            ghcr.io/$GITHUB_REPOSITORY/smart-monkey-cypress:0.0.1
 
   docker-image-ripper-playwright:
     runs-on: ubuntu-latest
@@ -79,9 +73,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.REGISTRY_GHCR_TOKEN }}
-      - name: downcase GITHUB_REPOSITORY
-        run: |
-          echo "GITHUB_REPOSITORY_LOWERCASE=${GITHUB_REPOSITORY,,}" >> ${GITHUB_ENV}
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
@@ -89,8 +80,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/ripper-playwright:latest
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/ripper-playwright:0.0.1
+            ghcr.io/$GITHUB_REPOSITORY/ripper-playwright:latest
+            ghcr.io/$GITHUB_REPOSITORY/ripper-playwright:0.0.1
 
   docker-image-e2e-cypress:
     runs-on: ubuntu-latest
@@ -107,9 +98,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.REGISTRY_GHCR_TOKEN }}
-      - name: downcase GITHUB_REPOSITORY
-        run: |
-          echo "GITHUB_REPOSITORY_LOWERCASE=${GITHUB_REPOSITORY,,}" >> ${GITHUB_ENV}
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
@@ -117,8 +105,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/e2e-cypress:latest
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/e2e-cypress:0.0.1
+            ghcr.io/$GITHUB_REPOSITORY/e2e-cypress:latest
+            ghcr.io/$GITHUB_REPOSITORY/e2e-cypress:0.0.1
 
   docker-image-e2e-playwright:
     runs-on: ubuntu-latest
@@ -135,9 +123,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.REGISTRY_GHCR_TOKEN }}
-      - name: downcase GITHUB_REPOSITORY
-        run: |
-          echo "GITHUB_REPOSITORY_LOWERCASE=${GITHUB_REPOSITORY,,}" >> ${GITHUB_ENV}
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
@@ -145,8 +130,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/e2e-playwright:latest
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/e2e-playwright:0.0.1
+            ghcr.io/$GITHUB_REPOSITORY/e2e-playwright:latest
+            ghcr.io/$GITHUB_REPOSITORY/e2e-playwright:0.0.1
 
   docker-image-e2e-puppeteer:
     runs-on: ubuntu-latest
@@ -163,9 +148,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.REGISTRY_GHCR_TOKEN }}
-      - name: downcase GITHUB_REPOSITORY
-        run: |
-          echo "GITHUB_REPOSITORY_LOWERCASE=${GITHUB_REPOSITORY,,}" >> ${GITHUB_ENV}
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
@@ -173,5 +155,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/e2e-puppeteer:latest
-            ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/e2e-puppeteer:0.0.1
+            ghcr.io/$GITHUB_REPOSITORY/e2e-puppeteer:latest
+            ghcr.io/$GITHUB_REPOSITORY/e2e-puppeteer:0.0.1
