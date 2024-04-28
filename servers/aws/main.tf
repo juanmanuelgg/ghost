@@ -61,7 +61,7 @@ locals {
   }
 }
 
-# Entrega Semana 4 (1era implementación. Exploración).
+# Entrega Semana 4 (1era implementación. Exploración) (25 Horas de ejecucion por cada máquina/componente.).
 # Presupuesto 1: 200 Horas AWS EC2 ["🐒-1", "🦧-1", "🦧-2", "🎩-1"]
 # Presupuesto 2: 400 Horas AWS EC2 ["🐒-1", "🐒-2", "🦧-1", "🦧-2" "🦧-3", "🦧-4", "🎩-1", "🎩-2"] 
 
