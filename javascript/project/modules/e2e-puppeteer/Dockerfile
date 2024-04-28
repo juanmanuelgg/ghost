@@ -9,6 +9,8 @@ RUN apt-get update \
 WORKDIR /tests
 COPY . .
 
+RUN echo "node -v: $(node -v)"
+RUN echo "npm -v: $(npm -v)"
 RUN npm ci --omit=dev || npm install --omit=dev
 
 RUN npx puppeteer browsers install firefox

@@ -28,7 +28,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./javascript/project/modules/monkey-cypress
-          file: ./monkey.Dockerfile
+          file: ./javascript/project/modules/monkey-cypress/monkey.Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
@@ -57,7 +57,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./javascript/project/modules/monkey-cypress
-          file: ./smart-monkey.Dockerfile
+          file: ./javascript/project/modules/monkey-cypress/smart-monkey.Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
