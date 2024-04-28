@@ -35,7 +35,6 @@ jobs:
             ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/monkey-cypress:latest
             ghcr.io/${{ env.GITHUB_REPOSITORY_LOWERCASE }}/monkey-cypress:0.0.1
 
-jobs:
   docker-image-smart-monkey-cypress:
     runs-on: ubuntu-latest
     steps:
