@@ -29,8 +29,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/$GITHUB_REPOSITORY/monkey-cypress:latest
-            ghcr.io/$GITHUB_REPOSITORY/monkey-cypress:0.0.1
+            ghcr.io/${GITHUB_REPOSITORY}/monkey-cypress:latest
+            ghcr.io/${GITHUB_REPOSITORY}/monkey-cypress:0.0.1
 
   docker-image-smart-monkey-cypress:
     runs-on: ubuntu-latest
@@ -55,8 +55,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/$GITHUB_REPOSITORY/smart-monkey-cypress:latest
-            ghcr.io/$GITHUB_REPOSITORY/smart-monkey-cypress:0.0.1
+            ghcr.io/${GITHUB_REPOSITORY}/smart-monkey-cypress:latest
+            ghcr.io/${GITHUB_REPOSITORY}/smart-monkey-cypress:0.0.1
 
   docker-image-ripper-playwright:
     runs-on: ubuntu-latest
@@ -80,8 +80,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/$GITHUB_REPOSITORY/ripper-playwright:latest
-            ghcr.io/$GITHUB_REPOSITORY/ripper-playwright:0.0.1
+            ghcr.io/${GITHUB_REPOSITORY}/ripper-playwright:latest
+            ghcr.io/${GITHUB_REPOSITORY}/ripper-playwright:0.0.1
 
   docker-image-e2e-cypress:
     runs-on: ubuntu-latest
@@ -105,8 +105,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/$GITHUB_REPOSITORY/e2e-cypress:latest
-            ghcr.io/$GITHUB_REPOSITORY/e2e-cypress:0.0.1
+            ghcr.io/${GITHUB_REPOSITORY}/e2e-cypress:latest
+            ghcr.io/${GITHUB_REPOSITORY}/e2e-cypress:0.0.1
 
   docker-image-e2e-playwright:
     runs-on: ubuntu-latest
@@ -130,8 +130,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/$GITHUB_REPOSITORY/e2e-playwright:latest
-            ghcr.io/$GITHUB_REPOSITORY/e2e-playwright:0.0.1
+            ghcr.io/${GITHUB_REPOSITORY}/e2e-playwright:latest
+            ghcr.io/${GITHUB_REPOSITORY}/e2e-playwright:0.0.1
 
   docker-image-e2e-puppeteer:
     runs-on: ubuntu-latest
@@ -155,5 +155,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/$GITHUB_REPOSITORY/e2e-puppeteer:latest
-            ghcr.io/$GITHUB_REPOSITORY/e2e-puppeteer:0.0.1
+            ghcr.io/${GITHUB_REPOSITORY}/e2e-puppeteer:latest
+            ghcr.io/${GITHUB_REPOSITORY}/e2e-puppeteer:0.0.1
