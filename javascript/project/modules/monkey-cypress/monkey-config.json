@@ -1,6 +1,6 @@
 {
   "projectId": "TSDL-Monkey-with-cypress",
-  "baseUrl": "https://consumer.huawei.com/co/",
+  "baseUrl": "http://16.16.169.42/",
   "env": {
     "appName": "App prueba",
     "events": 50,

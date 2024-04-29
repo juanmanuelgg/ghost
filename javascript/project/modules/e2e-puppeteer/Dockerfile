@@ -17,4 +17,6 @@ RUN npx puppeteer browsers install firefox
 
 RUN mkdir -p screenshots 
 
+LABEL org.opencontainers.image.source https://github.com/juanmanuelgg/ghost
+
 ENTRYPOINT [ "node", "--max-old-space-size=1024", "./src/index.mjs" ]
