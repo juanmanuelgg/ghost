@@ -1,6 +1,6 @@
 {
   "projectId": "TSDL-Monkey-with-cypress",
-  "baseUrl": "http://appbajopruebas.com/",
+  "baseUrl": "http://ghost.appbajopruebas.com/",
   "env": {
     "appName": "App prueba",
     "events": 50,

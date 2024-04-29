@@ -1,5 +1,5 @@
 {
-  "url": "http://appbajopruebas.com",
+  "url": "http://ghost.appbajopruebas.com",
   "headless": true,
   "depthLevels": 1,
   "inputValues": false,

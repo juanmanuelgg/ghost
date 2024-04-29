@@ -17,7 +17,7 @@ module.exports = defineConfig({
   videosFolder: "./results",
   defaultCommandTimeout: 120000,
   e2e: {
-    baseUrl: "http://appbajopruebas.com/",
+    baseUrl: "http://ghost.appbajopruebas.com/",
     setupNodeEvents(on, config) {
       // implement node event listeners here
       on("task", {
