@@ -79,7 +79,7 @@ locals {
 
 # No se ven en el curso pero se hablaron en el presupuesto =>  [... "☕-1", "⚖️-1", "🛡️-1"]
 locals {
-  CON_PAREJAS = false # En este entrega necesito una instancia constantemente prendida a la que todas las otras maquinas apunten
+  con_parejas = false # En este entrega necesito una instancia constantemente prendida a la que todas las otras maquinas apunten
 }
 
 module "pair_vms_for_testing" {
@@ -100,5 +100,5 @@ module "pair_vms_for_testing" {
     }"]["${
     substr(each.key, 1, 2) != "-" ? substr(each.key, 1, 2) : "default"
   }"]
-  con_parejas = local.CON_PAREJAS
+  con_parejas = local.con_parejas
 }
