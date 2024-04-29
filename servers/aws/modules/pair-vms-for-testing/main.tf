@@ -23,6 +23,7 @@ data "template_file" "user_data_for_testing" {
 }
 
 resource "aws_instance" "abp_ghost" {
+  count                       = var.con_parejas ? 1 : 0
   ami                         = data.aws_ami.ubuntu.id
   instance_type               = "t2.micro"
   subnet_id                   = var.subnet_public_id
@@ -38,11 +39,11 @@ resource "aws_instance" "abp_ghost" {
 
 locals {
   region_t3_micro          = ["eu-north-1"]
-  dont_need_second_machine = ["☕", "🛡️", "👻"]
+  dont_need_second_machine = ["☕", "🛡️"]
 }
 
 resource "aws_instance" "testing_suite" {
-  count                       = contains(local.dont_need_second_machine, substr(var.name, 0, 1)) && var.con_parejas ? 0 : 1
+  count                       = contains(local.dont_need_second_machine, substr(var.name, 0, 1)) ? 0 : 1
   ami                         = data.aws_ami.ubuntu.id
   instance_type               = contains(local.region_t3_micro, var.region) ? "t3.micro" : "t2.micro"
   subnet_id                   = var.subnet_public_id
