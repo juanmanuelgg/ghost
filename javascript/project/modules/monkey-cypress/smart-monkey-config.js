@@ -17,7 +17,6 @@ module.exports = defineConfig({
     pctBwChaos: 12,
     pctActions: 16,
   },
-  integration: "./cypress/integration/monkey",
   pageLoadTimeout: 120000,
   videosFolder: "./results",
   e2e: {

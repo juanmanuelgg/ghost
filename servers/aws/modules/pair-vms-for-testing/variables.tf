@@ -33,3 +33,9 @@ variable "security_group_id" {
   description = "El id de las reglas de firewall que cuidan el trafico de la máquina."
   nullable    = false
 }
+
+variable "con_parejas" {
+  type        = bool
+  default     = true
+  description = "Sirve para configurar si todos los test apuntan a una sola máquina."
+}

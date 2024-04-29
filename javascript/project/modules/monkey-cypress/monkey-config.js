@@ -13,10 +13,8 @@ module.exports = defineConfig({
     pctSpKeys: 16,
     pctPgNav: 16,
   },
-  baseUrl: "https://consumer.huawei.com/co/",
-  integration: "./cypress/integration/monkey",
-  pluginsFile: "./cypress/plugins/index.js",
   pageLoadTimeout: 120000,
+  videosFolder: "./results",
   defaultCommandTimeout: 120000,
   e2e: {
     baseUrl: "http://16.16.169.42/",

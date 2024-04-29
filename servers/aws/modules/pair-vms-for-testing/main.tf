@@ -23,6 +23,7 @@ data "template_file" "user_data_for_testing" {
 }
 
 resource "aws_instance" "abp_ghost" {
+  count                       = var.con_parejas ? 1 : 0
   ami                         = data.aws_ami.ubuntu.id
   instance_type               = "t2.micro"
   subnet_id                   = var.subnet_public_id

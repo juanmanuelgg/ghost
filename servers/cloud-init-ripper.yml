@@ -67,7 +67,7 @@ runcmd:
   - [sytemctl, enable, docker]
   - [
       wget,
-      "https://raw.githubusercontent.com/juanmanuelgg/Ghost/main/javascript/project/docker-compose-prod.yml",
+      "https://raw.githubusercontent.com/juanmanuelgg/ghost/main/javascript/project/docker-compose-prod.yml",
       -O,
       /home/tests/docker-compose.yml,
     ]

@@ -4,11 +4,11 @@
   "depthLevels": 1,
   "inputValues": false,
   "values": {
-    "userInput": "Mario",
-    "passwordInput": "123456",
-    "passwordTwoInput": "123456",
-    "nameInput": "Mario",
-    "emailInput": "mario@b.com"
+    "userInput": "Automatizacion",
+    "passwordInput": "gByku6u59f3txum",
+    "passwordTwoInput": "gByku6u59f3txum",
+    "nameInput": "Automatizacion",
+    "emailInput": "automatizacion@appbajopruebas.com"
   },
   "browsers": ["chromium"]
 }

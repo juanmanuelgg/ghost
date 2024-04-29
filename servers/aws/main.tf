@@ -13,6 +13,9 @@ module "network" {
 # Mapa que nos guia al archivo de configuracion de cada prueba de nuestro plan de puebas, segun su 🧨T.N.T.🧨 (no se define aqui sino en los docs).
 locals {
   map_tnt_configs = {
+    "👻" = { # App Bajo Pruebas (Ghost).
+      "default" = "../cloud-init-abp-ghost.yml"
+    },
     "☕" = { # Automatica - Unit testing soportadas con mocha.
       "default" = "../cloud-init-unit-testing.yml"
     },
@@ -75,8 +78,13 @@ locals {
 # [... , "🎭🐼-1", "🦑🐼-1"]
 
 # No se ven en el curso pero se hablaron en el presupuesto =>  [... "☕-1", "⚖️-1", "🛡️-1"]
+locals {
+  con_parejas = false # En este entrega necesito una instancia constantemente prendida a la que todas las otras maquinas apunten
+}
+
 module "pair_vms_for_testing" {
-  for_each = toset(["🐒-1", "🦧-1", "🎩-1"])
+  # for_each = toset(["👻-1"]) # En una primera etapa prendemos ghost y lo cuadramos.
+  for_each = toset(["👻-1", "🐒-1", "🦧-1", "🎩-1"])
   source   = "./modules/pair-vms-for-testing"
   # - (1) aws_ami (ubuntu server 22.04 amd64 image)
   # - (2) template_file
@@ -86,9 +94,6 @@ module "pair_vms_for_testing" {
   subnet_public_id     = module.network.subnet_public_id
   security_group_id    = module.network.security_group_id
   cloud_init_abp_ghost = var.cloud_init_abp_ghost
-  cloud_init_desired_test = local.map_tnt_configs["${
-    substr(each.key, 0, 1)
-    }"]["${
-    substr(each.key, 1, 2) != "-" ? substr(each.key, 1, 2) : "default"
-  }"]
+  cloud_init_desired_test = local.map_tnt_configs["${substr(each.key, 0, 1)}"].default
+  con_parejas = local.con_parejas
 }
