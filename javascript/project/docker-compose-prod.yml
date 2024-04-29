@@ -1,26 +1,110 @@
 name: testing-suite
 
 services:
-  e2e-playwright:
-    container_name: e2e-playwright
-    image: docker.io/jmgonzalezgarzon/tests-playwright:latest
+  monkey-cypress:
+    container_name: monkey-cypress
+    image: ghcr.io/juanmanuelgg/ghost/monkey-cypress:latest
+    deploy:
+      resources: # https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
+        # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
+        # 4GB minimum, 8GB+ for longer test runs
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
+    tty: true
+    volumes:
+      - ./reports/monkey:/tests/results
+
+  smart-monkey-cypress:
+    container_name: smart-monkey-cypress
+    image: ghcr.io/juanmanuelgg/ghost/smart-monkey-cypress:latest
+    deploy:
+      resources: # https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
+        # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
+        # 4GB minimum, 8GB+ for longer test runs
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
+    tty: true
+    volumes:
+      - ./reports/smart-monkey:/tests/results
+
+  ripper-playwright:
+    container_name: ripper-playwright
+    image: ghcr.io/juanmanuelgg/ghost/ripper-playwright:latest
     deploy:
       resources:
-        limits:
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
+    volumes:
+      - ./reports/ripper:/tests/results
+
+  e2e-cypress:
+    container_name: e2e-cypress
+    image: ghcr.io/juanmanuelgg/ghost/e2e-cypress:latest
+    deploy:
+      resources: # https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
+        # 2 CPUs minimum to run Cypress, 1 additional CPU if video recording is enabled
+        # 4GB minimum, 8GB+ for longer test runs
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
+    volumes:
+      - ./screenshots/cypress:/tests/cypress/screenshots
+      - ./videos/cypress:/tests/cypress/videos
+      - ./reports/cypress:/tests/cypress/reports
+
+  e2e-playwright:
+    container_name: e2e-playwright
+    image: ghcr.io/juanmanuelgg/ghost/e2e-playwright:latest
+    ports:
+      - "9323:9323"
+    deploy:
+      resources:
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
           cpus: "1"
           memory: 1G
     ipc: host
-    entrypoint:
-      [
-        "npx",
-        "playwright",
-        "test",
-        "e2e/ghost",
-        "--project",
-        "firefox",
-        "--timeout",
-        "60000",
-      ]
     volumes:
-      - ./images/playwright:/tests/screenshots
+      - ./screenshots/playwright:/tests/screenshots
+      - ./videos/playwright:/tests/test-results
       - ./reports/playwright:/tests/playwright-report
+
+  e2e-puppeteer:
+    container_name: e2e-puppeteer
+    image: ghcr.io/juanmanuelgg/ghost/e2e-puppeteer:latest
+    deploy:
+      resources:
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
+    ipc: host
+    cap_add:
+      - SYS_ADMIN
+    volumes:
+      - ./screenshots/puppeteer:/tests/screenshots
