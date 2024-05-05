@@ -1,14 +1,14 @@
 # Construido sobre: https://about.gitlab.com/blog/2018/10/24/setting-up-gitlab-ci-for-android-projects/
-FROM node:20-bookworm
+FROM node:20-bookworm-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
-    && apt-get install -y wget tar unzip openjdk-17-jdk chromium \
-    apt-transport-https fonts-liberation libgbm1 libgtk-4-1 libu2f-udev libvulkan1 libxkbcommon0 xdg-utils \
+    && apt-get install -y openjdk-17-jdk chromium \
+    # apt-transport-https fonts-liberation libgbm1 libgtk-4-1 libu2f-udev libvulkan1 libxkbcommon0 xdg-utils \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-ENV JAVA_HOME=/usr/lib/jvm/default-java
+ENV JAVA_HOME=/usr/lib/jvm/openjdk-17
 
 USER node
 WORKDIR /home/node
