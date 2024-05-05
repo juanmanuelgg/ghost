@@ -27,8 +27,8 @@ resource "aws_route_table_association" "rta_subnet_public" {
   route_table_id = aws_route_table.rtb_public.id
 }
 
-resource "aws_security_group" "sg_22_80" {
-  name   = "sg_22"
+resource "aws_security_group" "security_group" {
+  name   = "sg_22_80_443"
   vpc_id = aws_vpc.vpc.id
 
   # SSH access from the VPC
@@ -44,6 +44,13 @@ resource "aws_security_group" "sg_22_80" {
     to_port     = 80
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"] # [aws_vpc.vpc.cidr_block]
+  }
+
+  ingress {
+    from_port   = 443
+    to_port     = 443
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
   }
 
   egress {
