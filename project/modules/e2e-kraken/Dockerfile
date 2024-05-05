@@ -10,9 +10,11 @@ RUN apt-get update \
 
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 
-RUN curl -O https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-RUN dpkg -i ./google-chrome-stable_current_amd64.deb
-RUN rm -rf /var/lib/apt/lists/*
+RUN curl -O https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+    && chmod +x google-chrome-stable_current_amd64.deb \
+    && apt-get update \
+    && apt-get -y install ./google-chrome-stable_current_amd64.deb --fix-broken \
+    && rm -rf /var/lib/apt/lists/*
 
 USER node
 WORKDIR /home/node
