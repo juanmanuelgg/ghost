@@ -1,5 +1,5 @@
 # Construido sobre: https://about.gitlab.com/blog/2018/10/24/setting-up-gitlab-ci-for-android-projects/
-FROM node:20
+FROM node:20-bookworm
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
@@ -8,7 +8,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+ENV JAVA_HOME=/usr/lib/jvm/default-java
 
 USER node
 WORKDIR /home/node
@@ -56,4 +56,5 @@ ENV HEADLESS=true
 
 LABEL org.opencontainers.image.source https://github.com/juanmanuelgg/ghost
 
-ENTRYPOINT ["npm", "test"]
+ENTRYPOINT [ "bash" ]
+# ENTRYPOINT ["npm", "test"]
