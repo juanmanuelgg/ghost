@@ -38,7 +38,6 @@ project/modules/e2e-puppeteer/screenshots
 
 # E2E (Kraken)
 project/modules/e2e-kraken/reports
-project/modules/e2e-kraken/tools
 
 # Helper (Nodemailer)
 node_modules

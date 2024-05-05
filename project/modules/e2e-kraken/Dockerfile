@@ -23,10 +23,7 @@ ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 
 COPY --chown=node:node tools /home/node/tools
 WORKDIR /home/node/tools
-
-RUN unzip commandlinetools-linux-11076708_latest.zip -d cmdline-tools \
-    && mv cmdline-tools/cmdline-tools cmdline-tools/latest \
-    && rm commandlinetools-linux-11076708_latest.zip
+RUN mv cmdline-tools/cmdline-tools cmdline-tools/latest
 
 ENV PATH=/home/node/tools/cmdline-tools/latest/bin:$PATH
 RUN echo y | sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.0"
