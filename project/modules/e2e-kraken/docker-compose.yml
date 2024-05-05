@@ -1,0 +1,17 @@
+name: error-report
+
+services:
+  e2e-kraken:
+    container_name: e2e-kraken
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    deploy:
+      resources:
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
