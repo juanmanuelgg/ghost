@@ -4,7 +4,7 @@ FROM node:20
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     && apt-get install -y wget tar unzip openjdk-17-jdk \
-    fonts-liberation libgbm1 libgtk-4-1 libu2f-udev libvulkan1 libxkbcommon0  xdg-utils \
+    apt-transport-https fonts-liberation libgbm1 libgtk-4-1 libu2f-udev libvulkan1 libxkbcommon0  xdg-utils \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -13,7 +13,7 @@ ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 RUN curl -O https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
     && chmod +x google-chrome-stable_current_amd64.deb \
     && apt-get update \
-    && apt-get -y install ./google-chrome-stable_current_amd64.deb --fix-broken \
+    && apt-get --fix-broken -y install ./google-chrome-stable_current_amd64.deb \
     && rm -rf /var/lib/apt/lists/*
 
 USER node
