@@ -4,7 +4,6 @@ FROM node:20-bookworm-slim
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     && apt-get install -y default-jdk chromium \
-    # apt-transport-https fonts-liberation libgbm1 libgtk-4-1 libu2f-udev libvulkan1 libxkbcommon0 xdg-utils \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -50,7 +49,7 @@ COPY --chown=node:node custom custom
 RUN cp custom/FileHelper.js /home/node/tests/node_modules/kraken-node/lib/utils/FileHelper.js
 # ==================================
 
-# Chorme headless
+# Chorme headless (También aplica en chromium)
 # https://github.com/GoogleChrome/chrome-launcher/commit/4771eafff2b5a93c8cad3c359d027253618b936b
 ENV HEADLESS=true
 
