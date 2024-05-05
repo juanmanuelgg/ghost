@@ -3,12 +3,12 @@ FROM node:20-bookworm-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
-    && apt-get install -y openjdk-17-jdk chromium \
+    && apt-get install -y default-jdk chromium \
     # apt-transport-https fonts-liberation libgbm1 libgtk-4-1 libu2f-udev libvulkan1 libxkbcommon0 xdg-utils \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-ENV JAVA_HOME=/usr/lib/jvm/openjdk-17
+ENV JAVA_HOME=/usr/lib/jvm/default-java
 
 USER node
 WORKDIR /home/node
@@ -56,5 +56,4 @@ ENV HEADLESS=true
 
 LABEL org.opencontainers.image.source https://github.com/juanmanuelgg/ghost
 
-ENTRYPOINT [ "bash" ]
-# ENTRYPOINT ["npm", "test"]
+ENTRYPOINT ["npm", "test"]
