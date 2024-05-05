@@ -3,7 +3,8 @@ FROM node:20
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
-    && apt-get install -y openjdk-17-jdk chromium \
+    && apt-get install -y wget tar unzip openjdk-17-jdk chromium \
+    apt-transport-https fonts-liberation libgbm1 libgtk-4-1 libu2f-udev libvulkan1 libxkbcommon0 xdg-utils \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
