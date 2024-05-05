@@ -6,14 +6,9 @@
     "doc": "docs"
   },
   "workspaces": [
-    "javascript/project/modules/e2e-playwright"
+    "project/modules/e2e-playwright"
   ],
   "author": "Juan Manuel González Garzón",
-  "contributors": [
-    "Angel Manuel Camacho Gabaldon",
-    "Mauricio Castro Riberos",
-    "Raymundo Martin Flores Arango"
-  ],
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.43.1"

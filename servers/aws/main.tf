@@ -83,17 +83,18 @@ locals {
 }
 
 module "pair_vms_for_testing" {
-  # for_each = toset(["👻-1"]) # En una primera etapa prendemos ghost y lo cuadramos.
-  for_each = toset(["👻-1", "🐒-1", "🦧-1", "🎩-1"])
-  source   = "./modules/pair-vms-for-testing"
+  for_each = toset([]) # En una primera etapa prendemos ghost y lo cuadramos.
+  # for_each = toset(["👻-1", "🐒-1", "🦧-1", "🎩-1"]) # Entrega sprint 1. Pruebas exploratorias.
+  # for_each = toset(["👻-1", "🎭-1", "🦑-1"]) # Entrega sprint 2. Pruebas E2E.
+  source = "./modules/pair-vms-for-testing"
   # - (1) aws_ami (ubuntu server 22.04 amd64 image)
   # - (2) template_file
   # - (2) aws_instance
-  region               = var.region
-  name                 = each.key
-  subnet_public_id     = module.network.subnet_public_id
-  security_group_id    = module.network.security_group_id
-  cloud_init_abp_ghost = var.cloud_init_abp_ghost
+  region                  = var.region
+  name                    = each.key
+  subnet_public_id        = module.network.subnet_public_id
+  security_group_id       = module.network.security_group_id
+  cloud_init_abp_ghost    = var.cloud_init_abp_ghost
   cloud_init_desired_test = local.map_tnt_configs["${substr(each.key, 0, 1)}"].default
-  con_parejas = local.con_parejas
+  con_parejas             = local.con_parejas
 }

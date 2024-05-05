@@ -2,40 +2,43 @@
 .idea
 
 # Docker (Setup Ghost)
-docker/volumes
-docker/config.production.json
+project/config.production.json
 # Docker (Testing suite local execution)
-javascript/project/screenshots
-javascript/project/reports
-javascript/project/videos
+project/screenshots
+project/reports
+project/videos
 
 # Monkey (Cypress)
 # Ver .gitignore embebido
 
 # Ripper (Playwright)
-javascript/project/modules/ripper-playwright/.png\n*
-javascript/project/modules/ripper-playwright/screenshots*/
-javascript/project/modules/ripper-playwright/temp*/
-javascript/project/modules/ripper-playwright/*graph.json
-javascript/project/modules/ripper-playwright/*graph2.json
-javascript/project/modules/ripper-playwright/*graph3.json
-javascript/project/modules/ripper-playwright/firebaseConfig.js
-javascript/project/modules/ripper-playwright/results/
+project/modules/ripper-playwright/.png\n*
+project/modules/ripper-playwright/screenshots*/
+project/modules/ripper-playwright/temp*/
+project/modules/ripper-playwright/*graph.json
+project/modules/ripper-playwright/*graph2.json
+project/modules/ripper-playwright/*graph3.json
+project/modules/ripper-playwright/firebaseConfig.js
+project/modules/ripper-playwright/results/
 
 # E2E (Cypress)
-javascript/project/modules/e2e-cypress/cypress/screenshots
-javascript/project/modules/e2e-cypress/cypress/reports
-javascript/project/modules/e2e-cypress/cypress/videos
+project/modules/e2e-cypress/cypress/screenshots
+project/modules/e2e-cypress/cypress/reports
+project/modules/e2e-cypress/cypress/videos
 
 # E2E (Playwright)
-javascript/project/modules/e2e-playwright/test-results/
-javascript/project/modules/e2e-playwright/playwright-report/
-javascript/project/modules/e2e-playwright/blob-report/
-javascript/project/modules/e2e-playwright/playwright/.cache/
-javascript/project/modules/e2e-playwright/screenshots/
+project/modules/e2e-playwright/test-results/
+project/modules/e2e-playwright/playwright-report/
+project/modules/e2e-playwright/blob-report/
+project/modules/e2e-playwright/playwright/.cache/
+project/modules/e2e-playwright/screenshots/
 
 # E2E (Puppeteer)
-javascript/project/modules/e2e-puppeteer/screenshots
+project/modules/e2e-puppeteer/screenshots
+
+# E2E (Kraken)
+project/modules/e2e-kraken/reports
+project/modules/e2e-kraken/tools
 
 # Helper (Nodemailer)
 node_modules

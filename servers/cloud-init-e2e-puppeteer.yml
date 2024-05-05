@@ -71,7 +71,7 @@ runcmd:
   - ufw allow 'Nginx Full'
   - ufw allow 'OpenSSH'
   - ufw enable
-  # 2. Levantar el servicio de Docker y ejecutar la coleccion de pruebas monkey-cypress
+  # 2. Levantar el servicio de Docker y ejecutar la coleccion de pruebas e2e-puppeteer
   - [systemctl, start, docker]
   - [sytemctl, enable, docker]
   - [
@@ -86,10 +86,9 @@ runcmd:
       su,
       tests,
       -c,
-      "cd /home/tests/ && docker compose up monkey-cypress --build",
+      "cd /home/tests/ && docker compose up e2e-puppeteer --build",
     ]
-  - [cp, -r, /home/tests/reports/monkey, /var/www/html]
-  - [mv, /var/www/html/monkey-execution.html, /var/www/html/index.html]
+  - [cp, -r, /home/tests/screenshots/puppeteer, /var/www/html]
   # 3. Configurar el servidor web
   - [systemctl, enable, nginx]
   - [systemctl, restart, nginx]

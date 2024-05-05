@@ -44,7 +44,7 @@ Vagrant.configure("2") do |config|
         smartmonkey.vm.box = "ubuntu/jammy64"
         smartmonkey.vm.hostname = "smartmonkey"
         smartmonkey.vm.network "private_network", ip: "192.168.56.4"
-        smartmonkey.vm.network "forwarded_port", guest: 80, host: 8081, host_ip: "127.0.0.1"
+        smartmonkey.vm.network "forwarded_port", guest: 80, host: 8082, host_ip: "127.0.0.1"
 
         smartmonkey.vm.provider "virtualbox" do |vb|
             vb.gui = false # Display the VirtualBox GUI when booting the machine
@@ -63,7 +63,7 @@ Vagrant.configure("2") do |config|
         ripper.vm.box = "ubuntu/jammy64"
         ripper.vm.hostname = "ripper"
         ripper.vm.network "private_network", ip: "192.168.56.5"
-        ripper.vm.network "forwarded_port", guest: 80, host: 8081, host_ip: "127.0.0.1"
+        ripper.vm.network "forwarded_port", guest: 80, host: 8083, host_ip: "127.0.0.1"
 
         ripper.vm.provider "virtualbox" do |vb|
             vb.gui = false # Display the VirtualBox GUI when booting the machine
@@ -78,22 +78,79 @@ Vagrant.configure("2") do |config|
         end
     end
 
-    config.vm.define "tests", autostart: false do |tests|
-        tests.vm.box = "ubuntu/jammy64"
-        tests.vm.hostname = "tests"
-        tests.vm.network "private_network", ip: "192.168.56.3"
-        tests.vm.network "forwarded_port", guest: 80, host: 8081, host_ip: "127.0.0.1"
+    config.vm.define "playwright", autostart: false do |playwright|
+        playwright.vm.box = "ubuntu/jammy64"
+        playwright.vm.hostname = "playwright"
+        playwright.vm.network "private_network", ip: "192.168.56.6"
+        playwright.vm.network "forwarded_port", guest: 80, host: 8084, host_ip: "127.0.0.1"
 
-        tests.vm.provider "virtualbox" do |vb|
+        playwright.vm.provider "virtualbox" do |vb|
             vb.gui = false # Display the VirtualBox GUI when booting the machine
-            vb.name = "tests"
+            vb.name = "playwright"
             vb.memory = "1024"
             vb.cpus = 2
         end
 
-        tests.vm.cloud_init :user_data do |cloud_init|
+        playwright.vm.cloud_init :user_data do |cloud_init|
             cloud_init.content_type = "text/cloud-config"
-            cloud_init.path = "../cloud-init-testing-suite.yml"
+            cloud_init.path = "../cloud-init-e2e-playwright.yml"
+        end
+    end
+
+    config.vm.define "cypress", autostart: false do |cypress|
+        cypress.vm.box = "ubuntu/jammy64"
+        cypress.vm.hostname = "cypress"
+        cypress.vm.network "private_network", ip: "192.168.56.7"
+        cypress.vm.network "forwarded_port", guest: 80, host: 8085, host_ip: "127.0.0.1"
+
+        cypress.vm.provider "virtualbox" do |vb|
+            vb.gui = false # Display the VirtualBox GUI when booting the machine
+            vb.name = "cypress"
+            vb.memory = "1024"
+            vb.cpus = 2
+        end
+
+        cypress.vm.cloud_init :user_data do |cloud_init|
+            cloud_init.content_type = "text/cloud-config"
+            cloud_init.path = "../cloud-init-e2e-cypress.yml"
+        end
+    end
+
+    config.vm.define "puppeteer", autostart: false do |puppeteer|
+        puppeteer.vm.box = "ubuntu/jammy64"
+        puppeteer.vm.hostname = "puppeteer"
+        puppeteer.vm.network "private_network", ip: "192.168.56.8"
+        puppeteer.vm.network "forwarded_port", guest: 80, host: 8086, host_ip: "127.0.0.1"
+
+        puppeteer.vm.provider "virtualbox" do |vb|
+            vb.gui = false # Display the VirtualBox GUI when booting the machine
+            vb.name = "puppeteer"
+            vb.memory = "1024"
+            vb.cpus = 2
+        end
+
+        puppeteer.vm.cloud_init :user_data do |cloud_init|
+            cloud_init.content_type = "text/cloud-config"
+            cloud_init.path = "../cloud-init-e2e-puppeteer.yml"
+        end
+    end
+
+    config.vm.define "kraken", autostart: false do |kraken|
+        kraken.vm.box = "ubuntu/jammy64"
+        kraken.vm.hostname = "kraken"
+        kraken.vm.network "private_network", ip: "192.168.56.9"
+        kraken.vm.network "forwarded_port", guest: 80, host: 8087, host_ip: "127.0.0.1"
+
+        kraken.vm.provider "virtualbox" do |vb|
+            vb.gui = false # Display the VirtualBox GUI when booting the machine
+            vb.name = "kraken"
+            vb.memory = "1024"
+            vb.cpus = 2
+        end
+
+        kraken.vm.cloud_init :user_data do |cloud_init|
+            cloud_init.content_type = "text/cloud-config"
+            cloud_init.path = "../cloud-init-e2e-kraken.yml"
         end
     end
 end

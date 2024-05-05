@@ -67,21 +67,7 @@ packages:
   - docker-compose-v2
 
 runcmd:
-  # 1. Levantar el servicio de Docker y la aplicacion de Ghost
-  - [systemctl, start, docker]
-  - [sytemctl, enable, docker]
-  - [
-      wget,
-      "https://raw.githubusercontent.com/juanmanuelgg/ghost/main/docker/docker-compose.yml",
-      -O,
-      /home/ghost/docker-compose.yml,
-    ]
-  - [chown, ghost:docker, /home/ghost/docker-compose.yml]
-  - [su, ghost, -c, "cd /home/ghost/ && docker compose up -d --build"]
-  # 2. Configurar el servidor web
-  - [systemctl, enable, nginx]
-  - [systemctl, restart, nginx]
-  # 3. Configurar el firewall de maquina
+  # 1. Configurar el firewall de maquina
   - ufw reset
   - ufw default deny incoming
   - ufw default allow outgoing
@@ -90,3 +76,17 @@ runcmd:
   - ufw allow 'Nginx Full'
   - ufw allow 'OpenSSH'
   - ufw enable
+  # 2. Levantar el servicio de Docker y la aplicacion de Ghost
+  - [systemctl, start, docker]
+  - [sytemctl, enable, docker]
+  - [
+      wget,
+      "https://raw.githubusercontent.com/juanmanuelgg/ghost/main/project/docker-compose-abp-ghost.yml",
+      -O,
+      /home/ghost/docker-compose.yml,
+    ]
+  - [chown, ghost:docker, /home/ghost/docker-compose.yml]
+  - [su, ghost, -c, "cd /home/ghost/ && docker compose up -d --build"]
+  # 3. Configurar el servidor web
+  - [systemctl, enable, nginx]
+  - [systemctl, restart, nginx]

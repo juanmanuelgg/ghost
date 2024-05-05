@@ -71,7 +71,7 @@ runcmd:
   - ufw allow 'Nginx Full'
   - ufw allow 'OpenSSH'
   - ufw enable
-  # 2. Levantar el servicio de Docker y ejecutar la coleccion de pruebas monkey-cypress
+  # 2. Levantar el servicio de Docker y ejecutar la coleccion de pruebas e2e-cypress
   - [systemctl, start, docker]
   - [sytemctl, enable, docker]
   - [
@@ -82,14 +82,21 @@ runcmd:
     ]
   - [chown, tests:docker, /home/tests/docker-compose.yml]
   - [sleep, 90]
+  - [su, tests, -c, "cd /home/tests/ && docker compose up e2e-cypress --build"]
+  - [cp, -r, /home/tests/reports/cypress, /var/www/html]
+  - [mv, /var/www/html/mochawesome.html, /var/www/html/index.html]
   - [
-      su,
-      tests,
-      -c,
-      "cd /home/tests/ && docker compose up monkey-cypress --build",
+      sed,
+      -i,
+      's/\/tests\/cypress\/reports\/mochawesome.html/\/var\/www\/html\/index.html/g',
+      /var/www/html/index.html,
     ]
-  - [cp, -r, /home/tests/reports/monkey, /var/www/html]
-  - [mv, /var/www/html/monkey-execution.html, /var/www/html/index.html]
+  - [
+      sed,
+      -i,
+      's/\/tests\/cypress\/reports\/mochawesome.json/\/var\/www\/html\/mochawesome.json/g',
+      /var/www/html/index.html,
+    ]
   # 3. Configurar el servidor web
   - [systemctl, enable, nginx]
   - [systemctl, restart, nginx]
