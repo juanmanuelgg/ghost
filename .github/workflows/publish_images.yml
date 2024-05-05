@@ -24,8 +24,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ./javascript/project/modules/monkey-cypress
-          file: ./javascript/project/modules/monkey-cypress/monkey.Dockerfile
+          context: ./project/modules/monkey-cypress
+          file: ./project/modules/monkey-cypress/monkey.Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
@@ -50,8 +50,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ./javascript/project/modules/monkey-cypress
-          file: ./javascript/project/modules/monkey-cypress/smart-monkey.Dockerfile
+          context: ./project/modules/monkey-cypress
+          file: ./project/modules/monkey-cypress/smart-monkey.Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
@@ -76,7 +76,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ./javascript/project/modules/ripper-playwright
+          context: ./project/modules/ripper-playwright
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
@@ -101,7 +101,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ./javascript/project/modules/e2e-cypress
+          context: ./project/modules/e2e-cypress
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
@@ -126,7 +126,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ./javascript/project/modules/e2e-playwright
+          context: ./project/modules/e2e-playwright
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
@@ -151,7 +151,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ./javascript/project/modules/e2e-puppeteer
+          context: ./project/modules/e2e-puppeteer
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
@@ -176,7 +176,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ./javascript/project/modules/e2e-kraken
+          context: ./project/modules/e2e-kraken
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
