@@ -137,3 +137,5 @@ node -e "console.log(btoa(process.argv[1]))" -- "monitores:passwordqueluegosecam
 ```
 
 https://github.com/hashicorp/learn-terraform-provisioning/blob/cloudinit/instances/main.tf
+
+ivLTpHPYURNkSd8
