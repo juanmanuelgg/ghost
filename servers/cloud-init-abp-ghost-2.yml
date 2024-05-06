@@ -1,0 +1,61 @@
+#cloud-config
+# Construido sobre: https://cloudinit.readthedocs.io/en/latest/reference/base_config_reference.html#example
+# Construido sobre: https://developer.hashicorp.com/terraform/tutorials/provision/cloud-init
+# Construido sobre: https://www.digitalocean.com/community/tutorials/an-introduction-to-cloud-config-scripting
+# No usar tildes o caracteres not ASCII en este archivo.
+
+# Validado con: cloud-init schema --config-file vms/rpi-cloud-init.yml --annotate
+
+disable_root: true
+
+users:
+  - default
+  - name: ghost
+    doas:
+      - permit nopass ghost
+    lock_passwd: true
+    gecos: Ghost
+    groups: [sudo]
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAC7gHmnuL9wZC5ppTx0T0nkb1arlx+l1ff7MiV+2X2jJ0CidgDPk36FF/rYlDAoXC864hk4cN/fjz8S7AJ8m5RT1ACBGkEPGzhvH+9gTYsZQdBWxLtQ4IxDm5LxhjD9wNGlwCRRvnAfRovcqHS6gD8d0IZMyZJUHjOjaptJ+yv8TjPuGQ== Llave administrador
+
+timezone: America/Bogota
+
+keyboard:
+  layout: latam
+
+packages:
+  - ufw
+  - nginx
+
+package_update: true
+package_upgrade: true
+
+runcmd:
+  # 1. Configurar el Firewall
+  - ufw reset
+  - ufw default deny incoming
+  - ufw default allow outgoing
+  - ufw allow in on lo
+  - ufw allow from 127.0.0.1/8
+  - ufw allow 'Nginx Full'
+  - ufw allow 'OpenSSH'
+  - ufw enable
+  # 2. Install Node.js
+  - apt-get update
+  - apt-get install -y ca-certificates curl gnupg
+  - mkdir -p /etc/apt/keyrings
+  - curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+  - echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_18.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
+  - apt-get update
+  - apt-get install -y nodejs
+  # 3. Create the directory
+  - mkdir -p /var/www/appbajopruebas.com
+  - chown ghost:ghost /var/www/appbajopruebas.com
+  - chmod 775 /var/www/appbajopruebas.com
+  - su ghost -c "mkdir -p /home/ghost/.npm-global && npm config set prefix '~/.npm-global' && echo 'export PATH=~/.npm-global/bin:$PATH' >> /home/ghost/.bashrc && echo 'export NPM_CONFIG_PREFIX=~/.npm-global' >> /home/ghost/.bashrc"
+  - su ghost -c "source /home/ghost/.bashrc && npm install ghost-cli@latest -g"
+  #  - su ghost -c "cd /var/www/appbajopruebas.com && ghost install"
+  - unattended-upgrade

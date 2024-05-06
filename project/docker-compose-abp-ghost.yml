@@ -17,7 +17,7 @@ services:
       database__connection__password: X02kt6Nr014E74I24Sx8
       database__connection__database: ghost
       # this url value is just an example, and is likely wrong for your environment!
-      url: http://localhost:8080
+      url: http://ghost.appbajopruebas.com
       # contrary to the default mentioned in the linked documentation, this image defaults to NODE_ENV=production (so development mode needs to be explicitly specified if desired)
       #NODE_ENV: development
     volumes:

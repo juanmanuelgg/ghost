@@ -9,7 +9,7 @@ variable "secret_key" {}
 variable "region" {
   type        = string
   description = "The region Terraform deploys your instance"
-  default     = "eu-north-1"
+  default     = "us-east-1"
   nullable    = false
 }
 

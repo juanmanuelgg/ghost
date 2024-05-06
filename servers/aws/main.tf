@@ -83,7 +83,7 @@ locals {
 }
 
 module "pair_vms_for_testing" {
-  for_each = toset([]) # En una primera etapa prendemos ghost y lo cuadramos.
+  for_each = toset(["👻-1"]) # En una primera etapa prendemos ghost y lo cuadramos.
   # for_each = toset(["👻-1", "🐒-1", "🦧-1", "🎩-1"]) # Entrega sprint 1. Pruebas exploratorias.
   # for_each = toset(["👻-1", "🎭-1", "🦑-1"]) # Entrega sprint 2. Pruebas E2E.
   source = "./modules/pair-vms-for-testing"
