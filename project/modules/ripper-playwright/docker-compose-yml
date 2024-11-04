@@ -1,0 +1,54 @@
+name: testing-suite
+
+services:
+  ripper-playwright:
+    container_name: ripper-playwright
+    build:
+      context: ./modules/ripper-playwright
+      dockerfile: Dockerfile
+    deploy:
+      resources:
+        # 2 vCPU, 1GB Ram para usar Free Tier de Amazon (t3.micro -> stockholm -> eu-north-1)
+        limits: # t3.micro
+          cpus: "2"
+          memory: 1G
+        reservations: # t2.micro
+          cpus: "1"
+          memory: 1G
+    volumes:
+      - ./reports/ripper:/tests/results
+
+  ghost:
+    container_name: ghost
+    image: ghost:5-alpine
+    restart: always
+    ports:
+      - 8080:2368
+    environment:
+      # see https://ghost.org/docs/config/#configuration-options
+      database__client: mysql
+      database__connection__host: db
+      database__connection__user: root
+      database__connection__password: 8xS42I47E410rN6tk20X
+      database__connection__database: ghost
+      # this url value is just an example, and is likely wrong for your environment!
+      url: http://ghost.appbajopruebas.com
+      # contrary to the default mentioned in the linked documentation, this image defaults to NODE_ENV=production (so development mode needs to be explicitly specified if desired)
+      #NODE_ENV: development
+    volumes:
+      - ./config.production.json:/var/lib/ghost/config.production.json
+      #- ghost:/var/lib/ghost/content
+
+  db:
+    container_name: db
+    image: mysql:8.0
+    restart: always
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: 8xS42I47E410rN6tk20X
+    # volumes:
+    #   - db:/var/lib/mysql
+# volumes:
+#   ghost:
+#   db:
