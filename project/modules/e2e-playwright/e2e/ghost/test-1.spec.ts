@@ -1,0 +1,41 @@
+import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  // Given; Una aplicacion con el post por defecto.
+  await page.goto('http://ghost.appbajopruebas.com/');
+  await page.getByRole('link', { name: 'Coming soon This is Blog' }).click();
+  await page.goto('http://ghost.appbajopruebas.com/coming-soon/');
+  await page.goto('http://ghost.appbajopruebas.com/ghost/');
+  await page.goto('http://ghost.appbajopruebas.com/ghost/#/signin');
+  await page.getByPlaceholder('jamie@example.com').click();
+  await page.getByPlaceholder('jamie@example.com').fill('automatizacion@appbajopruebas.com');
+  await page.getByPlaceholder('•••••••••••••••').click();
+  await page.getByPlaceholder('•••••••••••••••').fill('ivLTpHPYURNkSd8');
+  await page.getByRole('button', { name: 'Sign in →' }).click();
+  await page.getByRole('link', { name: 'Posts' }).click();
+  await page.getByRole('link', { name: 'Go to Analytics' }).click();
+  await page.getByRole('link', { name: 'Edit post' }).click();
+  await page.getByPlaceholder('Post title').click();
+  await page.getByPlaceholder('Post title').fill('Coming soon editado por api');
+  await page.getByRole('button', { name: 'Update' }).click();
+  await page.goto('http://ghost.appbajopruebas.com/ghost/#/editor/post/663835743608ab00011be43a');
+  await page.goto('http://ghost.appbajopruebas.com/');
+  await page.getByRole('link', { name: 'Coming soon editado por api' }).click();
+  await page.getByRole('heading', { name: 'Coming soon editado por api' }).click();
+  await page.goto('http://ghost.appbajopruebas.com/coming-soon/');
+  await page.goto('http://ghost.appbajopruebas.com/ghost/');
+  await page.goto('http://ghost.appbajopruebas.com/ghost/#/dashboard');
+  await page.getByRole('link', { name: 'Posts' }).click();
+  await page.getByRole('link', { name: 'Coming soon editado por api' }).click();
+  await page.getByPlaceholder('Post title').click();
+  await page.getByRole('link', { name: 'Posts' }).click();
+  await page.getByRole('link', { name: 'Go to Analytics' }).click();
+  await page.getByRole('link', { name: 'Edit post' }).click();
+  await page.getByPlaceholder('Post title').click();
+  await page.getByPlaceholder('Post title').fill('Coming soon');
+  await page.getByRole('button', { name: 'Update' }).click();
+  await page.goto('http://ghost.appbajopruebas.com/ghost/#/editor/post/663835743608ab00011be43a');
+  await page.goto('http://ghost.appbajopruebas.com/');
+  await page.getByRole('link', { name: 'Coming soon This is Blog' }).click();
+  await page.getByRole('heading', { name: 'Coming soon' }).click();
+});

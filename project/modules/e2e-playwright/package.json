@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Pruebas e2e automatizadas apoyadas con  playwright.",
   "scripts": {
-    "test": "playwright test e2e/ghost/*.spec.ts --project firefox",
+    "test": "playwright test e2e/ghost --project firefox",
     "report": "playwright show-report",
     "format": "prettier --write e2e"
   },
