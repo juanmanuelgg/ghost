@@ -12,7 +12,7 @@
   "author": "Juan Manuel González Garzón",
   "license": "ISC",
   "dependencies": {
-    "appium": "^2.5.4",
+    "appium": "^2.12.1",
     "kraken-node": "^1.0.24"
   },
   "devDependencies": {
