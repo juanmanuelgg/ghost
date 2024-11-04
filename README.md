@@ -5,6 +5,9 @@
 | Nombre completo             | Correo Uniandes                 |
 | --------------------------- | ------------------------------- |
 | Juan Manuel González Garzón | jm.gonzalez1844@uniandes.edu.co |
+| Daniel Felipe Urrego        | d.urregor@uniandes.edu.co       |
+| Daniel Sierra               | dani-sie@uniandes.edu.co        |
+| Helberth Leonardo Monroy Bustos| h.monroy@uniandes.edu.co     |
 
 Dado que se tiene una aplicacion bajo pruebas corriendo en la url: [http://ghost.appbajopruebas.com](http://ghost.appbajopruebas.com)
 
