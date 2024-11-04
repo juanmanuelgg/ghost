@@ -1,5 +1,5 @@
 # For testing and development purposes only.
-FROM mcr.microsoft.com/playwright:v1.43.0-jammy
+FROM mcr.microsoft.com/playwright:v1.48.1-noble
 
 WORKDIR /tests
 COPY . .

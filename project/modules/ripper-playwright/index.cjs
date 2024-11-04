@@ -119,7 +119,7 @@ console.log(inputValues);
   }
 
   console.log(
-    "------------------------------------------------------------------------------------"
+    "------------------------------------------------------------------------------------",
   );
   console.log("Execution finished. Check the report under the results folder");
   return;
@@ -451,7 +451,7 @@ async function interactWithObject(
   page,
   currentState,
   interactionNumber,
-  link
+  link,
 ) {
   if (object.type === "input") {
     let elementHandle = object.element;
@@ -501,7 +501,7 @@ async function interactWithObject(
       await elementScreenshotwHandle(
         elementHandle,
         currentState,
-        beforeInteraction
+        beforeInteraction,
       );
 
       await elementHandle.hover().catch((e) => {
@@ -546,7 +546,7 @@ async function interactWithObject(
               ".png",
             (err) => {
               if (err) console.log(err);
-            }
+            },
           );
         }
         await page
@@ -615,7 +615,7 @@ async function interactWithObject(
                   ".png",
                 (err) => {
                   if (err) console.log(err);
-                }
+                },
               );
             }
             await page
