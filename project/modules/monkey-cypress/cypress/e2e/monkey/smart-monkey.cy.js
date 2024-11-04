@@ -476,7 +476,7 @@ function changeViewport() {
         d.body.offsetHeight,
         d.documentElement.clientHeight,
         d.documentElement.scrollHeight,
-        d.documentElement.offsetHeight
+        d.documentElement.offsetHeight,
       ) - win.innerHeight;
     curPageMaxX =
       Math.max(
@@ -484,7 +484,7 @@ function changeViewport() {
         d.body.offsetWidth,
         d.documentElement.clientWidth,
         d.documentElement.scrollWidth,
-        d.documentElement.offsetWidth
+        d.documentElement.offsetWidth,
       ) - win.innerWidth;
   });
   cy.task("logCommand", {
@@ -747,7 +747,7 @@ describe(`${appName} under smarter monkeys`, function () {
             d.body.offsetHeight,
             d.documentElement.clientHeight,
             d.documentElement.scrollHeight,
-            d.documentElement.offsetHeight
+            d.documentElement.offsetHeight,
           ) - win.innerHeight;
         curPageMaxX =
           Math.max(
@@ -755,7 +755,7 @@ describe(`${appName} under smarter monkeys`, function () {
             d.body.offsetWidth,
             d.documentElement.clientWidth,
             d.documentElement.scrollWidth,
-            d.documentElement.offsetWidth
+            d.documentElement.offsetWidth,
           ) - win.innerWidth;
       });
       cy.wait(1000);

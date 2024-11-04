@@ -9,6 +9,11 @@
     "project/modules/e2e-playwright"
   ],
   "author": "Juan Manuel González Garzón",
+  "contributors": [
+    "@TheSoftwareDesignLab",
+    "dafur1900",
+    "Dani-sie"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.43.1"

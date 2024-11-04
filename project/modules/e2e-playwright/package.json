@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Pruebas e2e automatizadas apoyadas con  playwright.",
   "scripts": {
+    "setup": "npx playwright install",
     "test": "playwright test e2e/ghost --project firefox",
     "report": "playwright show-report",
     "format": "prettier --write e2e"
@@ -13,7 +14,9 @@
   ],
   "author": "Juan Manuel González Garzón",
   "contributors": [
-    "@TheSoftwareDesignLab"
+    "@TheSoftwareDesignLab",
+    "dafur1900",
+    "Dani-sie"
   ],
   "license": "ISC",
   "dependencies": {

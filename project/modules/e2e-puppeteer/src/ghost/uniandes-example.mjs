@@ -18,7 +18,7 @@ class UniandesExample extends GhostTest {
 
     const page = await browser.newPage();
     await page.goto(
-      "https://angular-6-registration-login-example.stackblitz.io/register"
+      "https://angular-6-registration-login-example.stackblitz.io/register",
     );
 
     await new Promise((r) => setTimeout(r, 7000));
@@ -57,7 +57,7 @@ class UniandesExample extends GhostTest {
       path: `screenshots/${this.scriptName}/${this.ghostVersion}/form-feedback.png`,
     });
     console.log(
-      `Clicked "Register" with an empty form. Feedback is shown in ${elems} elements`
+      `Clicked "Register" with an empty form. Feedback is shown in ${elems} elements`,
     );
 
     await page.type('input[formcontrolname="firstName"]', "Monitor");
@@ -91,7 +91,7 @@ class UniandesExample extends GhostTest {
     console.log(
       `Logged in. Your user was ${
         text === "Hi Monitor!" ? "successfully" : "not"
-      } created`
+      } created`,
     );
 
     await browser.close();

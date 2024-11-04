@@ -55,7 +55,7 @@ module.exports = defineConfig({
             (err) => {
               if (err) throw err;
               console.log(`Log started`);
-            }
+            },
           );
           return null;
         },
@@ -73,7 +73,7 @@ module.exports = defineConfig({
             (err) => {
               if (err) throw err;
               console.log(`Logged error`);
-            }
+            },
           );
           return null;
         },
@@ -104,7 +104,7 @@ module.exports = defineConfig({
             (err) => {
               if (err) throw err;
               console.log(`Finished logging`);
-            }
+            },
           );
         } else if (type === "console") {
           fs.appendFile(
@@ -113,7 +113,7 @@ module.exports = defineConfig({
             (err) => {
               if (err) throw err;
               console.log(`Finished logging`);
-            }
+            },
           );
         }
         return true;
